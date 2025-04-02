@@ -1,0 +1,17 @@
+### Create a question
+POST http://localhost:3000/api/questions
+Content-Type: application/json
+
+{
+  "subject": "Frontend",
+  "unit": "Webpack",
+  "question": "Which configuration option in Webpack is essential for enabling code splitting in a React project using dynamic imports?",
+  "options": [
+    { "id": "a", "text": "entry" },
+    { "id": "b", "text": "splitChunks" },
+    { "id": "c", "text": "output.filename" },
+    { "id": "d", "text": "optimization.runtimeChunk" }
+  ],
+  "answers": ["b"],
+  "explanation": "The `optimization.splitChunks` configuration is used to enable code splitting in Webpack. This is particularly useful in React projects that use dynamic imports with React.lazy or import()."
+}
