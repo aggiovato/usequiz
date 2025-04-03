@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { getQuestions } from "./services/questionService";
 
+import QuestionCard from "./components/QuestionCard";
+
 import { Question } from "./types/questionType";
 
 const App = () => {
@@ -20,20 +22,7 @@ const App = () => {
       {questions.map((question) => {
         return (
           <div key={question.id}>
-            <h2>{question.subject}</h2>
-            <h3>{question.unit}</h3>
-            <p>{question.question}</p>
-            <ul>
-              {question.options.map((option) => {
-                return (
-                  <li key={option.id}>
-                    {option.text}
-                    <input type="checkbox" />
-                  </li>
-                );
-              })}
-            </ul>
-            <p>{question.explanation}</p>
+            <QuestionCard question={question} />
           </div>
         );
       })}
