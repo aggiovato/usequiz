@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "subject": "Frontend",
-  "unit": "Webpack",
+  "unit": "Bundlers Generals",
   "question": "Which configuration option in Webpack is essential for enabling code splitting in a React project using dynamic imports?",
   "options": [
     { "id": "a", "text": "entry" },

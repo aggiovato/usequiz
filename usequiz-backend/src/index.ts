@@ -2,6 +2,8 @@ import express from "express";
 import path from "path";
 import cors from "cors";
 import questionRoutes from "./routes/questionRoutes";
+import subjectRoutes from "./routes/subjectRouter";
+import { notFound } from "./middlewares/notFound";
 import connectDB from "./db";
 import { PORT } from "./config/config";
 
@@ -19,6 +21,9 @@ app.get("/api", (req, res) => {
 });
 
 app.use("/api/questions", questionRoutes);
+app.use("/api/subjects", subjectRoutes);
+
+app.use(notFound);
 
 connectDB().then(() => {
   app.listen(PORT, () => {
