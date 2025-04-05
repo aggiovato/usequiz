@@ -9,7 +9,6 @@ const Subjects = () => {
     const fetchSubjects = async () => {
       const subjects = await getSubjects();
       setSubjects(subjects);
-      console.log(subjects);
     };
     fetchSubjects();
   }, []);

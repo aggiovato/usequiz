@@ -26,8 +26,6 @@ const QuestionCard = ({ question }: { question: Question }) => {
 
   return (
     <>
-      <h2>{question.subject}</h2>
-      <h3>{question.unit}</h3>
       <p>{question.question}</p>
       <ul>
         {question.options.map((option) => {

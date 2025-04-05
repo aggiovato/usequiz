@@ -3,7 +3,6 @@ import {
   createQuestion,
   getQuestions,
 } from "../controllers/questionController";
-import { getSubjects, getUnits } from "../controllers/subjectController";
 
 const router = Router();
 

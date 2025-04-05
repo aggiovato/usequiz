@@ -1,0 +1,7 @@
+### Get all units - Frontend
+GET http://localhost:3000/api/subjects/Frontend/units
+Accept: application/json
+
+### Get all units - Lenguaje de marcas
+GET http://localhost:3000/api/subjects/Lenguajes%20de%20marcas/units
+Accept: application/json

@@ -25,9 +25,31 @@ export const getUnits = async (subject: string) => {
   }
 };
 
-export const getQuestions = async () => {
+export const getAllQuestions = async () => {
   try {
     const res = await axios.get(baseURL + "questions");
+    return res.data;
+  } catch (error) {
+    console.error("Error fetching questions:", error);
+    return [];
+  }
+};
+
+export const getQuestionsBySubjectUnit = async (
+  subject: string,
+  unit: string
+) => {
+  const encodedSubject = encodeURIComponent(subject);
+  const encodedUnit = encodeURIComponent(unit);
+  try {
+    const res = await axios.get(
+      baseURL +
+        "subjects/" +
+        encodedSubject +
+        "/units/" +
+        encodedUnit +
+        "/questions"
+    );
     return res.data;
   } catch (error) {
     console.error("Error fetching questions:", error);
