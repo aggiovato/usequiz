@@ -28,7 +28,7 @@ const QuestionList = ({ fetchFn }: QuestionListProps<RouteParamsType>) => {
             console.log(revealMode);
           }}
         >
-          Reveal mode
+          {revealMode ? "Hide answers" : "Show answers"}
         </button>
       </div>
       {questions.map((question, index) => {

@@ -54,10 +54,12 @@ const QuestionCard = ({
                 type="checkbox"
                 value={option.id}
                 onChange={handleSelectionArr}
-                disabled={isFinished}
-                {...(isRevealMode && {
-                  checked: question.answers.includes(option.id),
-                })}
+                disabled={isFinished || isRevealMode}
+                checked={
+                  isRevealMode
+                    ? question.answers.includes(option.id)
+                    : selectionArr.includes(option.id)
+                }
               />
               {option.text}
             </li>
@@ -66,6 +68,7 @@ const QuestionCard = ({
       </ul>
 
       {showAnswer &&
+        !isRevealMode &&
         (isCorrect ? (
           <>
             <p>Correct!</p>
