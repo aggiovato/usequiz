@@ -5,9 +5,11 @@ import _ from "lodash";
 const QuestionCard = ({
   question,
   index,
+  isRevealMode,
 }: {
   question: QuestionType;
   index: number;
+  isRevealMode: boolean;
 }) => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [selectionArr, setSelectionArr] = useState<string[]>([]);
@@ -53,6 +55,9 @@ const QuestionCard = ({
                 value={option.id}
                 onChange={handleSelectionArr}
                 disabled={isFinished}
+                {...(isRevealMode && {
+                  checked: question.answers.includes(option.id),
+                })}
               />
               {option.text}
             </li>
@@ -74,9 +79,11 @@ const QuestionCard = ({
           </>
         ))}
 
-      <button onClick={handleVerifyAnswer} disabled={isFinished}>
-        Verify answer
-      </button>
+      {!isRevealMode && (
+        <button onClick={handleVerifyAnswer} disabled={isFinished}>
+          Verify answer
+        </button>
+      )}
     </>
   );
 };

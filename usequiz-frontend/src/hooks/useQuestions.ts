@@ -9,6 +9,7 @@ function useQuestions<T>({
   params: T;
 }) {
   const [questions, setQuestions] = useState<QuestionType[]>([]);
+  const [revealMode, setRevealMode] = useState(false);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -20,6 +21,8 @@ function useQuestions<T>({
 
   return {
     questions,
+    revealMode,
+    setRevealMode,
   };
 }
 

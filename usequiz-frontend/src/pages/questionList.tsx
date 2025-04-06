@@ -10,18 +10,37 @@ interface QuestionListProps<T extends RouteParamsType> {
 
 const QuestionList = ({ fetchFn }: QuestionListProps<RouteParamsType>) => {
   const params = useParams();
-  const { questions } = useQuestions({ fetchFn, params });
+  const { questions, revealMode, setRevealMode } = useQuestions({
+    fetchFn,
+    params,
+  });
 
   return (
     <>
-      <h2>{`${params.subject}  >>>  ${
-        params.unit ? params.unit : "All Units"
-      }`}</h2>
+      <div className="unit">
+        <h2>{`${params.subject}  >>>  ${
+          params.unit ? params.unit : "All Units"
+        }`}</h2>
+
+        <button
+          onClick={() => {
+            setRevealMode(!revealMode);
+            console.log(revealMode);
+          }}
+        >
+          Reveal mode
+        </button>
+      </div>
       {questions.map((question, index) => {
         return (
           <div key={`${question.id}-${index}`}>
             {index !== 0 && <hr key={`${question.id} - line`} />}
-            <QuestionCard key={question.id} question={question} index={index} />
+            <QuestionCard
+              key={question.id}
+              question={question}
+              index={index}
+              isRevealMode={revealMode}
+            />
           </div>
         );
       })}
