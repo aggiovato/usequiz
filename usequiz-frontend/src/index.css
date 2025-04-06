@@ -17,3 +17,7 @@ body {
   --color-soft-teal: #84babf; /* cards */
   --color-light-teal: #e0ede9; /* background */
 }
+
+.btn {
+  @apply min-w-[150px] px-6 py-2 rounded-md font-bold text-sm text-white bg-teal-bright hover:bg-teal-strong active:bg-dark-teal;
+}
