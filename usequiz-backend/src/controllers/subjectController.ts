@@ -21,9 +21,29 @@ export const getUnits = async (req: Request, res: Response) => {
     }
 
     const units = await Question.distinct("unit", { subject });
-    res.status(200).json(units.sort());
+    const orderedUnits = units.sort((a: any, b: any) => a.order - b.order);
+    const titledUnits = orderedUnits.map((unit: any) => unit.title);
+    res.status(200).json(titledUnits);
   } catch (error) {
     res.status(400).json({ error: "Error getting units", details: error });
+  }
+};
+
+export const getQuestionsBySubject = async (req: Request, res: Response) => {
+  try {
+    const { subject } = req.params;
+    const decodedSubject = decodeURIComponent(subject);
+
+    if (!decodedSubject) {
+      res
+        .status(400)
+        .json({ error: "Missing or invalid 'subject' query parameter" });
+    }
+
+    const questions = await Question.find({ subject: decodedSubject });
+    res.status(200).json(questions);
+  } catch (error) {
+    res.status(400).json({ error: "Error getting questions", details: error });
   }
 };
 
@@ -43,7 +63,7 @@ export const getQuestionsBySubjectUnit = async (
     }
     const question = await Question.find({
       subject: decodedSubject,
-      unit: decodedUnit,
+      "unit.title": decodedUnit,
     });
     res.status(200).json(question);
   } catch (error) {

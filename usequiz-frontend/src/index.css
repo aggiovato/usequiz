@@ -3,3 +3,9 @@
   align-items: center;
   gap: 10px;
 }
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

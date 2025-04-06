@@ -1,0 +1,1289 @@
+[
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "El intercambio de datos entre diferentes aplicaciones es posible gracias a:",
+    "options": [
+      { "id": "a", "text": "Los lenguajes de marcado." },
+      { "id": "b", "text": "El texto plano." },
+      { "id": "c", "text": "Los editores." },
+      { "id": "d", "text": "Windows." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Los lenguajes de marcado."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "Elige la respuesta que describe el texto plano (plain text) en el contexto de lenguajes de marcas:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un formato de texto que permite almacenar información con formato."
+      },
+      {
+        "id": "b",
+        "text": "Documentos que pueden contener elementos de programación."
+      },
+      {
+        "id": "c",
+        "text": "Documentos formados exclusivamente por caracteres sin formato adicional."
+      },
+      {
+        "id": "d",
+        "text": "Documentos que incluyen automáticamente elementos multimedia como imágenes y videos."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Documentos formados exclusivamente por caracteres sin formato adicional."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "El tipo de lenguaje de marca que se usa para describir datos de manera estructurada y semántica en documentos y aplicaciones web es:",
+    "options": [
+      { "id": "a", "text": "Tipo 1 o de procedimiento" },
+      { "id": "b", "text": "Tipo 2 o de presentación" },
+      { "id": "c", "text": "Tipo 3 o descriptivos o semánticos" },
+      { "id": "d", "text": "En todos los anteriores" }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Tipo 3 o descriptivos o semánticos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "La década en la que se empezaron a utilizar los lenguajes de marcado es:",
+    "options": [
+      { "id": "a", "text": "1950." },
+      { "id": "b", "text": "1960." },
+      { "id": "c", "text": "1970." },
+      { "id": "d", "text": "1980." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: 1960."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "Las dos principales organizaciones desarrolladoras de los lenguajes de marcas son:",
+    "options": [
+      { "id": "a", "text": "DTD y XML Esquema." },
+      { "id": "b", "text": "ISO y W3C." },
+      { "id": "c", "text": "ISO y Relax NG." },
+      { "id": "d", "text": "W3C y DTD." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: ISO y W3C."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "Los lenguajes de marcas se pueden utilizar en:",
+    "options": [
+      { "id": "a", "text": "Páginas web." },
+      { "id": "b", "text": "Mensajería instantánea." },
+      { "id": "c", "text": "Sindicación de contenidos." },
+      { "id": "d", "text": "Todas son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas son correctas."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "XML se incluye en el tipo de lenguaje:",
+    "options": [
+      { "id": "a", "text": "Tipo 1 o de procedimiento." },
+      { "id": "b", "text": "Tipo 2 o de presentación." },
+      { "id": "c", "text": "Tipo 3 o descriptivos o semánticos." },
+      { "id": "d", "text": "En todos los anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Tipo 3 o descriptivos o semánticos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "El nombre de un elemento que se encuentra entre un símbolo menor que (<) y otro símbolo mayor que (>) se denomina:",
+    "options": [
+      { "id": "a", "text": "Clase" },
+      { "id": "b", "text": "Gramática" },
+      { "id": "c", "text": "Etiqueta" },
+      { "id": "d", "text": "Atributo." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Etiqueta."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "Una de las características comunes de los lenguajes de marcas es:",
+    "options": [
+      { "id": "a", "text": "Ineficacia." },
+      { "id": "b", "text": "Complejidad." },
+      { "id": "c", "text": "Interactividad." },
+      { "id": "d", "text": "Flexibilidad." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Flexibilidad."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    },
+    "question": "La función de una gramática en un documento de lenguaje de marcas es:",
+    "options": [
+      { "id": "a", "text": "Definir el lenguaje de programación utilizado." },
+      {
+        "id": "b",
+        "text": "Definir el marcado permitido en el documento, el marcado requerido y cómo debe ser utilizado dicho marcado."
+      },
+      { "id": "c", "text": "Definir la ortografía en lenguajes de marcas.." },
+      {
+        "id": "d",
+        "text": "Establecer las reglas para la numeración de páginas en el documento."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Definir el marcado permitido en el documento, el marcado requerido y cómo debe ser utilizado dicho marcado."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "Acoplamiento patológico:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Se produce siempre que entre dos o más módulos se usen las mismas fuentes externas de datos."
+      },
+      {
+        "id": "b",
+        "text": "Se produce siempre que los módulos usen los mismos datos globales."
+      },
+      {
+        "id": "c",
+        "text": "Se produce siempre que un módulo acceda a otro para leer o modificar los datos internos del último."
+      },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Se produce siempre que un módulo acceda a otro para leer o modificar los datos internos del último."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "Dentro de la simbología de los diagramas de flujo cuál de estas afirmaciones es falsa:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Las operaciones que se vayan realizando deben de seguir un orden en concreto, y este orden se indica con flechas."
+      },
+      {
+        "id": "b",
+        "text": "Las decisiones se indican en un rombo donde pondremos tantas líneas de flujo como alternativas finales tengamos."
+      },
+      {
+        "id": "c",
+        "text": "Las operaciones de cálculo interno del programa se describen con una bandera."
+      },
+      {
+        "id": "d",
+        "text": "Cada uno de los diagramas de flujo comienzan y terminan con terminal que se representa con un óvalo o elipse."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Las operaciones de cálculo interno del programa se describen con una bandera."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "El valor Booleano:",
+    "options": [
+      { "id": "a", "text": "Es numérico." },
+      { "id": "b", "text": "Es secuencial." },
+      { "id": "c", "text": "Es modular." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "En la cohesión comunicacional:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Los elementos software que constituyen el módulo tienen una sola tarea definida."
+      },
+      {
+        "id": "b",
+        "text": "La salida de una instrucción debe de coincidir de manera estricta con la entrada."
+      },
+      {
+        "id": "c",
+        "text": "Conviven varias actividades paralelas que no siguen un orden específico y que comparten los mismos datos de entrada y salida."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Conviven varias actividades paralelas que no siguen un orden específico y que comparten los mismos datos de entrada y salida."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "En la cohesión lógica:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Los elementos software que constituyen el módulo tienen una sola tarea definida."
+      },
+      {
+        "id": "b",
+        "text": "La salida de una instrucción debe de coincidir de manera estricta con la entrada."
+      },
+      {
+        "id": "c",
+        "text": "Conviven varias actividades paralelas que no siguen un orden específico y que comparten los mismos datos de entrada y salida."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores es correcta."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "Es una representación gráfica de elementos y sus relaciones:",
+    "options": [
+      { "id": "a", "text": "Paradigma." },
+      { "id": "b", "text": "Diagrama." },
+      { "id": "c", "text": "Iteración" },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Diagrama."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "La cohesión es una cualidad de la estructura:",
+    "options": [
+      { "id": "a", "text": "Secuencial." },
+      { "id": "b", "text": "Alternativa." },
+      { "id": "c", "text": "Iterativa." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "La cohesión funcional, secuencial y comunicacional son cohesiones:",
+    "options": [
+      { "id": "a", "text": "Procedurales." },
+      { "id": "b", "text": "Fuertes." },
+      { "id": "c", "text": "Débiles." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Fuertes."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "La estructura basada en bucles es:",
+    "options": [
+      { "id": "a", "text": "Secuencial." },
+      { "id": "b", "text": "Alternativa." },
+      { "id": "c", "text": "Iterativa." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Iterativa."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 1,
+      "title": "Introducción a la programación"
+    },
+    "question": "La programación surgió como un intento para:",
+    "options": [
+      { "id": "a", "text": "Automatizar procesos." },
+      { "id": "b", "text": "Dividir problemas en subproblemas más simples." },
+      { "id": "c", "text": "Con paradigmas resolver otros problemas." },
+      { "id": "d", "text": "Ninguno de los anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Automatizar procesos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "De una clase podemos extraer las … que necesitemos:",
+    "options": [
+      { "id": "a", "text": "Instancias." },
+      { "id": "b", "text": "Abstracciones." },
+      { "id": "c", "text": "Propiedades." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Instancias."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "De una clase podemos obtener la cantidad de objetos instanciados que se requieran:",
+    "options": [
+      { "id": "a", "text": "Es cierto." },
+      { "id": "b", "text": "Es falso." },
+      {
+        "id": "c",
+        "text": "Es cierto, pero el número de las instancias es limitado."
+      },
+      {
+        "id": "d",
+        "text": "Ninguno de los anteriores, las clases no se instancian."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Es cierto."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "El encapsulamiento:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agrupación en un mismo elemento de los datos y las operaciones relacionadas con estos."
+      },
+      {
+        "id": "b",
+        "text": "Mecanismo que permite reducir la complejidad de los objetos minimizando la información a representar, dejando solo los aspectos más relevantes."
+      },
+      { "id": "c", "text": "Permite reutilizar el código de forma sencilla." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Agrupación en un mismo elemento de los datos y las operaciones relacionadas con estos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "Elementos que actúan como variables propias de cada instancia de una clase y que definen un atributo de un objeto:",
+    "options": [
+      { "id": "a", "text": "Propiedad." },
+      { "id": "b", "text": "Método." },
+      { "id": "c", "text": "Constructor." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "En el área intermedia de los diagramas de clase:",
+    "options": [
+      { "id": "a", "text": "Se encuentra el nombre de la clase." },
+      { "id": "b", "text": "Se encuentran los campos de la clase." },
+      { "id": "c", "text": "Se encuentran los métodos de la clase." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Se encuentran los campos de la clase."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "Es el elemento principal de POO:",
+    "options": [
+      { "id": "a", "text": "Clase." },
+      { "id": "b", "text": "Campo." },
+      { "id": "c", "text": "Objeto." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Clase."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "Están formados por datos primitivos:",
+    "options": [
+      { "id": "a", "text": "Objetos primitivos." },
+      { "id": "b", "text": "Objetos instanciados." },
+      { "id": "c", "text": "Objetos simples y compuestos." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Objetos simples y compuestos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "La forma de declarar las propiedades en Java:",
+    "options": [
+      { "id": "a", "text": "Es sencilla y permite reutilizar el código." },
+      {
+        "id": "b",
+        "text": "No es sencilla, pero permite reutilizar el código."
+      },
+      { "id": "c", "text": "No es sencilla ni permite reutilizar el código." },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son incorrectas, Java no ofrece mecanismos para declararlas."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son incorrectas, Java no ofrece mecanismos para declararlas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "La visión pública se representa con el símbolo: _____",
+    "options": [
+      { "id": "a", "text": "+" },
+      { "id": "b", "text": "-" },
+      { "id": "c", "text": "#" },
+      { "id": "d", "text": "&" }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: +."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 2,
+      "title": "Programación orientada a objetos (POO)"
+    },
+    "question": "No es una forma de polimorfismo:",
+    "options": [
+      { "id": "a", "text": "Asignación polimorfa." },
+      { "id": "b", "text": "Ejecución polimorfa." },
+      { "id": "c", "text": "Herencia polimorfa." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Herencia polimorfa."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": ".war es una extensión que:",
+    "options": [
+      { "id": "a", "text": "Almacena texto plano." },
+      { "id": "b", "text": "Almacena bytecode." },
+      { "id": "c", "text": "Es un archivo comprimido con ZIP." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores es correcta."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "Código traducido para que pueda ser interpretado por el microprocesador:",
+    "options": [
+      { "id": "a", "text": "Código fuente." },
+      { "id": "b", "text": "Código máquina." },
+      { "id": "c", "text": "Código intermedio." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Código máquina."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "CIL o MSIL es una forma de .NET de llamar a:",
+    "options": [
+      { "id": "a", "text": "El código fuente." },
+      { "id": "b", "text": "El código intermedio." },
+      { "id": "c", "text": "El código máquina." },
+      { "id": "d", "text": "Ninguno de los anteriores es correcto." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: El código intermedio."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "El compilador de basura se ejecuta en varios pasos, el último de ellos es:",
+    "options": [
+      { "id": "a", "text": "Compilar el código." },
+      { "id": "b", "text": "Borrar los objetos no referenciados." },
+      { "id": "c", "text": "Compactar el espacio usado." },
+      { "id": "d", "text": "Marcar los objetos de eliminación." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Compactar el espacio usado."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "El lenguaje informático de alto nivel es aquel que:",
+    "options": [
+      { "id": "a", "text": "El microprocesador lee." },
+      { "id": "b", "text": "Es semejante al humano." },
+      { "id": "c", "text": "Se encuentra compilado." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Es semejante al humano."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "En la configuración de NetBeans Keymap permite:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Podremos elegir el tipo de simbología y la tipografía que utiliza el editor."
+      },
+      { "id": "b", "text": "Permite establecer shortcuts." },
+      {
+        "id": "c",
+        "text": "Permite configurar como se comportará el depurador."
+      },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Permite establecer shortcuts."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "Es una versión de Java:",
+    "options": [
+      { "id": "a", "text": "J2ME." },
+      { "id": "b", "text": "J2SE." },
+      { "id": "c", "text": "J2EE." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "GNU General Public License, version 2 es la licencia de:",
+    "options": [
+      { "id": "a", "text": "JDK." },
+      { "id": "b", "text": "Java." },
+      { "id": "c", "text": "OpenJDK." },
+      { "id": "d", "text": "JRE." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: OpenJDK."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "Un compilador JIT:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Permite compilar directamente lenguaje de alto nivel."
+      },
+      {
+        "id": "b",
+        "text": "Nos permite ahorrar tiempo al evitar que traduzcamos varias veces el mismo código."
+      },
+      { "id": "c", "text": "Permite codificar código intermedio." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Nos permite ahorrar tiempo al evitar que traduzcamos varias veces el mismo código."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes de programación e IDEs"
+    },
+    "question": "Una de las desventajas del recolector de basura es:",
+    "options": [
+      { "id": "a", "text": "No se puede ejecutar a intervalos regulares." },
+      { "id": "b", "text": "Consume recursos mientras se ejecuta." },
+      {
+        "id": "c",
+        "text": "Solo se puede ejecutar cuando no queda memoria libre."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Consume recursos mientras se ejecuta."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Estos ,continue, default, else y try, son:",
+    "options": [
+      { "id": "a", "text": "Palabras reservadas." },
+      { "id": "b", "text": "Notaciones." },
+      { "id": "c", "text": "Constantes." },
+      { "id": "d", "text": "Secuencias de escape." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Palabras reservadas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Estos, <, %, !, y ||, son:",
+    "options": [
+      { "id": "a", "text": "Constantes." },
+      { "id": "b", "text": "Tipos de datos primitivos." },
+      { "id": "c", "text": "Operadores." },
+      { "id": "d", "text": "Variables." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Operadores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Estos, char, int, boolean y double, son:",
+    "options": [
+      { "id": "a", "text": "Constantes." },
+      { "id": "b", "text": "Tipos de datos primitivos." },
+      { "id": "c", "text": "Operadores." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Tipos de datos primitivos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Las palabras reservadas son:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Palabras que cuentan con su propio significado, por lo que no se pueden utilizar como identificadores en los programas."
+      },
+      {
+        "id": "b",
+        "text": "Palabras que permiten realizar operaciones con las variables explicadas anteriormente."
+      },
+      {
+        "id": "c",
+        "text": "Palabras que, a lo largo de la vida del programa, mantienen un mismo valor."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Palabras que cuentan con su propio significado, por lo que no se pueden utilizar como identificadores en los programas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Los comentarios pueden iniciarse con la marca:",
+    "options": [
+      { "id": "a", "text": "//." },
+      { "id": "b", "text": "/*." },
+      { "id": "c", "text": "/**." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Los datos primitivos al realizar casting pueden ser:",
+    "options": [
+      { "id": "a", "text": "Declarados y no declarados." },
+      { "id": "b", "text": "Implícitos y explícitos." },
+      { "id": "c", "text": "Autoboxing y unboxing." },
+      { "id": "d", "text": "Compilatorio y compilado." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Implícitos y explícitos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Palabras que cuentan con su propio significado, por lo que no se pueden utilizar como identificadores en los programas:",
+    "options": [
+      { "id": "a", "text": "Constantes." },
+      { "id": "b", "text": "Identificadores." },
+      { "id": "c", "text": "String." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Sistemas de signos destinado a representar símbolos o conceptos especiales por pertenecer a campos específicos y por lo tanto no encontrarse en el lenguaje general:",
+    "options": [
+      { "id": "a", "text": "lowercase." },
+      { "id": "b", "text": "UpperCamelCase." },
+      { "id": "c", "text": "Datos primitivos." },
+      { "id": "d", "text": "Notación." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Notación."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Un identificador puede emplear el símbolo:",
+    "options": [
+      { "id": "a", "text": "&." },
+      { "id": "b", "text": "%." },
+      { "id": "c", "text": "$." },
+      { "id": "d", "text": "#." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: $."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 4,
+      "title": "Elementos de un programa informático"
+    },
+    "question": "Un paquete paquetes:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Identifica las clases cuyas características sean comunes y las agrupa."
+      },
+      {
+        "id": "b",
+        "text": "Mantiene independientes las declaraciones que son realizadas en un paquete de las que existen en otros paquetes."
+      },
+      {
+        "id": "c",
+        "text": "Puede controlar la visibilidad de los elementos contenidos en él."
+      },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La depuración",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es el proceso encargado de hacer pruebas unitarias."
+      },
+      {
+        "id": "b",
+        "text": "Permite inspeccionar el código para eliminar posibles errores."
+      },
+      {
+        "id": "c",
+        "text": "Determinar el resultado de la aplicación según la entrada de datos."
+      },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La entrada de datos puede ser.",
+    "options": [
+      { "id": "a", "text": "Mediante argumentos." },
+      { "id": "b", "text": "Por consola." },
+      { "id": "c", "text": "Otros." },
+      { "id": "d", "text": "Todas las opciones son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las opciones son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La estructura for",
+    "options": [
+      { "id": "a", "text": "Es una estructura de repetición o iterativa." },
+      { "id": "b", "text": "Es una estructura condicional." },
+      { "id": "c", "text": "Es una estructura de salto incondicional." },
+      { "id": "d", "text": "Es una estructura de flujo." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Es una estructura de repetición o iterativa."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La estructura if",
+    "options": [
+      {
+        "id": "a",
+        "text": "Permite ejecutar una parte de código según una condición"
+      },
+      { "id": "b", "text": "Permite hacer saltos incondicionales" },
+      {
+        "id": "c",
+        "text": "Permite ejecutar varias veces una parte de código"
+      },
+      { "id": "d", "text": "Solo se ejecuta una vez" }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Permite ejecutar una parte de código según una condición"
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La salida de datos por consola en java se emplea",
+    "options": [
+      { "id": "a", "text": "System.out por defecto." },
+      { "id": "b", "text": "System.in por defecto." },
+      {
+        "id": "c",
+        "text": "System.out por defecto y System.err para salidas de error."
+      },
+      { "id": "d", "text": "Todas las opciones son correctas." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: System.out por defecto y System.err para salidas de error."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "La sentencia break permite",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parar la ejecución de un bucle para ejecutar la próxima instrucción fuera del bucle."
+      },
+      { "id": "b", "text": "Salta una interacción" },
+      { "id": "c", "text": "Rompe la ejecución y detiene la aplicación." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Parar la ejecución de un bucle para ejecutar la próxima instrucción fuera del bucle."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "¿Qué hace el siguiente código?",
+    "code": "for (int i = 10; i < 10; i++) {\n  System.out.println(i);\n}\n\nint i = 10;\ndo {\n  i++;\n} while(i < 10);",
+    "options": [
+      { "id": "a", "text": "Solo se ejecutará la instrucción i++." },
+      { "id": "b", "text": "Se imprimirá por pantalla 10 veces." },
+      {
+        "id": "c",
+        "text": "Se ejecutará 10 veces la instrucción de imprimir y 10 veces la instrucción i++"
+      },
+      { "id": "d", "text": "No hará nada." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Solo se ejecutará la instrucción i++."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "¿Qué hace el siguiente código?",
+    "code": "switch(opciones) {\n  case 'a': System.out.println(\"Opción incorrecta\"); break;\n  case 'b': System.out.println(\"Opción incorrecta\"); break;\n  case 'c': System.out.println(\"Opción incorrecta\"); break;\n  case 'd': System.out.println(\"Opción correcta\"); break;\n}",
+    "options": [
+      {
+        "id": "a",
+        "text": "Según el valor de la variable opciones ejecutara solo el código de uno de los valores 'a', 'b', 'c' o 'd'."
+      },
+      {
+        "id": "b",
+        "text": "Según el valor de la variable opciones ejecutará solo el código de uno de los valores que no sean ni 'a', 'b', 'c' y 'd'."
+      },
+      {
+        "id": "c",
+        "text": "Ejecutará el código de la opciones 'a', 'b', 'c' y 'd'"
+      },
+      {
+        "id": "d",
+        "text": "Si la variable opciones es verdadera, ejecutará cada parte de las opciones."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Según el valor de la variable opciones ejecutara solo el código de uno de los valores 'a', 'b', 'c' o 'd'."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "¿Qué método permite obtener una línea completa por teclado?",
+    "options": [
+      { "id": "a", "text": "Next()." },
+      { "id": "b", "text": "nextLine()." },
+      { "id": "c", "text": "hasNext()." },
+      { "id": "d", "text": "hasNextInt()." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: nextLine()."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 5,
+      "title": "Estructuras de control"
+    },
+    "question": "Una aplicación...",
+    "options": [
+      { "id": "a", "text": "No necesita manejar información." },
+      {
+        "id": "b",
+        "text": "Necesita el manejo de información dependiendo de la funcionalidad."
+      },
+      {
+        "id": "c",
+        "text": "Necesita el manejo de información existiendo solo una entrada de datos."
+      },
+      {
+        "id": "d",
+        "text": "Necesita el manejo de información existiendo una entrada y salida de datos."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Necesita el manejo de información existiendo una entrada y salida de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "¿Cuál es la palabra reservada que convierte a un campo en común entre todos los objetos de una clase?",
+    "options": [
+      { "id": "a", "text": "Static." },
+      { "id": "b", "text": "getter." },
+      { "id": "c", "text": "setter." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Static."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Garbage collector es un mecanismo de:",
+    "options": [
+      { "id": "a", "text": "C++." },
+      { "id": "b", "text": "Delphi." },
+      { "id": "c", "text": "Java." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Java."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Jfreechar es:",
+    "options": [
+      { "id": "a", "text": "Un tipo de libreria." },
+      { "id": "b", "text": "Un tipo de dato." },
+      { "id": "c", "text": "Un tipo de llamada para métodos." },
+      { "id": "d", "text": "Un tipo de mecanismo de Java." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Un tipo de libreria."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Los campos también pueden ser llamados:",
+    "options": [
+      { "id": "a", "text": "Atributos." },
+      { "id": "b", "text": "Variables." },
+      { "id": "c", "text": "Fields." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Los métodos pueden operar devolviendo algún resultado o sin tener que devolver ningún valor, indicando ___ en la declaración del método:",
+    "options": [
+      { "id": "a", "text": "Null." },
+      { "id": "b", "text": "Void." },
+      { "id": "c", "text": "0." },
+      { "id": "d", "text": "000." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Void."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Para instanciar un objeto solo será necesario indicar este operador junto al nombre de clase:",
+    "options": [
+      { "id": "a", "text": "&." },
+      { "id": "b", "text": "%." },
+      { "id": "c", "text": "$." },
+      { "id": "d", "text": "Ninguno de los anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Ninguno de los anteriores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Sobrecarga de métodos:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Declaración de métodos diferentes en una misma clase con diferentes parámetros."
+      },
+      {
+        "id": "b",
+        "text": "Declaración de un mismo parámetro en una misma clase, en diferentes métodos."
+      },
+      {
+        "id": "c",
+        "text": "Declaración de un mismo método en una misma clase, pero con diferentes parámetros."
+      },
+      {
+        "id": "d",
+        "text": "Declaración de diferentes parámetros en una misma clase, en un mismo método."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Declaración de un mismo método en una misma clase, pero con diferentes parámetros."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "También mencionado como getter. Permiten consultar un campo:",
+    "options": [
+      { "id": "a", "text": "Constructores." },
+      { "id": "b", "text": "Observadores." },
+      { "id": "c", "text": "Modificadores." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta" }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Observadores."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Tipo de visibilidad, tendrá acceso a la clase desde el mismo paquete o subclases que estén en diferente paquete. Una clase externa en otro paquete no tendrá acceso:",
+    "options": [
+      { "id": "a", "text": "Public." },
+      { "id": "b", "text": "Protected." },
+      { "id": "c", "text": "Package o estándar." },
+      { "id": "d", "text": "Private." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Protected."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 6,
+      "title": "Clases y utilización de objetos"
+    },
+    "question": "Tipos de paso al enviar un método: Envía una copia del valor original y por lo tanto no se puede modificar el valor original:",
+    "options": [
+      { "id": "a", "text": "Por referencia." },
+      { "id": "b", "text": "Por frecuencia." },
+      { "id": "c", "text": "Por constantes." },
+      { "id": "d", "text": "Por valor." }
+    ],
+    "answers": ["d"],
+    "explanation": "La respuesta correcta es: Por valor."
+  }
+]

@@ -1,8 +1,12 @@
-export type Question = {
+export type QuestionType = {
   id: string;
   subject: string;
-  unit: string;
+  unit: {
+    order: number;
+    title: string;
+  };
   question: string;
+  code?: string;
   options: Option[];
   answers: string[];
   explanation: string;
@@ -13,4 +17,9 @@ export type Question = {
 export type Option = {
   id: string;
   text: string;
+};
+
+export type RouteParamsType = {
+  subject?: string;
+  unit?: string;
 };

@@ -1,8 +1,14 @@
 import { useState } from "react";
-import { Question } from "../types/questionType";
+import { QuestionType } from "../types/types";
 import _ from "lodash";
 
-const QuestionCard = ({ question }: { question: Question }) => {
+const QuestionCard = ({
+  question,
+  index,
+}: {
+  question: QuestionType;
+  index: number;
+}) => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [selectionArr, setSelectionArr] = useState<string[]>([]);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -26,18 +32,29 @@ const QuestionCard = ({ question }: { question: Question }) => {
 
   return (
     <>
-      <p>{question.question}</p>
+      <div>
+        <p>
+          {index + 1}. {question.question}
+        </p>
+        {question.code && (
+          <div>
+            <pre>
+              <code>{question.code}</code>
+            </pre>
+          </div>
+        )}
+      </div>
       <ul>
         {question.options.map((option) => {
           return (
-            <li key={option.id}>
-              {option.text}
+            <li key={option.id} className="option">
               <input
                 type="checkbox"
                 value={option.id}
                 onChange={handleSelectionArr}
                 disabled={isFinished}
               />
+              {option.text}
             </li>
           );
         })}

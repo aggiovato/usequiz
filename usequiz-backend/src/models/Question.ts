@@ -1,5 +1,13 @@
 import mongoose, { Schema } from "mongoose";
 
+const unitSchema = new Schema(
+  {
+    order: { type: Number, required: true },
+    title: { type: String, required: true },
+  },
+  { _id: false }
+);
+
 const optionSchema = new Schema(
   {
     id: { type: String, required: true },
@@ -11,8 +19,9 @@ const optionSchema = new Schema(
 const questionSchema = new Schema(
   {
     subject: { type: String, required: true },
-    unit: { type: String, required: true },
+    unit: unitSchema,
     question: { type: String, required: true },
+    code: { type: String, required: false },
     options: [optionSchema],
     answers: [{ type: String, required: true }],
     explanation: String,

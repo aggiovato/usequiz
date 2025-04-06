@@ -1,27 +1,29 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
-import { getQuestionsBySubjectUnit } from "../services/questionService";
+import useQuestions from "../hooks/useQuestions";
 
-const QuestionList = () => {
-  const { subject, unit } = useParams();
-  const [questions, setQuestions] = useState<any[]>([]);
+import { QuestionType, RouteParamsType } from "../types/types";
 
-  useEffect(() => {
-    const fetchQuestions = async () => {
-      const questions = await getQuestionsBySubjectUnit(
-        subject as string,
-        unit as string
-      );
-      setQuestions(questions);
-    };
-    fetchQuestions();
-  }, []);
+interface QuestionListProps<T extends RouteParamsType> {
+  fetchFn: (params: T) => Promise<QuestionType[]>;
+}
+
+const QuestionList = ({ fetchFn }: QuestionListProps<RouteParamsType>) => {
+  const params = useParams();
+  const { questions } = useQuestions({ fetchFn, params });
 
   return (
     <>
-      {questions.map((question) => {
-        return <QuestionCard key={question.id} question={question} />;
+      <h2>{`${params.subject}  >>>  ${
+        params.unit ? params.unit : "All Units"
+      }`}</h2>
+      {questions.map((question, index) => {
+        return (
+          <div key={`${question.id}-${index}`}>
+            {index !== 0 && <hr key={`${question.id} - line`} />}
+            <QuestionCard key={question.id} question={question} index={index} />
+          </div>
+        );
       })}
     </>
   );
