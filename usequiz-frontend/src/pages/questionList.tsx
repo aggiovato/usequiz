@@ -18,10 +18,6 @@ const QuestionList = ({ fetchFn }: QuestionListProps<RouteParamsType>) => {
   return (
     <>
       <div className="unit">
-        <h2>{`${params.subject}  >>>  ${
-          params.unit ? params.unit : "All Units"
-        }`}</h2>
-
         <button
           onClick={() => {
             setRevealMode(!revealMode);

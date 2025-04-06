@@ -3,11 +3,11 @@ import Header from "../components/Header";
 import useTitle from "../hooks/useTitle";
 
 const MainLayout = () => {
-  const { title } = useTitle();
+  const { title, subtitle } = useTitle();
 
   return (
     <>
-      <Header title={title} />
+      <Header title={title} subtitle={subtitle} />
       <main>
         <Outlet />
       </main>

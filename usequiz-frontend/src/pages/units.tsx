@@ -22,7 +22,6 @@ const Units = () => {
   return (
     <>
       <div className="unit">
-        <h2>{subject}</h2>
         <button onClick={handleSeeAllQuestions}>See all questions</button>
       </div>
       {units.map((unit, index) => {
