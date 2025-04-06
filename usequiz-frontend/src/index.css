@@ -16,8 +16,25 @@ body {
   --color-teal-bright: #0d6f73; /* secondary btns */
   --color-soft-teal: #84babf; /* cards */
   --color-light-teal: #e0ede9; /* background */
+
+  /*contrast*/
+  --color-sun-orange: #ff8c42;
+  --color-amber-glow: #ffc857;
+  --color-rose-clay: #ff6b6b;
+}
+
+.navbar {
+  @apply flex gap-0 justify-evenly items-center px-6;
+}
+
+.navbar-anchor {
+  @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-dark-teal;
 }
 
 .btn {
-  @apply min-w-[150px] px-6 py-2 rounded-md font-bold text-sm text-white bg-teal-bright hover:bg-teal-strong active:bg-dark-teal;
+  @apply min-w-[150px] px-6 py-2 rounded-md font-bold;
+}
+
+.btn-primary {
+  @apply text-sm text-white bg-teal-bright hover:text-amber-glow active:bg-dark-teal;
 }
