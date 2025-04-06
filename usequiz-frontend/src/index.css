@@ -1,11 +1,19 @@
-.unit {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import "tailwindcss";
+
+body {
+  @apply m-0 p-0 bg-light-teal text-dark-teal;
 }
 
-.option {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+@theme {
+  /* theme variables */
+  --font-sans: "JetBrains Mono", monospace;
+
+  --color-light-bg: #e0ede9;
+
+  --color-dark-teal: #06363d; /* text */
+  --color-teal-strong: #085558; /* navbar and active btns */
+  --color-teal-bright: #0d6f73; /* secondary btns */
+  --color-soft-teal: #84babf; /* cards */
+  --color-light-teal: #e0ede9; /* background */
 }

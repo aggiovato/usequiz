@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 
 const Header = ({ title, subtitle }: { title: string; subtitle: string }) => (
-  <header className="bg-blue-600 text-white p-4 shadow">
-    <h1 className="text-xl font-bold">{title}</h1>
-    <h2 className="text-lg">{subtitle}</h2>
+  <header className="flex justify-between items-center p-6 bg-teal-strong text-light-bg h-20 sticky top-0 z-10 shadow-md">
+    <div className="flex flex-col items-start">
+      <h1 className="text-xl font-bold select-none">{title}</h1>
+      <h2 className="text-sm font-light italic select-none">{subtitle}</h2>
+    </div>
     <nav className="mt-2">
       <Link to="/" className="mr-4">
         Home

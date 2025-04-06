@@ -21,7 +21,13 @@ const useTitle = () => {
 
   const handleSubtitle = (): string => {
     if (location.pathname.startsWith("/subjects/") && params.subject)
-      return `${params.subject}  >>>  ${params.unit ? params.unit : "Units"}`;
+      return `${params.subject}  >>>  ${
+        params.unit
+          ? params.unit
+          : location.pathname.includes("/questions")
+          ? "All questions"
+          : "Units"
+      }`;
     return "";
   };
 
