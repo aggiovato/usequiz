@@ -3,6 +3,7 @@ import path from "path";
 import cors from "cors";
 import questionRoutes from "./routes/questionRoutes";
 import subjectRoutes from "./routes/subjectRouter";
+import alphabetRoutes from "./routes/alphabetRouter";
 import { notFound } from "./middlewares/notFound";
 import connectDB from "./db";
 import { PORT } from "./config/config";
@@ -22,6 +23,7 @@ app.get("/api", (req, res) => {
 
 app.use("/api/questions", questionRoutes);
 app.use("/api/subjects", subjectRoutes);
+app.use("/api/alphabet", alphabetRoutes);
 
 app.use(notFound);
 

@@ -6,7 +6,7 @@ import {
 
 const router = Router();
 
-router.post("/", createQuestion);
 router.get("/", getQuestions);
+router.post("/", createQuestion);
 
 export default router;
