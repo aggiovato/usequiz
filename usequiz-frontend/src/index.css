@@ -16,6 +16,8 @@ body {
   --color-teal-bright: #0d6f73; /* secondary btns */
   --color-soft-teal: #84babf; /* cards */
   --color-light-teal: #e0ede9; /* background */
+  --color-teal-shine: #038a75;
+  --color-teal-shine2: #0ee8c7;
 
   /*contrast*/
   --color-sun-orange: #ff8c42;
@@ -28,7 +30,7 @@ body {
 }
 
 .navbar-anchor {
-  @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-dark-teal;
+  @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-teal-shine/20;
 }
 
 .btn {

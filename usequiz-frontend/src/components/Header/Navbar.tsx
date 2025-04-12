@@ -41,38 +41,38 @@ const Navbar = () => {
 
       {/* Mobile dropdown menu */}
       {open && (
-        <div className="absolute top-full left-0 w-full bg-teal-strong shadow-md flex flex-col items-start md:hidden z-50">
+        <div className="absolute top-full left-0 w-full bg-dark-teal/95 shadow-md flex flex-col items-start mid:hidden z-40">
           <Link
             to="/"
-            className="px-8 py-3 w-full hover:w-full hover:bg-dark-teal hover:text-amber-glow"
+            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/subjects"
-            className="px-8 py-3 w-full hover:w-full hover:bg-dark-teal hover:text-amber-glow"
+            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
             Subjects
           </Link>
           <Link
             to="/questions"
-            className="px-8 py-3 w-full hover:w-full hover:bg-dark-teal hover:text-amber-glow"
+            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
             All questions
           </Link>
           <Link
             to="/about"
-            className="px-8 py-3 w-full hover:w-full hover:bg-dark-teal hover:text-amber-glow"
+            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
             About
           </Link>
           <Link
             to="/contact"
-            className="px-8 py-3 w-full hover:w-full hover:bg-dark-teal hover:text-amber-glow"
+            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
             Contact
