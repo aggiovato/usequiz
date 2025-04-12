@@ -34,7 +34,7 @@ const useTitle = () => {
   useEffect(() => {
     setTitle((): string => handleTitle());
     setSubtitle((): string => handleSubtitle());
-  }, [location]);
+  }, [location, params]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return { title, subtitle };
 };

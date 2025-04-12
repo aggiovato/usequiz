@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import HamburguerIcon from "../icons/HamburguerIcon";
+import IksIcon from "../icons/IksIcon";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="navbar">
       {/* Desktop navbar */}
-      <div className="hidden md:flex gap-4 items-center">
+      <div className="hidden md:flex gap-2 items-center">
         <Link to="/" className="navbar-anchor">
           Home
         </Link>
@@ -30,7 +32,11 @@ const Navbar = () => {
         onClick={() => setOpen(!open)}
         aria-label="Toggle menu"
       >
-        {open ? "x" : "menu"}
+        {open ? (
+          <IksIcon className="w-6 h-6 hover:opacity-70" />
+        ) : (
+          <HamburguerIcon className="w-6 h-6 hover:opacity-70" />
+        )}
       </button>
 
       {/* Mobile dropdown menu */}

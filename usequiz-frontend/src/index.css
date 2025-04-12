@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-  @apply flex gap-0 justify-evenly items-center px-6;
+  @apply flex gap-0 justify-evenly items-center px-6 text-center text-xl md:text-sm;
 }
 
 .navbar-anchor {

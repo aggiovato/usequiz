@@ -19,6 +19,11 @@ export type Option = {
   text: string;
 };
 
+export type LetterType = {
+  letter: string[];
+  svg: string;
+};
+
 export type RouteParamsType = {
   subject?: string;
   unit?: string;
