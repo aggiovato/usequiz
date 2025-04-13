@@ -1,15 +1,41 @@
 import { Request, Response } from "express";
 import Question from "../models/Question";
 
+/******************************************************************************
+ *                     GET Subjects --- Count of questions and units
+ ******************************************************************************/
 export const getSubjects = async (req: Request, res: Response) => {
   try {
-    const subjects = await Question.distinct("subject");
-    res.status(200).json(subjects.sort());
+    const subjects = await Question.aggregate([
+      {
+        $group: {
+          _id: "$subject",
+          questionCount: { $sum: 1 },
+          units: { $addToSet: "$unit.title" },
+        },
+      },
+      {
+        $project: {
+          subject: "$_id",
+          questionCount: 1,
+          unitCount: { $size: "$units" },
+          _id: 0,
+        },
+      },
+      {
+        $sort: { subject: 1 },
+      },
+    ]);
+
+    res.status(200).json(subjects);
   } catch (error) {
     res.status(400).json({ error: "Error getting subjects", details: error });
   }
 };
 
+/******************************************************************************
+ *                    GET Units --- Count of questions
+ ******************************************************************************/
 export const getUnits = async (req: Request, res: Response) => {
   try {
     const subject = decodeURIComponent(req.params.subject);
@@ -20,10 +46,29 @@ export const getUnits = async (req: Request, res: Response) => {
         .json({ error: "Missing or invalid 'subject' query parameter" });
     }
 
-    const units = await Question.distinct("unit", { subject });
-    const orderedUnits = units.sort((a: any, b: any) => a.order - b.order);
-    const titledUnits = orderedUnits.map((unit: any) => unit.title);
-    res.status(200).json(titledUnits);
+    const units = await Question.aggregate([
+      { $match: { subject } },
+      {
+        $group: {
+          _id: {
+            title: "$unit.title",
+            order: "$unit.order",
+          },
+          questionCount: { $sum: 1 },
+        },
+      },
+      {
+        $project: {
+          title: "$_id.title",
+          order: "$_id.order",
+          questionCount: 1,
+          _id: 0,
+        },
+      },
+      { $sort: { order: 1 } },
+    ]);
+
+    res.status(200).json(units);
   } catch (error) {
     res.status(400).json({ error: "Error getting units", details: error });
   }

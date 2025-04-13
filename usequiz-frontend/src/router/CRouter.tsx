@@ -1,11 +1,14 @@
-import { lazy, Suspense } from "react";
-import { Route, Routes } from "react-router-dom";
-
-import {
-  getAllQuestions,
-  getQuestionsBySubject,
-  getQuestionsBySubjectUnit,
-} from "../services/questionService";
+import { createBrowserRouter } from "react-router-dom";
+import { lazy } from "react";
+import CSuspenseWrapper from "../components/customs/CSuspenseWrapper";
+import { homeLoader } from "../loaders/homeLoader";
+import { subjectsLoader } from "../loaders/subjectsLoader";
+import { questionsLoader } from "../loaders/questionsLoader";
+import { unitsLoader } from "../loaders/unitsLoader";
+import Questions from "../pages/questions";
+import MainLayout from "../layouts/MainLayout";
+import ContactLayout from "../layouts/ContactLayout";
+import QuestionView from "../pages/questions/QuestionView";
 
 const Home = lazy(() => import("../pages/home"));
 const About = lazy(() => import("../pages/about"));
@@ -13,39 +16,114 @@ const Contact = lazy(() => import("../pages/contact"));
 const NotFound = lazy(() => import("../pages/404"));
 const Subjects = lazy(() => import("../pages/subjects"));
 const Units = lazy(() => import("../pages/units"));
-const QuestionList = lazy(() => import("../pages/questionList"));
-const MainLayout = lazy(() => import("../layouts/MainLayout"));
-const ContactLayout = lazy(() => import("../layouts/ContactLayout"));
 
-const CRouter = () => {
-  return (
-    <Suspense fallback={<div className="p-8 text-center">Loading...</div>}>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/subjects" element={<Subjects />} />
-          <Route
-            path="/questions"
-            element={<QuestionList fetchFn={getAllQuestions} />}
-          />
-          <Route path="/subjects/:subject" element={<Units />} />
-          <Route
-            path="/subjects/:subject/:unit/questions"
-            element={<QuestionList fetchFn={getQuestionsBySubjectUnit} />}
-          />
-          <Route
-            path="/subjects/:subject/questions/"
-            element={<QuestionList fetchFn={getQuestionsBySubject} />}
-          />
-        </Route>
-        <Route path="/contact" element={<ContactLayout />}>
-          <Route index element={<Contact />} />
-        </Route>
-      </Routes>
-    </Suspense>
-  );
-};
-
-export default CRouter;
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      {
+        index: true,
+        element: (
+          <CSuspenseWrapper>
+            <Home />
+          </CSuspenseWrapper>
+        ),
+        loader: homeLoader,
+      },
+      {
+        path: "about",
+        element: (
+          <CSuspenseWrapper>
+            <About />
+          </CSuspenseWrapper>
+        ),
+      },
+      {
+        path: "subjects",
+        element: (
+          <CSuspenseWrapper>
+            <Subjects />
+          </CSuspenseWrapper>
+        ),
+        loader: subjectsLoader,
+      },
+      {
+        path: "subjects/:subject",
+        element: (
+          <CSuspenseWrapper>
+            <Units />
+          </CSuspenseWrapper>
+        ),
+        loader: unitsLoader,
+      },
+      {
+        path: "questions",
+        element: (
+          <CSuspenseWrapper>
+            <Questions />
+          </CSuspenseWrapper>
+        ),
+        loader: questionsLoader,
+        children: [
+          {
+            path: ":id",
+            element: <QuestionView />,
+          },
+        ],
+      },
+      {
+        path: "subjects/:subject/questions",
+        element: (
+          <CSuspenseWrapper>
+            <Questions />
+          </CSuspenseWrapper>
+        ),
+        loader: questionsLoader,
+        children: [
+          {
+            path: ":id",
+            element: <QuestionView />,
+          },
+        ],
+      },
+      {
+        path: "subjects/:subject/:unit/questions",
+        element: (
+          <CSuspenseWrapper>
+            <Questions />
+          </CSuspenseWrapper>
+        ),
+        loader: questionsLoader,
+        children: [
+          {
+            path: ":id",
+            element: <QuestionView />,
+          },
+        ],
+      },
+      {
+        path: "*",
+        element: (
+          <CSuspenseWrapper>
+            <NotFound />
+          </CSuspenseWrapper>
+        ),
+      },
+    ],
+  },
+  {
+    path: "contact",
+    element: <ContactLayout />,
+    children: [
+      {
+        index: true,
+        element: (
+          <CSuspenseWrapper>
+            <Contact />
+          </CSuspenseWrapper>
+        ),
+      },
+    ],
+  },
+]);

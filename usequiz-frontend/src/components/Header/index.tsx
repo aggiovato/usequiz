@@ -19,7 +19,7 @@ const Header = ({
           <img
             src="./src/assets/img/logo_navbar.png"
             alt="Logo"
-            className="w-12 h-12 select-none ml-6"
+            className="w-12 h-12 select-none ml-6 target-blank"
           />
         </button>
 
@@ -27,7 +27,7 @@ const Header = ({
           <h1 className="text-xl font-bold select-none mb-2">
             {<TextProvider text={title} />}
           </h1>
-          <h2 className="text-sm text-amber-glow font-light italic select-none">
+          <h2 className="hidden md:block text-sm text-amber-glow font-light italic select-none">
             {subtitle ?? <BreadcrumbsIcon className="w-4 h-4" />}
           </h2>
         </div>

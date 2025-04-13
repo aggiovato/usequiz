@@ -17,8 +17,5 @@ export const useNavbar = (location: Location) => {
     currentPage: location.pathname === route.path,
   }));
 
-  console.log("Current location: ", location.pathname);
-  console.log("Current route: ", currentedRoutes);
-
   return { open, setOpen, currentedRoutes };
 };

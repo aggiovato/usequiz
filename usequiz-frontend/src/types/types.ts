@@ -28,3 +28,15 @@ export type RouteParamsType = {
   subject?: string;
   unit?: string;
 };
+
+export type SubjectType = {
+  subject: string;
+  questionCount: number;
+  unitCount: number;
+};
+
+export type UnitType = {
+  title: string;
+  order: number;
+  questionCount: number;
+};

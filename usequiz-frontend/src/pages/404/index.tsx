@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import NotFoundIcon from "../components/icons/NotFoundIcon";
-import HomeIcon from "../components/icons/HomeIcon";
-import PaperplaneIcon from "../components/icons/PaperplaneIcon";
+import NotFoundIcon from "../../components/icons/NotFoundIcon";
+import HomeIcon from "../../components/icons/HomeIcon";
+import PaperplaneIcon from "../../components/icons/PaperplaneIcon";
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -18,21 +18,21 @@ const NotFound = () => {
         If you think this is an error, please contact us.
       </p>
 
-      <div className="flex flex-col md:flex-row gap-4 mt-12 md:mt-6 w-full md:w-auto px-8">
+      <div className="btn-group">
         <button
-          className="btn btn-primary flex items-center justify-center gap-4"
+          className="btn btn-primary btn-icon"
           onClick={() => navigate("/")}
         >
           Go home
-          <HomeIcon className="w-4 h-4 mb-0.5" />
+          <HomeIcon className="mb-0.5" />
         </button>
 
         <button
-          className="btn btn-primary flex items-center justify-center gap-4"
+          className="btn btn-primary btn-icon"
           onClick={() => navigate("/contact")}
         >
           Contact us
-          <PaperplaneIcon className="w-4 h-4" />
+          <PaperplaneIcon />
         </button>
       </div>
     </div>
