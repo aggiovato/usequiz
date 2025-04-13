@@ -46,14 +46,14 @@ const Units = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 p-8">
       <div>
         <button onClick={handleSeeAllQuestions} className="btn btn-primary">
           See all questions
         </button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="page-container">
         {units.map((unit) => (
           <UnitCard
             key={unit}

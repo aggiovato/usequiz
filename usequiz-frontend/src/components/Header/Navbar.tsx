@@ -16,7 +16,7 @@ const Navbar = () => {
           Subjects
         </Link>
         <Link to="/questions" className="navbar-anchor">
-          All questions
+          Questions
         </Link>
         <Link to="/about" className="navbar-anchor">
           About
@@ -61,7 +61,7 @@ const Navbar = () => {
             className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
             onClick={() => setOpen(false)}
           >
-            All questions
+            Questions
           </Link>
           <Link
             to="/about"

@@ -17,7 +17,7 @@ body {
   --color-soft-teal: #84babf; /* cards */
   --color-light-teal: #e0ede9; /* background */
   --color-teal-shine: #038a75;
-  --color-teal-shine2: #0ee8c7;
+  --color-teal-shine2: #0bb89e;
 
   /*contrast*/
   --color-sun-orange: #ff8c42;
@@ -31,6 +31,10 @@ body {
 
 .navbar-anchor {
   @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-teal-shine/20;
+}
+
+.page-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
 }
 
 .btn {

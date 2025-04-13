@@ -6,7 +6,7 @@ import PaperplaneIcon from "../components/icons/PaperplaneIcon";
 const NotFound = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center p-8">
       <NotFoundIcon className="w-90 h-40 md:w-120 md:h-60" />
       <h1 className="text-2xl font-bold mt-12 mb-6 md:mt-8 md:mb-2">
         Ooooops! Are you lost?
