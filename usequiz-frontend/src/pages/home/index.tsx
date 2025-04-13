@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-import banner from "../assets/img/banner.svg";
+import banner from "../../assets/img/banner.svg";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col">
-      <section className="relative min-h-[calc(100vh-6.25rem)] flex items-start justify-center text-center px-4">
+    <div className="flex flex-col min-h-[calc(100vh-6.25rem)]">
+      <section className="relative flex items-start justify-center text-center px-4">
         <img
           src={banner}
           alt="useQuiz Banner"
           className="absolute inset-0 w-full object-cover opacity-40 pointer-events-none"
         />
 
-        <div className="relative flex flex-col items-center gap-6 mt-48">
+        <div className="relative flex flex-col items-center gap-6 mt-40">
           <h1 className="text-4xl md:text-5xl font-bold text-dark-teal">
             Welcome to useQuiz()
           </h1>
@@ -26,7 +26,7 @@ const HomePage = () => {
       </section>
 
       {/* Features */}
-      <section className="px-6 md:px-12">
+      <section className="px-6 md:px-12 mt-20">
         <h2 className="text-3xl font-bold text-dark-teal mb-8 text-center">
           What can you do?
         </h2>

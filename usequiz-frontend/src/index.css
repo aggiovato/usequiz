@@ -9,13 +9,13 @@ body {
   /* theme variables */
   --font-sans: "JetBrains Mono", monospace;
 
-  --color-light-bg: #e0ede9;
+  --color-light-bg: #f8fbfa;
 
   --color-dark-teal: #06363d; /* text */
   --color-teal-strong: #085558; /* navbar and active btns */
   --color-teal-bright: #0d6f73; /* secondary btns */
   --color-soft-teal: #84babf; /* cards */
-  --color-light-teal: #e0ede9; /* background */
+  --color-light-teal: #f8fbfa; /* background */
   --color-teal-shine: #038a75;
   --color-teal-shine2: #0bb89e;
 
@@ -30,7 +30,11 @@ body {
 }
 
 .navbar-anchor {
-  @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-teal-shine/20;
+  @apply py-2 px-4 rounded-md hover:text-amber-glow hover:cursor-pointer hover:font-bold hover:bg-teal-shine/20 focus:outline-none focus:ring-2 focus:ring-amber-glow;
+}
+
+.navbar-active {
+  @apply text-amber-glow bg-teal-shine/20;
 }
 
 .page-container {
@@ -42,5 +46,5 @@ body {
 }
 
 .btn-primary {
-  @apply text-sm text-white bg-teal-bright hover:text-amber-glow active:bg-dark-teal;
+  @apply text-sm text-white bg-teal-bright hover:text-amber-glow active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
 }

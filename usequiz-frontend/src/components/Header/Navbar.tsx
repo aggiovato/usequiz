@@ -1,29 +1,28 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useNavbar } from "../../hooks/useNavbar";
 import HamburguerIcon from "../icons/HamburguerIcon";
 import IksIcon from "../icons/IksIcon";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const { open, setOpen, currentedRoutes } = useNavbar(location);
+
   return (
     <nav className="navbar">
       {/* Desktop navbar */}
       <div className="hidden md:flex gap-2 items-center">
-        <Link to="/" className="navbar-anchor">
-          Home
-        </Link>
-        <Link to="/subjects" className="navbar-anchor">
-          Subjects
-        </Link>
-        <Link to="/questions" className="navbar-anchor">
-          Questions
-        </Link>
-        <Link to="/about" className="navbar-anchor">
-          About
-        </Link>
-        <Link to="/contact" className="navbar-anchor">
-          Contact
-        </Link>
+        {currentedRoutes.map((route) => (
+          <Link
+            key={route.name}
+            to={route.path}
+            className={`navbar-anchor ${
+              route.currentPage ? "navbar-active" : ""
+            }`}
+            onClick={() => setOpen(false)}
+          >
+            {route.name}
+          </Link>
+        ))}
       </div>
 
       {/* Mobile hamburger icon */}
