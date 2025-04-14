@@ -3,7 +3,7 @@ import {
   getQuestionsBySubject,
   getQuestionsBySubjectUnit,
 } from "../services/questionService";
-
+import { useQuestionStore } from "../stores/useQuestionStore";
 import { QuestionType } from "../types/types";
 
 export const questionsLoader = async ({
@@ -17,14 +17,20 @@ export const questionsLoader = async ({
   const pathname = url.pathname;
 
   if (pathname === "/questions") {
-    return getAllQuestions();
+    const questions = await getAllQuestions();
+    useQuestionStore.getState().setQuestions(questions);
+    return questions;
   }
 
   if (pathname.includes("/subjects/") && pathname.endsWith("/questions")) {
     if (params.unit) {
-      return getQuestionsBySubjectUnit(params);
+      const questions = await getQuestionsBySubjectUnit(params);
+      useQuestionStore.getState().setQuestions(questions);
+      return questions;
     } else {
-      return getQuestionsBySubject(params);
+      const questions = await getQuestionsBySubject(params);
+      useQuestionStore.getState().setQuestions(questions);
+      return questions;
     }
   }
 

@@ -1,35 +1,44 @@
 // this component decides how to fetch the data
-import { useLoaderData } from "react-router-dom";
+import { useQuestionStore } from "../../stores/useQuestionStore";
 import { QuestionType } from "../../types/types";
-import { useParams, Link } from "react-router-dom";
 import QuestionView from "./QuestionView";
 
 const Questions = () => {
-  const questions = useLoaderData() as QuestionType[];
-  const params = useParams();
+  const currentQ = useQuestionStore<QuestionType | null>(
+    (state) => state.currentQ
+  );
+  const questions = useQuestionStore<QuestionType[]>(
+    (state) => state.questions
+  );
+
+  const handleCurrentQ = (q: QuestionType) => {
+    useQuestionStore.getState().setCurrentQ(q);
+  };
 
   return (
-    <div>
-      <p>You have {questions.length} questions</p>
-      {params.unit ? (
-        <p>{`for ${params.subject} >>> ${params.unit}`}</p>
-      ) : params.subject ? (
-        <p>for {params.subject}</p>
-      ) : null}
-
-      <div>
-        {questions.map((question, index) => (
-          <div key={question.id}>
-            <Link to={`/questions/${question.id}`}>
-              <h3 className="flex flex-row w-10 h-10 border-2 border-teal-strong rounded-md gap-3">
-                {index + 1}
-              </h3>
-            </Link>
-          </div>
-        ))}
+    <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] lg:grid-cols-[1fr_1fr_1fr] gap-6 w-full p-6 min-h-[calc(100vh-6.25rem)]">
+      <div className="flex flex-col gap-6">
+        <QuestionView />
       </div>
 
-      <QuestionView />
+      <div className="border-2 border-teal-strong p-4 rounded-md h-fit sticky top-24">
+        <h3 className="font-bold mb-4">Questions</h3>
+        <div className="grid grid-cols-7 gap-2 wrap-none">
+          {questions.map((question, index) => (
+            <button
+              key={question.id}
+              onClick={() => handleCurrentQ(question)}
+              className={`w-8 h-8 flex items-center justify-center rounded ${
+                currentQ?.id === question.id
+                  ? "bg-amber-glow text-dark-teal font-bold"
+                  : "bg-teal-strong text-white"
+              }`}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

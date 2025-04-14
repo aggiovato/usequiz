@@ -8,7 +8,6 @@ import { unitsLoader } from "../loaders/unitsLoader";
 import Questions from "../pages/questions";
 import MainLayout from "../layouts/MainLayout";
 import ContactLayout from "../layouts/ContactLayout";
-import QuestionView from "../pages/questions/QuestionView";
 
 const Home = lazy(() => import("../pages/home"));
 const About = lazy(() => import("../pages/about"));
@@ -65,12 +64,6 @@ export const router = createBrowserRouter([
           </CSuspenseWrapper>
         ),
         loader: questionsLoader,
-        children: [
-          {
-            path: ":id",
-            element: <QuestionView />,
-          },
-        ],
       },
       {
         path: "subjects/:subject/questions",
@@ -80,12 +73,6 @@ export const router = createBrowserRouter([
           </CSuspenseWrapper>
         ),
         loader: questionsLoader,
-        children: [
-          {
-            path: ":id",
-            element: <QuestionView />,
-          },
-        ],
       },
       {
         path: "subjects/:subject/:unit/questions",
@@ -95,12 +82,6 @@ export const router = createBrowserRouter([
           </CSuspenseWrapper>
         ),
         loader: questionsLoader,
-        children: [
-          {
-            path: ":id",
-            element: <QuestionView />,
-          },
-        ],
       },
       {
         path: "*",
