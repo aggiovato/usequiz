@@ -11,7 +11,8 @@ const Questions = () => {
     (state) => state.questions
   );
 
-  const handleCurrentQ = (q: QuestionType) => {
+  const handleCurrentQ = (q: QuestionType, index: number) => {
+    useQuestionStore.getState().setIndex(index);
     useQuestionStore.getState().setCurrentQ(q);
   };
 
@@ -27,7 +28,7 @@ const Questions = () => {
           {questions.map((question, index) => (
             <button
               key={question.id}
-              onClick={() => handleCurrentQ(question)}
+              onClick={() => handleCurrentQ(question, index)}
               className={`w-8 h-8 flex items-center justify-center rounded ${
                 currentQ?.id === question.id
                   ? "bg-amber-glow text-dark-teal font-bold"

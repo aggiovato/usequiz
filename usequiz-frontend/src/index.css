@@ -68,3 +68,36 @@ body {
 .card-details > span {
   @apply font-extrabold text-rose-clay;
 }
+
+.question-section {
+  @apply flex flex-col gap-4;
+}
+
+.question-section > h2 {
+  @apply text-teal-bright/80 text-xl font-bold;
+}
+
+.question-section > h2 > span {
+  @apply text-rose-clay text-xl font-bold;
+}
+
+.question-section h3,
+label {
+  @apply text-teal-strong text-base;
+}
+
+.question-section pre {
+  @apply py-3 px-4 bg-teal-bright/15 rounded-md text-teal-bright font-mono overflow-auto wrap-break-word;
+}
+
+.question-section :not(pre) > code {
+  @apply py-1 px-3 bg-teal-bright/15 rounded-md text-teal-bright font-mono;
+}
+
+.question-section label {
+  @apply text-sm;
+}
+
+input[type="radio"] {
+  accent-color: #0d6f73;
+}
