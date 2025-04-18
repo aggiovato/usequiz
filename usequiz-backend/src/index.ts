@@ -27,9 +27,9 @@ app.use("/api/alphabet", alphabetRoutes);
 
 app.use(notFound);
 
-connectDB().then(() => {
-  const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
+const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 
+connectDB().then(() => {
   if (isVercel) {
     module.exports = app;
   } else {
