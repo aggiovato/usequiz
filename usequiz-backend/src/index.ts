@@ -28,7 +28,13 @@ app.use("/api/alphabet", alphabetRoutes);
 app.use(notFound);
 
 connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
-  });
+  const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
+
+  if (isVercel) {
+    module.exports = app;
+  } else {
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on http://localhost:${PORT}`);
+    });
+  }
 });
