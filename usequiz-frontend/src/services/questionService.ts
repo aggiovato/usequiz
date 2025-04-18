@@ -1,7 +1,7 @@
 import axios from "axios";
 import { QuestionType, RouteParamsType } from "../types/types";
 
-const baseURL = "http://localhost:3000/api/";
+const baseURL = import.meta.env.VITE_BACKEND_BASEURL as string;
 
 export const getSubjects = async () => {
   try {

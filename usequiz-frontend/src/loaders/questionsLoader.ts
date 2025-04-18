@@ -3,7 +3,6 @@ import {
   getQuestionsBySubject,
   getQuestionsBySubjectUnit,
 } from "../services/questionService";
-import { useQuestionStore } from "../stores/useQuestionStore";
 import { QuestionType } from "../types/types";
 
 export const questionsLoader = async ({
@@ -12,27 +11,24 @@ export const questionsLoader = async ({
 }: {
   params: Record<string, string | undefined>;
   request: Request;
-}): Promise<QuestionType[]> => {
+}): Promise<{ questions: QuestionType[]; route: string }> => {
   const url = new URL(request.url);
   const pathname = url.pathname;
 
-  if (pathname === "/questions") {
-    const questions = await getAllQuestions();
-    useQuestionStore.getState().setQuestions(questions);
-    return questions;
-  }
+  let questions: QuestionType[] = [];
 
-  if (pathname.includes("/subjects/") && pathname.endsWith("/questions")) {
+  if (pathname === "/questions") {
+    questions = await getAllQuestions();
+  } else if (
+    pathname.includes("/subjects/") &&
+    pathname.endsWith("/questions")
+  ) {
     if (params.unit) {
-      const questions = await getQuestionsBySubjectUnit(params);
-      useQuestionStore.getState().setQuestions(questions);
-      return questions;
+      questions = await getQuestionsBySubjectUnit(params);
     } else {
-      const questions = await getQuestionsBySubject(params);
-      useQuestionStore.getState().setQuestions(questions);
-      return questions;
+      questions = await getQuestionsBySubject(params);
     }
   }
 
-  return [];
+  return { questions, route: pathname };
 };

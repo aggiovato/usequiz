@@ -42,7 +42,7 @@ body {
 }
 
 .btn {
-  @apply min-w-[150px] px-6 py-2 rounded-md font-bold;
+  @apply min-w-[90px] px-6 py-2 rounded-md font-bold;
 }
 
 .btn-primary {
@@ -70,7 +70,7 @@ body {
 }
 
 .question-section {
-  @apply flex flex-col gap-4;
+  @apply flex flex-col gap-4 bg-white rounded-md p-4;
 }
 
 .question-section > h2 {
@@ -98,6 +98,12 @@ label {
   @apply text-sm;
 }
 
-input[type="radio"] {
-  accent-color: #0d6f73;
+.question-section input[type="checkbox"] {
+  @apply w-4 h-4 accent-teal-strong rounded cursor-pointer border-2 border-teal-bright bg-white shadow-sm transition duration-150 ease-in-out;
+
+  &:checked {
+    @apply border-teal-bright bg-teal-bright;
+  }
+
+  apparence: none;
 }
