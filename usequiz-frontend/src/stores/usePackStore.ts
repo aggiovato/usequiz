@@ -4,7 +4,8 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { QuestionType } from "../types/types";
 
-interface PackStats {
+export interface PackStats {
+  total: number;
   viewed: string[]; // ids of questions viewed
   correct: string[]; // ids of questions correct
   incorrect: string[]; // ids of questions incorrect
@@ -34,6 +35,7 @@ export const usePackStore = create<PackState>()(
       currentQ: null,
       routeFrom: "",
       stats: {
+        total: 0,
         viewed: [],
         correct: [],
         incorrect: [],
@@ -47,6 +49,7 @@ export const usePackStore = create<PackState>()(
           currentQ: questions[0] || null,
           routeFrom,
           stats: {
+            total: questions.length,
             viewed: [],
             correct: [],
             incorrect: [],
@@ -100,6 +103,7 @@ export const usePackStore = create<PackState>()(
           currentQ: null,
           routeFrom: "",
           stats: {
+            total: 0,
             viewed: [],
             correct: [],
             incorrect: [],
