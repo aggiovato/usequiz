@@ -1,6 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import { lazy } from "react";
-import CSuspenseWrapper from "../components/customs/CSuspenseWrapper";
 import { homeLoader } from "../loaders/homeLoader";
 import { subjectsLoader } from "../loaders/subjectsLoader";
 import { questionsLoader } from "../loaders/questionsLoader";
@@ -8,13 +6,12 @@ import { unitsLoader } from "../loaders/unitsLoader";
 import Questions from "../pages/questions";
 import MainLayout from "../layouts/MainLayout";
 import ContactLayout from "../layouts/ContactLayout";
-
-const Home = lazy(() => import("../pages/home"));
-const About = lazy(() => import("../pages/about"));
-const Contact = lazy(() => import("../pages/contact"));
-const NotFound = lazy(() => import("../pages/404"));
-const Subjects = lazy(() => import("../pages/subjects"));
-const Units = lazy(() => import("../pages/units"));
+import Home from "../pages/home";
+import About from "../pages/about";
+import Subjects from "../pages/subjects";
+import Units from "../pages/units";
+import NotFound from "../pages/404";
+import Contact from "../pages/contact";
 
 export const router = createBrowserRouter([
   {
@@ -23,73 +20,41 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: (
-          <CSuspenseWrapper>
-            <Home />
-          </CSuspenseWrapper>
-        ),
+        element: <Home />,
         loader: homeLoader,
       },
       {
         path: "about",
-        element: (
-          <CSuspenseWrapper>
-            <About />
-          </CSuspenseWrapper>
-        ),
+        element: <About />,
       },
       {
         path: "subjects",
-        element: (
-          <CSuspenseWrapper>
-            <Subjects />
-          </CSuspenseWrapper>
-        ),
+        element: <Subjects />,
         loader: subjectsLoader,
       },
       {
         path: "subjects/:subject",
-        element: (
-          <CSuspenseWrapper>
-            <Units />
-          </CSuspenseWrapper>
-        ),
+        element: <Units />,
         loader: unitsLoader,
       },
       {
         path: "questions",
-        element: (
-          <CSuspenseWrapper>
-            <Questions />
-          </CSuspenseWrapper>
-        ),
+        element: <Questions />,
         loader: questionsLoader,
       },
       {
         path: "subjects/:subject/questions",
-        element: (
-          <CSuspenseWrapper>
-            <Questions />
-          </CSuspenseWrapper>
-        ),
+        element: <Questions />,
         loader: questionsLoader,
       },
       {
         path: "subjects/:subject/:unit/questions",
-        element: (
-          <CSuspenseWrapper>
-            <Questions />
-          </CSuspenseWrapper>
-        ),
+        element: <Questions />,
         loader: questionsLoader,
       },
       {
         path: "*",
-        element: (
-          <CSuspenseWrapper>
-            <NotFound />
-          </CSuspenseWrapper>
-        ),
+        element: <NotFound />,
       },
     ],
   },
@@ -99,11 +64,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: (
-          <CSuspenseWrapper>
-            <Contact />
-          </CSuspenseWrapper>
-        ),
+        element: <Contact />,
       },
     ],
   },

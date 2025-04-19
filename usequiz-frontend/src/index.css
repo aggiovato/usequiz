@@ -25,6 +25,15 @@ body {
   --color-rose-clay: #ff6b6b;
 }
 
+span {
+  /* general span style */
+  @apply text-teal-strong/80 font-bold px-2 py-0 rounded-md bg-teal-bright/10 text-sm;
+}
+
+.spanned {
+  @apply text-teal-strong/80 font-bold px-2 py-0 rounded-md bg-teal-bright/10;
+}
+
 .navbar {
   @apply flex gap-0 justify-evenly items-center px-6 text-center text-xl md:text-sm;
 }
@@ -38,15 +47,31 @@ body {
 }
 
 .page-container {
-  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
+  @apply flex flex-wrap gap-4 items-center justify-center;
+}
+
+.card-container {
+  @apply relative overflow-hidden p-6 border-3 text-teal-strong border-teal-bright rounded-md  hover:border-teal-shine/70 transition shadow-md hover:shadow-lg min-h-[150px] h-full max-h-[400px] flex min-w-xs md:min-w-[450px];
+}
+
+.card-details {
+  @apply text-sm text-teal-shine/90 font-bold;
+}
+
+.card-details > span {
+  @apply font-extrabold text-rose-clay;
 }
 
 .btn {
-  @apply min-w-[90px] px-6 py-2 rounded-md font-bold;
+  @apply min-w-[90px] px-4 py-2 rounded-md font-semibold cursor-pointer;
 }
 
 .btn-primary {
-  @apply text-sm text-white bg-teal-bright hover:text-amber-glow active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
+  @apply text-xs text-white bg-teal-bright border-2 border-teal-bright hover:shadow-inner hover:text-amber-glow active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
+}
+
+.btn-ghost {
+  @apply text-xs text-teal-bright bg-light-teal shadow-inner border-2 border-teal-bright hover:text-amber-glow hover:bg-teal-bright active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
 }
 
 .btn-icon {
@@ -61,16 +86,8 @@ body {
   @apply flex flex-col md:flex-row gap-4 mt-12 md:mt-6 w-full md:w-auto px-8;
 }
 
-.card-details {
-  @apply text-sm text-teal-shine/90 font-bold;
-}
-
-.card-details > span {
-  @apply font-extrabold text-rose-clay;
-}
-
 .question-section {
-  @apply flex flex-col gap-4 bg-white rounded-md p-4;
+  @apply flex flex-col gap-4 rounded-md p-4 md:px-10;
 }
 
 .question-section > h2 {
@@ -78,16 +95,19 @@ body {
 }
 
 .question-section > h2 > span {
-  @apply text-rose-clay text-xl font-bold;
+  @apply text-rose-clay text-xl font-bold bg-rose-clay/20;
 }
 
-.question-section h3,
-label {
-  @apply text-teal-strong text-base;
+.question-section h3 {
+  @apply text-teal-strong text-base font-semibold;
+}
+
+.question-section label {
+  @apply text-sm;
 }
 
 .question-section pre {
-  @apply py-3 px-4 bg-teal-bright/15 rounded-md text-teal-bright font-mono overflow-auto wrap-break-word;
+  @apply py-3 px-4 bg-teal-bright/15 rounded-md text-teal-bright font-mono overflow-auto wrap-break-word text-sm;
 }
 
 .question-section :not(pre) > code {
@@ -96,14 +116,4 @@ label {
 
 .question-section label {
   @apply text-sm;
-}
-
-.question-section input[type="checkbox"] {
-  @apply w-4 h-4 accent-teal-strong rounded cursor-pointer border-2 border-teal-bright bg-white shadow-sm transition duration-150 ease-in-out;
-
-  &:checked {
-    @apply border-teal-bright bg-teal-bright;
-  }
-
-  apparence: none;
 }

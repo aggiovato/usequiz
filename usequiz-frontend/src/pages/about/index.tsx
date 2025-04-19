@@ -1,3 +1,5 @@
+import profileImg from "../../assets/img/me.png";
+
 const AboutPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] h-full min-h-[calc(100vh-6.25rem)]">
@@ -27,11 +29,10 @@ const AboutPage = () => {
         </div>
       </div>
 
-      {/* Lateral derecho */}
       <div className="bg-dark-teal text-white p-6 md:p-12 flex flex-col justify-between items-center">
         <div className="flex flex-col items-center gap-4">
           <img
-            src="./src/assets/img/me.png"
+            src={profileImg}
             alt="Profile"
             className="w-38 h-38 rounded-full object-cover border-3 border-amber-glow"
           />

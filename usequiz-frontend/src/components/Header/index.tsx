@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import TextProvider from "../../contexts/TextProvider";
 import BreadcrumbsIcon from "../icons/BreadcrumbsIcon";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/img/logo_navbar.png";
 
 const Header = ({
   title,
@@ -17,7 +18,7 @@ const Header = ({
       <div className="flex gap-6 items-center">
         <button onClick={() => navigate("/")} className="flex items-center">
           <img
-            src="./src/assets/img/logo_navbar.png"
+            src={logo}
             alt="Logo"
             className="w-12 h-12 select-none ml-6 target-blank"
           />

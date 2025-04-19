@@ -29,7 +29,7 @@ const useTitle = () => {
   const handleSubtitle = (): ReactNode => {
     if (location.pathname.startsWith("/subjects/") && params.subject) {
       return (
-        <span className="flex items-center gap-2 text-sm text-amber-glow">
+        <div className="flex items-center gap-2 text-sm text-amber-glow">
           {params.subject}
           <BreadcrumbsIcon className="w-4 h-4" />
           <TextProvider
@@ -41,7 +41,7 @@ const useTitle = () => {
                 : "Units"
             }
           />
-        </span>
+        </div>
       );
     }
 

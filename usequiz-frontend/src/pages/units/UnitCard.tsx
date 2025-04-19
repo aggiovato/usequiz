@@ -11,7 +11,7 @@ const UnitCard = ({ subject, unit, svg }: UnitCardProps) => {
   return (
     <Link
       to={`/subjects/${subject}/${unit.title}/questions`}
-      className="group relative overflow-hidden p-6 border-3 text-teal-strong border-teal-bright rounded-md  hover:border-teal-shine/70 transition shadow-md hover:shadow-lg min-h-[120px] flex items-center"
+      className="group card-container"
     >
       <div className="absolute -top-5 -right-5 w-[150px] h-[150px] rotate-45 -z-10 pointer-events-none select-none bg-teal-shine2/10 rounded-xl transition-all duration-300 group-hover:-top-10 group-hover:rotate-60 group-hover:w-[200px] group-hover:h-[200px]" />
 
@@ -22,7 +22,7 @@ const UnitCard = ({ subject, unit, svg }: UnitCardProps) => {
 
       <div className="flex flex-col gap-2">
         <div className="flex gap-2 items-start">
-          <span className="font-extrabold mt-1 text-xl">{unit.order} - </span>
+          <div className="font-extrabold mt-1 text-lg">{unit.order} - </div>
           <h3 className="self-start text-lg font-medium max-w-[25ch] line-clamp-2">
             {unit.title}
           </h3>

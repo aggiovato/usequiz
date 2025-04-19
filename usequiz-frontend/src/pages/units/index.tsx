@@ -7,7 +7,10 @@ const Units = () => {
   return (
     <div className="flex flex-col gap-4 p-8">
       <div>
-        <button onClick={handleSeeAllQuestions} className="btn btn-primary">
+        <button
+          onClick={handleSeeAllQuestions}
+          className="btn btn-primary mb-4"
+        >
           See all questions
         </button>
       </div>
