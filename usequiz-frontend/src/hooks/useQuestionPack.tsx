@@ -22,7 +22,7 @@ const useQuestionPack = () => {
   useEffect(() => {
     if (stats.viewed.length === 0) {
       setQuestions(loadedQuestions, route);
-      setCurrentQ(null);
+      setCurrentQ(null, 0);
       setIsOpenablePack(true);
     } else {
       setIsOpenablePack(compareQuestionPacks(loadedQuestions, packQuestions));

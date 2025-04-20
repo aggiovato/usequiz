@@ -18,7 +18,7 @@ const ReadyCard = ({
 
       <button
         className="btn btn-primary self-center max-w-[150px] w-full"
-        onClick={() => setCurrentQ(loadedQuestions[0])}
+        onClick={() => setCurrentQ(loadedQuestions[0], 0)}
       >
         Comenzar
       </button>

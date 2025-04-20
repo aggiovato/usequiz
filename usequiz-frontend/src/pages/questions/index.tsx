@@ -46,7 +46,7 @@ const QuestionPack = () => {
                       <button
                         key={question.id}
                         className="flex w-7 h-7 bg-teal-strong/90 rounded-md items-center justify-center text-xs text-white font-bold hover:shadow-inner hover:text-amber-glow active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md"
-                        onClick={() => setCurrentQ(question)}
+                        onClick={() => setCurrentQ(question, index)}
                       >
                         {index + 1}
                       </button>

@@ -5,7 +5,7 @@ import { persist } from "zustand/middleware";
 import { QuestionType } from "../types/types";
 
 export interface PackStats {
-  total: number;
+  total: number; // total questions in pack
   viewed: string[]; // ids of questions viewed
   correct: string[]; // ids of questions correct
   incorrect: string[]; // ids of questions incorrect
@@ -19,7 +19,7 @@ interface PackState {
   stats: PackStats;
   routeFrom: string;
   setQuestions: (questions: QuestionType[], routeFrom: string) => void;
-  setCurrentQ: (currentQ: QuestionType | null) => void;
+  setCurrentQ: (currentQ: QuestionType | null, index: number) => void;
   nextQuestion: () => void;
   prevQuestion: () => void;
   verifyAnswer: (id: string, correct: boolean) => void;
@@ -57,9 +57,10 @@ export const usePackStore = create<PackState>()(
           },
         }),
 
-      setCurrentQ: (currentQ) =>
+      setCurrentQ: (currentQ, index) =>
         set({
           currentQ,
+          currentIndex: index,
         }),
 
       nextQuestion: () => {

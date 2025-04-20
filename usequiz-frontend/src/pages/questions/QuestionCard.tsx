@@ -1,13 +1,19 @@
 import { usePackStore } from "../../stores/usePackStore";
 import { QuestionType } from "../../types/types";
 import ReactMarkdown from "react-markdown";
+import NextIcon from "../../components/icons/NextIcon";
+import PrevIcon from "../../components/icons/PrevIcon";
 
 // This is the current question
 const QuestionCard = ({ question }: { question: QuestionType }) => {
   const index = usePackStore((state) => state.currentIndex);
+  const total = usePackStore((state) => state.stats.total);
+  const { nextQuestion, prevQuestion } = usePackStore();
+
   const handleVerifyAnswer = () => {
     console.log("verify answer");
   };
+
   return (
     <div className="flex flex-col gap-4 h-full justify-between">
       <div className="question-section">
@@ -47,14 +53,32 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
         id="buttons-section"
         className="flex gap-6 items-center justify-center mb-10"
       >
-        <button className="btn btn-ghost">Previous</button>
+        <button onClick={() => prevQuestion()}>
+          <PrevIcon
+            isDisabled={index === 0}
+            className={`w-10 h-10 ${
+              index === 0
+                ? "opacity-50 cursor-not-allowed"
+                : "hover:stroke-amber-glow cursor-pointer"
+            }`}
+          />
+        </button>
         <button
           className="btn btn-primary max-w-[170px] w-full "
           onClick={handleVerifyAnswer}
         >
           Verificar
         </button>
-        <button className="btn btn-ghost">Next</button>
+        <button onClick={() => nextQuestion()}>
+          <NextIcon
+            isDisabled={index === total - 1}
+            className={`w-10 h-10  ${
+              index === total - 1
+                ? "opacity-50 cursor-not-allowed"
+                : "hover:stroke-amber-glow cursor-pointer"
+            }`}
+          />
+        </button>
       </div>
     </div>
   );
