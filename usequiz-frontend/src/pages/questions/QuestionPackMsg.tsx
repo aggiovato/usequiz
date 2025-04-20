@@ -2,6 +2,7 @@ import CDialogWrapper from "../../components/customs/CDialogWrapper";
 import { usePackStore } from "../../stores/usePackStore";
 import { useNavigate } from "react-router-dom";
 import { QuestionType } from "../../types/types";
+import PieChart from "../home/PieChart";
 
 const QuestionPackMsg = ({
   loadedQuestions,
@@ -27,21 +28,27 @@ const QuestionPackMsg = ({
   return (
     <CDialogWrapper type="warning">
       <div className="flex flex-col gap-3 mt-4 text-sm">
-        <p>
+        <p className="text-center">
           Actualmente tienes un paquete de preguntas activo de{" "}
           <span>{packQuestions.length} preguntas</span>
         </p>
 
-        <h2>Estadísticas:</h2>
-        <p className="text-teal-strong/60">
-          <span>{stats.viewed.length}</span> vistas
-        </p>
-        <p className="text-teal-strong/60">
-          <span>{stats.correct.length}</span> correctas
-        </p>
-        <p className="text-teal-strong/60">
-          <span>{stats.incorrect.length}</span> incorrectas
-        </p>
+        <div className="flex gap-6 justify-center items-center">
+          <div className="text-xs space-y-1 mt-2">
+            <h2>Estadísticas:</h2>
+            <p className="text-teal-strong/60">
+              <span>{stats.viewed.length}</span> vistas
+            </p>
+            <p className="text-teal-strong/60">
+              <span>{stats.correct.length}</span> correctas
+            </p>
+            <p className="text-teal-strong/60">
+              <span>{stats.incorrect.length}</span> incorrectas
+            </p>
+          </div>
+
+          <PieChart showInfo={false} className="w-23 h-23" />
+        </div>
       </div>
 
       {/* *************************************************************************** */}

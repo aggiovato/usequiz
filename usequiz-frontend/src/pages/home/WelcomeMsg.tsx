@@ -30,7 +30,7 @@ const WelcomeMsg = () => {
 
       {/* Actual pack question card */}
 
-      {stats.viewed.length >= 0 && (
+      {stats.viewed.length > 0 && (
         <div
           className="relative overflow-hidden px-2 md:border-3 text-teal-strong border-teal-bright rounded-md  hover:border-teal-shine/70 transition hover:shadow-lg md:shadow-inner mt-8 md:mt-50"
           onClick={() => navigate(routeFrom)}

@@ -9,6 +9,7 @@ export interface PackStats {
   viewed: string[]; // ids of questions viewed
   correct: string[]; // ids of questions correct
   incorrect: string[]; // ids of questions incorrect
+  responses: Record<string, string[]>; // responses for each question
   startTime: number;
 }
 
@@ -22,7 +23,7 @@ interface PackState {
   setCurrentQ: (currentQ: QuestionType | null, index: number) => void;
   nextQuestion: () => void;
   prevQuestion: () => void;
-  verifyAnswer: (id: string, correct: boolean) => void;
+  verifyAnswer: (id: string, correct: boolean, selectionArr: string[]) => void;
   resetPack: () => void;
 }
 
@@ -39,6 +40,7 @@ export const usePackStore = create<PackState>()(
         viewed: [],
         correct: [],
         incorrect: [],
+        responses: {},
         startTime: 0,
       },
 
@@ -53,6 +55,7 @@ export const usePackStore = create<PackState>()(
             viewed: [],
             correct: [],
             incorrect: [],
+            responses: {},
             startTime: Date.now(),
           },
         }),
@@ -85,7 +88,7 @@ export const usePackStore = create<PackState>()(
         }
       },
 
-      verifyAnswer: (id, correct) => {
+      verifyAnswer: (id, correct, selectionArr) => {
         const { stats } = get();
         set({
           stats: {
@@ -93,6 +96,10 @@ export const usePackStore = create<PackState>()(
             viewed: [...new Set([...stats.viewed, id])],
             correct: correct ? [...stats.correct, id] : stats.correct,
             incorrect: !correct ? [...stats.incorrect, id] : stats.incorrect,
+            responses: {
+              ...stats.responses,
+              [id]: selectionArr,
+            },
           },
         });
       },
@@ -108,6 +115,7 @@ export const usePackStore = create<PackState>()(
             viewed: [],
             correct: [],
             incorrect: [],
+            responses: {},
             startTime: 0,
           },
         }),

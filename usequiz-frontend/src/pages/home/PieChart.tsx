@@ -43,25 +43,33 @@ const generateData = (stats: PackStats) => {
   };
 };
 
-const PieChart = () => {
+const PieChart = ({
+  showInfo = true,
+  className = "w-32 h-32",
+}: {
+  showInfo?: boolean;
+  className?: string;
+}) => {
   const { stats } = usePackStore();
   const { data, options } = generateData(stats);
 
   return (
     <div className="flex flex-col md:flex-row gap-4 p-3 md:p-6 max-w-xs items-center">
-      <div className="w-32 h-32 md:order-2">
+      <div className={`md:order-2 ${className}`}>
         <Doughnut data={data} options={options} />
       </div>
 
-      <div className="text-center md:text-left md:order-1">
-        <h1 className="text-md font-bold text-dark-teal mb-2 mt-2">
-          Continuar...
-        </h1>
-        <p className="text-sm text-dark-teal/60">
-          Has completado <span>{stats.viewed.length}</span> de{" "}
-          <span>{stats.total}</span> preguntas.
-        </p>
-      </div>
+      {showInfo && (
+        <div className="text-center md:text-left md:order-1">
+          <h1 className="text-md font-bold text-dark-teal mb-2 mt-2">
+            Continuar...
+          </h1>
+          <p className="text-sm text-dark-teal/60">
+            Has completado <span>{stats.viewed.length}</span> de{" "}
+            <span>{stats.total}</span> preguntas.
+          </p>
+        </div>
+      )}
     </div>
   );
 };
