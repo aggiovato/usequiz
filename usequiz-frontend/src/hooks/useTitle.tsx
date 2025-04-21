@@ -2,6 +2,7 @@ import { useLocation, useParams } from "react-router-dom";
 import { useState, useEffect, ReactNode } from "react";
 import BreadcrumbsIcon from "../components/icons/BreadcrumbsIcon";
 import TextProvider from "../contexts/TextProvider";
+import { useTranslation } from "react-i18next";
 
 const useTitle = () => {
   const location = useLocation();
@@ -9,21 +10,24 @@ const useTitle = () => {
   const [title, setTitle] = useState<string>("");
   const [subtitle, setSubtitle] = useState<ReactNode>(null);
 
+  const { t, i18n } = useTranslation();
+
   useEffect(() => {
     setTitle(handleTitle());
     setSubtitle(handleSubtitle());
-  }, [location, params]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [location, params, i18n.language]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleTitle = (): string => {
-    if (location.pathname === "/") return "Home";
-    if (location.pathname === "/about") return "About";
-    if (location.pathname === "/contact") return "Contact";
-    if (location.pathname === "/subjects") return "Subjects";
-    if (location.pathname === "/questions") return "Global questions";
-    if (location.pathname.includes("/questions")) return "Questions List";
+    if (location.pathname === "/") return t("header.titles.home");
+    if (location.pathname === "/about") return t("header.titles.about");
+    if (location.pathname === "/contact") return t("header.titles.contact");
+    if (location.pathname === "/subjects") return t("header.titles.subjects");
+    if (location.pathname === "/questions") return t("header.titles.questions");
+    if (location.pathname.includes("/questions"))
+      return t("header.titles.questions_list");
     if (location.pathname.startsWith("/subjects/") && params.subject)
       return `${params.subject}`;
-    return "Not found";
+    return t("header.404");
   };
 
   const handleSubtitle = (): ReactNode => {
@@ -37,8 +41,8 @@ const useTitle = () => {
               params.unit
                 ? params.unit
                 : location.pathname.includes("/questions")
-                ? "All questions"
-                : "Units"
+                ? t("header.titles.all_questions")
+                : t("header.titles.all_units")
             }
           />
         </div>

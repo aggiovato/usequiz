@@ -1,0 +1,73 @@
+{
+  "home": {
+    "welcome_msg": {
+      "title": "Bienvenido a <2>useQuiz()</2>",
+      "secondary": "La forma más fácil de aprender, crear y compartir cuestionarios",
+      "sign_up": "Crear una cuenta",
+      "hit_the_road": "Empezar"
+    },
+    "donut": {
+      "stats": {
+        "correct": "Correctas",
+        "incorrect": "Incorrectas",
+        "pending": "Pendientes"
+      },
+      "title": "Continuar...",
+      "progress": "Has completado <1>{{viewed}}</1> de <1>{{total}}</1> preguntas."
+    },
+    "features": {
+      "title": "¿Qué puedes hacer con useQuiz?",
+      "study": {
+        "title": "Estudiar",
+        "desc": "Practica con preguntas ilimitadas de todas las asignaturas."
+      },
+      "create": {
+        "title": "Crear",
+        "desc": "Crea tus propias preguntas personalizadas fácilmente."
+      },
+      "collections": {
+        "title": "Coleccionar",
+        "desc": "Agrupa preguntas en paquetes y compártelos."
+      },
+      "rate": {
+        "title": "Valorar",
+        "desc": "Da tu opinión y comenta preguntas de otros."
+      }
+    }
+  },
+  "header": {
+    "titles": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "subjects": "Asignaturas",
+      "questions": "Preguntas Globales",
+      "questions_list": "Lista de Preguntas",
+      "404": "No encontrado",
+      "all_questions": "Todas las preguntas",
+      "all_units": "Unidades"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "subjects": "Asignaturas",
+      "questions": "Preguntas"
+    }
+  },
+  "footer": {},
+
+  "subjects": {
+    "units_one": "<0>{{count}}</0> unidad",
+    "units_other": "<0>{{count}}</0> unidades",
+    "questions_one": "<0>{{count}}</0> pregunta",
+    "questions_other": "<0>{{count}}</0> preguntas"
+  },
+  "units": {
+    "btn": "Todas las preguntas",
+    "card": {
+      "questions_one": "<0>{{count}}</0> pregunta",
+      "questions_other": "<0>{{count}}</0> preguntas"
+    }
+  }
+}

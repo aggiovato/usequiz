@@ -20,9 +20,26 @@ const HomePage = () => {
       {/* *************************************************************************** */}
 
       {/* Features */}
-      <section className="px-6 md:px-12 mt-20 mb-6 md:mb-0">
+      <section className="px-6 md:px-10 mt-18 mb-6">
         <Features />
       </section>
+
+      {/* *************************************************************************** */}
+
+      {/* Footer */}
+      <footer className="md:hidden px-6 md:px-10 mt-10 mb-6 md:mb-0">
+        <p className="text-center text-sm text-dark-teal/60">
+          Made with ❤️ by{" "}
+          <a
+            href="https://github.com/heber/usequiz"
+            target="_blank"
+            rel="noreferrer"
+            className="text-teal-strong hover:underline"
+          >
+            Heber
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };

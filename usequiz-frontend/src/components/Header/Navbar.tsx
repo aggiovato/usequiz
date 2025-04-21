@@ -5,7 +5,7 @@ import IksIcon from "../icons/IksIcon";
 
 const Navbar = () => {
   const location = useLocation();
-  const { open, setOpen, currentedRoutes } = useNavbar(location);
+  const { open, setOpen, currentedRoutes, dropdownRef } = useNavbar(location);
 
   return (
     <nav className="navbar">
@@ -26,58 +26,37 @@ const Navbar = () => {
       </div>
 
       {/* Mobile hamburger icon */}
-      <button
-        className="md:hidden"
-        onClick={() => setOpen(!open)}
-        aria-label="Toggle menu"
-      >
-        {open ? (
-          <IksIcon className="w-6 h-6 hover:opacity-70" />
-        ) : (
-          <HamburguerIcon className="w-6 h-6 hover:opacity-70" />
-        )}
-      </button>
+      <div ref={dropdownRef}>
+        <button
+          className="md:hidden gap-0 p-0"
+          onClick={() => setOpen((prev) => !prev)}
+          aria-label="Toggle menu"
+        >
+          {open ? (
+            <IksIcon className="w-5 h-6 hover:opacity-70" />
+          ) : (
+            <HamburguerIcon className="w-5 h-6 hover:opacity-70" />
+          )}
+        </button>
 
-      {/* Mobile dropdown menu */}
-      {open && (
-        <div className="absolute top-full left-0 w-full bg-dark-teal/95 shadow-md flex flex-col items-start mid:hidden z-40">
-          <Link
-            to="/"
-            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
-            onClick={() => setOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            to="/subjects"
-            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
-            onClick={() => setOpen(false)}
-          >
-            Subjects
-          </Link>
-          <Link
-            to="/questions"
-            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
-            onClick={() => setOpen(false)}
-          >
-            Questions
-          </Link>
-          <Link
-            to="/about"
-            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
-            onClick={() => setOpen(false)}
-          >
-            About
-          </Link>
-          <Link
-            to="/contact"
-            className="px-8 py-3 w-full hover:bg-dark-teal/80 hover:text-amber-glow"
-            onClick={() => setOpen(false)}
-          >
-            Contact
-          </Link>
-        </div>
-      )}
+        {/* Mobile dropdown menu */}
+        {open && (
+          <div className="absolute top-full left-0 w-full bg-dark-teal/95 shadow-md flex flex-col items-start border-t-2 border-t-teal-600 p-2 mid:hidden z-40 text-base transition-all duration-300">
+            {currentedRoutes.map((route) => (
+              <Link
+                key={route.name}
+                to={route.path}
+                className={`px-8 py-3 w-full rounded-lg hover:bg-teal-strong hover:text-amber-glow transition-all duration-200 ${
+                  route.currentPage ? "text-amber-glow bg-teal-strong/70" : ""
+                }`}
+                onClick={() => setOpen(false)}
+              >
+                {route.name}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
     </nav>
   );
 };

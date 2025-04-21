@@ -8,7 +8,7 @@ const MainLayout = () => {
   return (
     <>
       <Header title={title} subtitle={subtitle} />
-      <main className="m-0 p-0">
+      <main>
         <Outlet />
       </main>
     </>

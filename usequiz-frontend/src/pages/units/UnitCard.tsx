@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { UnitType } from "../../types/types";
+import { Trans } from "react-i18next";
 
 interface UnitCardProps {
   subject: string;
@@ -29,7 +30,11 @@ const UnitCard = ({ subject, unit, svg }: UnitCardProps) => {
         </div>
 
         <p className="card-details mt-3">
-          <span>{unit.questionCount}</span> questions
+          <Trans
+            i18nKey="units.card.questions"
+            count={unit.questionCount}
+            components={[<span />]}
+          />
         </p>
       </div>
     </Link>

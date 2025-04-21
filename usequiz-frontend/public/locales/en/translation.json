@@ -1,0 +1,72 @@
+{
+  "home": {
+    "welcome_msg": {
+      "title": "Welcome to <2>useQuiz()</2>",
+      "secondary": "The easiest way to learn, create and share quizzes",
+      "sign_up": "Create an account",
+      "hit_the_road": "Hit the road"
+    },
+    "donut": {
+      "stats": {
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "pending": "Pending"
+      },
+      "title": "Keep going...",
+      "progress": "You've completed <1>{{viewed}}</1> out of <1>{{total}}</1> questions."
+    },
+    "features": {
+      "title": "What can you do with useQuiz?",
+      "study": {
+        "title": "Study",
+        "desc": "Practice with unlimited questions from all subjects."
+      },
+      "create": {
+        "title": "Create",
+        "desc": "Make your own custom questions easily."
+      },
+      "collections": {
+        "title": "Collections",
+        "desc": "Group questions into packs and share them."
+      },
+      "rate": {
+        "title": "Rate",
+        "desc": "Give feedback and discuss questions from others."
+      }
+    }
+  },
+  "header": {
+    "titles": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "subjects": "Subjects",
+      "questions": "Global Questions",
+      "questions_list": "Question List",
+      "404": "Not found",
+      "all_questions": "All questions",
+      "all_units": "Units"
+    },
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "subjects": "Subjects",
+      "questions": "Questions"
+    }
+  },
+  "footer": {},
+  "subjects": {
+    "units_one": "<0>{{count}}</0> unit",
+    "units_other": "<0>{{count}}</0> units",
+    "questions_one": "<0>{{count}}</0> question",
+    "questions_other": "<0>{{count}}</0> questions"
+  },
+  "units": {
+    "btn": "See all questions",
+    "card": {
+      "questions_one": "<0>{{count}}</0> question",
+      "questions_other": "<0>{{count}}</0> questions"
+    }
+  }
+}

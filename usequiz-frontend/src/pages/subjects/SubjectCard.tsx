@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { SubjectType } from "../../types/types";
+import { Trans } from "react-i18next";
 
 interface SubjectCardProps {
   subject: SubjectType;
@@ -21,10 +22,18 @@ const SubjectCard = ({ subject, svg }: SubjectCardProps) => {
         </h3>
 
         <p className="card-details mt-3">
-          <span>{subject.unitCount}</span> units
+          <Trans
+            i18nKey="subjects.units"
+            count={subject.unitCount}
+            components={[<span />]}
+          />
         </p>
         <p className="card-details">
-          <span>{subject.questionCount}</span> questions
+          <Trans
+            i18nKey="subjects.questions"
+            count={subject.questionCount}
+            components={[<span />]}
+          />
         </p>
       </div>
     </Link>

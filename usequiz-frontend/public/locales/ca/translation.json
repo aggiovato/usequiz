@@ -1,0 +1,73 @@
+{
+  "home": {
+    "welcome_msg": {
+      "title": "Benvingut a <2>useQuiz()</2>",
+      "secondary": "La manera més fàcil d'aprendre, crear i compartir qüestionaris",
+      "sign_up": "Crea un compte",
+      "hit_the_road": "Comença"
+    },
+    "donut": {
+      "stats": {
+        "correct": "Correctes",
+        "incorrect": "Incorrectes",
+        "pending": "Pendents"
+      },
+      "title": "Segueix així...",
+      "progress": "Has completat <1>{{viewed}}</1> de <1>{{total}}</1> preguntes."
+    },
+    "features": {
+      "title": "Què pots fer amb useQuiz?",
+      "study": {
+        "title": "Estudiar",
+        "desc": "Practica amb preguntes il·limitades de totes les assignatures."
+      },
+      "create": {
+        "title": "Crear",
+        "desc": "Crea fàcilment les teves pròpies preguntes personalitzades."
+      },
+      "collections": {
+        "title": "Col·leccionar",
+        "desc": "Agrupa preguntes en paquets i comparteix-los."
+      },
+      "rate": {
+        "title": "Valorar",
+        "desc": "Dona la teva opinió i comenta preguntes d'altres."
+      }
+    }
+  },
+  "header": {
+    "titles": {
+      "home": "Inici",
+      "about": "Quant a",
+      "contact": "Contacte",
+      "subjects": "Assignatures",
+      "questions": "Preguntes Globals",
+      "questions_list": "Llista de preguntes",
+      "404": "No trobat",
+      "all_questions": "Totes les preguntes",
+      "all_units": "Unitats"
+    },
+    "navbar": {
+      "home": "Inici",
+      "about": "Quant a",
+      "contact": "Contacte",
+      "subjects": "Assignatures",
+      "questions": "Preguntes"
+    }
+  },
+  "footer": {},
+
+  "subjects": {
+    "units_one": "<0>{{count}}</0> unitat",
+    "units_other": "<0>{{count}}</0> unitats",
+    "questions_one": "<0>{{count}}</0> pregunta",
+    "questions_other": "<0>{{count}}</0> preguntes"
+  },
+  "units": {
+    "btn": "Totes les preguntes",
+    "card": {
+      "questions_one": "<0>{{count}}</0> pregunta",
+      "questions_other": "<0>{{count}}</0> preguntes"
+    }
+  }
+}

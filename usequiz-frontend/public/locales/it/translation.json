@@ -1,0 +1,73 @@
+{
+  "home": {
+    "welcome_msg": {
+      "title": "Benvenuto su <2>useQuiz()</2>",
+      "secondary": "Il modo più semplice per imparare, creare e condividere quiz",
+      "sign_up": "Crea un account",
+      "hit_the_road": "Inizia"
+    },
+    "donut": {
+      "stats": {
+        "correct": "Corrette",
+        "incorrect": "Errate",
+        "pending": "In sospeso"
+      },
+      "title": "Continua così...",
+      "progress": "Hai completato <1>{{viewed}}</1> su <1>{{total}}</1> domande."
+    },
+    "features": {
+      "title": "Cosa puoi fare con useQuiz?",
+      "study": {
+        "title": "Studia",
+        "desc": "Esercitati con domande illimitate di tutte le materie."
+      },
+      "create": {
+        "title": "Crea",
+        "desc": "Crea facilmente le tue domande personalizzate."
+      },
+      "collections": {
+        "title": "Colleziona",
+        "desc": "Raggruppa le domande in pacchetti e condividile."
+      },
+      "rate": {
+        "title": "Valuta",
+        "desc": "Dai feedback e discuti le domande degli altri."
+      }
+    }
+  },
+  "header": {
+    "titles": {
+      "home": "Home",
+      "about": "Informazioni",
+      "contact": "Contatto",
+      "subjects": "Materie",
+      "questions": "Domande Globali",
+      "questions_list": "Elenco domande",
+      "404": "Non trovato",
+      "all_questions": "Tutte le domande",
+      "all_units": "Unità"
+    },
+    "navbar": {
+      "home": "Home",
+      "about": "Informazioni",
+      "contact": "Contatto",
+      "subjects": "Materie",
+      "questions": "Domande"
+    }
+  },
+  "footer": {},
+
+  "subjects": {
+    "units_one": "<0>{{count}}</0> unità",
+    "units_other": "<0>{{count}}</0> unità",
+    "questions_one": "<0>{{count}}</0> domanda",
+    "questions_other": "<0>{{count}}</0> domande"
+  },
+  "units": {
+    "btn": "Tutte le domande",
+    "card": {
+      "questions_one": "<0>{{count}}</0> domanda",
+      "questions_other": "<0>{{count}}</0> domande"
+    }
+  }
+}

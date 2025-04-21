@@ -116,7 +116,9 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
                   checked={selectionArr.includes(option.id)}
                 />
                 <label htmlFor={option.id}>
-                  <ReactMarkdown>{`*${option.text}*`}</ReactMarkdown>
+                  <ReactMarkdown>{`**${option.id.toUpperCase()})** *${
+                    option.text
+                  }*`}</ReactMarkdown>
                 </label>
               </div>
             ))}
