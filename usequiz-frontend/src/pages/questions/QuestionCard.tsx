@@ -5,6 +5,7 @@ import NextIcon from "../../components/icons/NextIcon";
 import PrevIcon from "../../components/icons/PrevIcon";
 import CDialogWrapper from "../../components/customs/CDialogWrapper";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import _ from "lodash";
 
 // This is the current question
@@ -19,6 +20,8 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
   const total = usePackStore((state) => state.stats.total);
   const stats = usePackStore((state) => state.stats);
   const { nextQuestion, prevQuestion } = usePackStore();
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (!question) return;
@@ -72,16 +75,13 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
       {showAlert && (
         <CDialogWrapper type="error">
           <div className="flex flex-col gap-3 mt-4 text-sm text-center">
-            <p>
-              Debe seleccionar al menos una opción para poder verificar la
-              respuesta.
-            </p>
+            <p>{t("dialog.error.selection_error.content")}</p>
 
             <button
               className="btn btn-primary mt-6 min-w-xs self-center"
               onClick={() => setShowAlert(false)}
             >
-              Ok
+              {t("dialog.error.selection_error.ok")}
             </button>
           </div>
         </CDialogWrapper>

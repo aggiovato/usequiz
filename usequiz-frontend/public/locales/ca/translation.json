@@ -69,5 +69,74 @@
       "questions_one": "<0>{{count}}</0> pregunta",
       "questions_other": "<0>{{count}}</0> preguntes"
     }
+  },
+  "dialog": {
+    "info": {
+      "title": "Informació"
+    },
+    "success": {
+      "title": "Èxit!"
+    },
+    "warning": {
+      "title": "Atenció!",
+      "changepack_warning": {
+        "info_one": "Actualment tens un paquet actiu amb <1>{{count}}</1> pregunta i les estadístiques següents...",
+        "info_other": "Actualment tens un paquet actiu amb <1>{{count}}</1> preguntes i les estadístiques següents...",
+        "stats": "Estadístiques",
+        "seen_one": "<0>{{count}}</0> vista",
+        "seen_other": "<0>{{count}}</0> vistes",
+        "right_one": "<0>{{count}}</0> correcta",
+        "right_other": "<0>{{count}}</0> correctes",
+        "wrong_one": "<0>{{count}}</0> incorrecta",
+        "wrong_other": "<0>{{count}}</0> incorrectes",
+        "question": "Segur que vols abandonar el paquet actual i començar-ne un de nou?",
+        "yes": "Sí, som-hi!",
+        "back": "Tornar",
+        "actual": "Veure paquet actual"
+      }
+    },
+    "error": {
+      "title": "Error!",
+      "selection_error": {
+        "content": "Has de seleccionar almenys una opció per poder verificar la resposta.",
+        "ok": "Ok"
+      }
+    }
+  },
+  "404": {
+    "title": "Ooops! Estàs perdut?",
+    "subtitle": "Sembla que la pàgina que estàs buscant no existeix.",
+    "contact": "Si creus que això és un error, si us plau contacta amb nosaltres.",
+    "home_btn": "Torna a l'inici",
+    "contact_btn": "Contacta'ns"
+  },
+  "about": {
+    "title": "Sobre aquest projecte",
+    "desc": "<0>useQuiz</0> és una plataforma moderna i intuïtiva dissenyada per ajudar-te a estudiar, crear i compartir qüestionaris de manera senzilla i potent. Pensada per estudiants i docents, useQuiz ofereix:",
+    "features_list": {
+      "1": "Una interfície neta per explorar preguntes per assignatura i unitat.",
+      "2": "Un mode de qüestionari dinàmic per fer seguiment del teu progrés amb feedback instantani.",
+      "3": "Suport per a diversos idiomes.",
+      "4": "Un disseny intuïtiu i responsiu.",
+      "5": "Un sistema preparat pel futur que desa les teves estadístiques i les sincronitza entre dispositius."
+    },
+    "desc2": "Aquest projecte està actualment <1>en desenvolupament</1> i vol oferir una experiència divertida i atractiva per a qualsevol persona que vulgui aprendre, practicar o posar a prova els seus coneixements. Estem treballant constantment en noves funcionalitats com comptes d’usuari, sistemes de rànquing i qüestionaris col·laboratius. Si utilitzes useQuiz, ja estàs aprenent de forma més intel·ligent.",
+    "details_title": "Detalls del projecte",
+    "details_list": {
+      "1": "<0>Versió:</0> <1>1.0.0</1>",
+      "2": "<0>Objectiu:</0> <1>Practicar preguntes tipus test de manera senzilla.</1>",
+      "3": "<0>Versions futures:</0> <1>comptes d'usuari, sistemes de valoració i comentaris, desar progrés i qüestionaris col·laboratius...</1>"
+    },
+    "about_me": {
+      "name": "Alejandro Lugo",
+      "desc": "Desenvolupador Full-Stack",
+      "title": "Sobre mi",
+      "info": "Sóc un desenvolupador full-stack apassionat per crear solucions innovadores. M'encanta explorar noves tecnologies i portar al límit el que és possible. Sempre estic aprenent i millorant les meves habilitats, i estic emocionat de construir pas a pas la plataforma useQuiz ➤",
+      "contact": {
+        "email": "Correu: aggiovato@gmail.com",
+        "github": "Github: @aggiovato"
+      }
+    },
+    "footer": "Aquest projecte està en constant desenvolupament. Gràcies per provar-lo!"
   }
 }

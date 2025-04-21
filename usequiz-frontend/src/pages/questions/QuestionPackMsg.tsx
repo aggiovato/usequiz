@@ -2,6 +2,7 @@ import CDialogWrapper from "../../components/customs/CDialogWrapper";
 import { usePackStore } from "../../stores/usePackStore";
 import { useNavigate } from "react-router-dom";
 import { QuestionType } from "../../types/types";
+import { useTranslation, Trans } from "react-i18next";
 import PieChart from "../home/PieChart";
 
 const QuestionPackMsg = ({
@@ -13,12 +14,9 @@ const QuestionPackMsg = ({
 }) => {
   const navigate = useNavigate();
 
-  const {
-    questions: packQuestions,
-    routeFrom,
-    stats,
-    setQuestions,
-  } = usePackStore();
+  const { t } = useTranslation();
+
+  const { routeFrom, stats, setQuestions } = usePackStore();
 
   const handlePackStart = (questions: QuestionType[], route: string) => {
     if (questions.length === 0) return;
@@ -29,21 +27,36 @@ const QuestionPackMsg = ({
     <CDialogWrapper type="warning">
       <div className="flex flex-col gap-3 mt-4 text-sm">
         <p className="text-center">
-          Actualmente tienes un paquete de preguntas activo de{" "}
-          <span>{packQuestions.length} preguntas</span>
+          <Trans
+            i18nKey="dialog.warning.changepack_warning.info"
+            count={stats.total}
+            components={[<></>, <span />]}
+          />
         </p>
 
         <div className="flex gap-6 justify-center items-center">
           <div className="text-xs space-y-1 mt-2">
-            <h2>Estadísticas:</h2>
+            <h2>{t("dialog.warning.changepack_warning.stats")}:</h2>
             <p className="text-teal-strong/60">
-              <span>{stats.viewed.length}</span> vistas
+              <Trans
+                i18nKey="dialog.warning.changepack_warning.seen"
+                count={stats.viewed.length}
+                components={[<span />]}
+              />
             </p>
             <p className="text-teal-strong/60">
-              <span>{stats.correct.length}</span> correctas
+              <Trans
+                i18nKey="dialog.warning.changepack_warning.right"
+                count={stats.correct.length}
+                components={[<span />]}
+              />
             </p>
             <p className="text-teal-strong/60">
-              <span>{stats.incorrect.length}</span> incorrectas
+              <Trans
+                i18nKey="dialog.warning.changepack_warning.wrong"
+                count={stats.incorrect.length}
+                components={[<span />]}
+              />
             </p>
           </div>
 
@@ -54,8 +67,7 @@ const QuestionPackMsg = ({
       {/* *************************************************************************** */}
 
       <p className="text-sm text-dark-teal mt-6 text-center">
-        ¿Estás seguro que quieres abandonar el progreso y empezar este nuevo
-        paquete?
+        {t("dialog.warning.changepack_warning.question")}
       </p>
 
       <div className="flex flex-col gap-2 max-w-[260px] mx-auto items-stretch mt-6">
@@ -63,13 +75,13 @@ const QuestionPackMsg = ({
           className="btn btn-primary"
           onClick={() => handlePackStart(loadedQuestions, route)}
         >
-          Sí, empezar
-        </button>
-        <button className="btn btn-ghost" onClick={() => navigate(-1)}>
-          Regresar
+          {t("dialog.warning.changepack_warning.yes")}
         </button>
         <button className="btn btn-ghost" onClick={() => navigate(routeFrom)}>
-          Ver pack actual
+          {t("dialog.warning.changepack_warning.actual")}
+        </button>
+        <button className="btn btn-ghost" onClick={() => navigate(-1)}>
+          {t("dialog.warning.changepack_warning.back")}
         </button>
       </div>
     </CDialogWrapper>

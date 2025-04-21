@@ -69,5 +69,74 @@
       "questions_one": "<0>{{count}}</0> domanda",
       "questions_other": "<0>{{count}}</0> domande"
     }
+  },
+  "dialog": {
+    "info": {
+      "title": "Informazioni"
+    },
+    "success": {
+      "title": "Successo!"
+    },
+    "warning": {
+      "title": "Attenzione!",
+      "changepack_warning": {
+        "info_one": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domanda e le seguenti statistiche...",
+        "info_other": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domande e le seguenti statistiche...",
+        "stats": "Statistiche",
+        "seen_one": "<0>{{count}}</0> vista",
+        "seen_other": "<0>{{count}}</0> viste",
+        "right_one": "<0>{{count}}</0> corretta",
+        "right_other": "<0>{{count}}</0> corrette",
+        "wrong_one": "<0>{{count}}</0> errata",
+        "wrong_other": "<0>{{count}}</0> errate",
+        "question": "Sei sicuro di voler abbandonare il pacchetto attuale e iniziarne uno nuovo?",
+        "yes": "Sì, andiamo!",
+        "back": "Torna indietro",
+        "actual": "Vedi pacchetto attuale"
+      }
+    },
+    "error": {
+      "title": "Errore!",
+      "selection_error": {
+        "content": "Devi selezionare almeno un'opzione per poter verificare la risposta.",
+        "ok": "Ok"
+      }
+    }
+  },
+  "404": {
+    "title": "Oooops! Ti sei perso?",
+    "subtitle": "Sembra che la pagina che stai cercando non esista.",
+    "contact": "Se pensi che ci sia un errore, ti preghiamo di contattarci.",
+    "home_btn": "Vai alla home",
+    "contact_btn": "Contattaci"
+  },
+  "about": {
+    "title": "Informazioni su questo progetto",
+    "desc": "<0>useQuiz</0> è una piattaforma moderna e intuitiva progettata per aiutarti a studiare, creare e condividere quiz in modo semplice e potente. Creata per studenti e insegnanti, useQuiz offre:",
+    "features_list": {
+      "1": "Un'interfaccia pulita per esplorare le domande per materia e unità.",
+      "2": "Una modalità quiz dinamica per monitorare i tuoi progressi con feedback immediato.",
+      "3": "Supporto per più lingue.",
+      "4": "Un design user-friendly e reattivo.",
+      "5": "Un sistema pronto per il futuro per salvare i tuoi progressi e sincronizzarli tra i dispositivi."
+    },
+    "desc2": "Questo progetto è attualmente <1>in sviluppo</1> e mira a offrire un'esperienza divertente e coinvolgente a chiunque voglia imparare, esercitarsi o testare le proprie conoscenze. Stiamo lavorando continuamente su nuove funzionalità come account utente, sistemi di ranking e quiz collaborativi. Se stai usando useQuiz, stai già imparando in modo più intelligente.",
+    "details_title": "Dettagli del progetto",
+    "details_list": {
+      "1": "<0>Versione:</0> <1>1.0.0</1>",
+      "2": "<0>Obiettivo:</0> <1>Esercitarsi con domande a scelta multipla in modo semplice.</1>",
+      "3": "<0>Versioni future:</0> <1>account utente, sistemi di valutazione e commenti, salvataggio dei progressi e quiz collaborativi...</1>"
+    },
+    "about_me": {
+      "name": "Alejandro Lugo",
+      "desc": "Sviluppatore Full-Stack",
+      "title": "Chi sono",
+      "info": "Sono uno sviluppatore full-stack appassionato di soluzioni innovative. Amo esplorare nuove tecnologie e spingere oltre i limiti del possibile. Continuo ad imparare e a migliorare le mie competenze, e sono entusiasta di costruire passo dopo passo la piattaforma useQuiz ➤",
+      "contact": {
+        "email": "Email: aggiovato@gmail.com",
+        "github": "Github: @aggiovato"
+      }
+    },
+    "footer": "Questo progetto è in continuo sviluppo. Grazie per provarlo!"
   }
 }

@@ -1,4 +1,10 @@
 import { ReactNode } from "react";
+import warningIcon from "../../assets/img/warning.svg";
+import infoIcon from "../../assets/img/info.svg";
+import successIcon from "../../assets/img/success.svg";
+import errorIcon from "../../assets/img/error.svg";
+import { useTranslation } from "react-i18next";
+import { TFunction } from "i18next";
 import clsx from "clsx";
 
 type DialogType = "info" | "success" | "warning" | "error";
@@ -9,23 +15,25 @@ interface CDialogWrapperProps {
   onClose?: () => void;
 }
 
-const dialogObj = {
-  info: {
-    title: "Información",
-    icon: "info-circle",
-  },
-  success: {
-    title: "Éxito",
-    icon: "check-circle",
-  },
-  warning: {
-    title: "¡Atención!",
-    icon: "exclamation-triangle",
-  },
-  error: {
-    title: "Error",
-    icon: "exclamation-circle",
-  },
+const generateTypes = (t: TFunction) => {
+  return {
+    info: {
+      title: t("dialog.info.title"),
+      icon: infoIcon,
+    },
+    success: {
+      title: t("dialog.success.title"),
+      icon: successIcon,
+    },
+    warning: {
+      title: t("dialog.warning.title"),
+      icon: warningIcon,
+    },
+    error: {
+      title: t("dialog.error.title"),
+      icon: errorIcon,
+    },
+  };
 };
 
 const CDialogWrapper = ({
@@ -33,6 +41,9 @@ const CDialogWrapper = ({
   children,
   onClose,
 }: CDialogWrapperProps) => {
+  const { t } = useTranslation();
+  const types = generateTypes(t);
+
   return (
     <div
       className="fixed inset-0 z-50 bg-black/40 backdrop-blur-xs flex items-center justify-center p-6 md:p-4"
@@ -51,16 +62,23 @@ const CDialogWrapper = ({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex flex-col gap-2">
-          <p
-            className={clsx("text-xl font-bold mb-2", {
-              "border-blue-400": type === "info",
-              "text-teal-bright": type === "success",
-              "text-amber-glow": type === "warning",
-              "text-rose-clay": type === "error",
-            })}
-          >
-            {dialogObj[type].title}
-          </p>
+          <div className="flex items-center gap-4 mb-2">
+            <img
+              src={types[type].icon}
+              alt={types[type].title}
+              className="w-10 h-10"
+            />
+            <p
+              className={clsx("text-xl font-bold", {
+                "border-blue-400": type === "info",
+                "text-teal-bright": type === "success",
+                "text-amber-glow": type === "warning",
+                "text-rose-clay": type === "error",
+              })}
+            >
+              {types[type].title}
+            </p>
+          </div>
 
           <hr className="border-teal-bright/20 border-t-3 mb-4" />
         </div>
