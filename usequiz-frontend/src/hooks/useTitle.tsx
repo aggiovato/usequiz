@@ -27,7 +27,7 @@ const useTitle = () => {
       return t("header.titles.questions_list");
     if (location.pathname.startsWith("/subjects/") && params.subject)
       return `${params.subject}`;
-    return t("header.404");
+    return t("header.titles.404");
   };
 
   const handleSubtitle = (): ReactNode => {
