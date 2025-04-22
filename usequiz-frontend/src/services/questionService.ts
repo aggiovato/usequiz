@@ -5,7 +5,9 @@ const baseURL = import.meta.env.VITE_BACKEND_BASEURL as string;
 
 export const getSubjects = async () => {
   try {
-    const res = await axios.get(baseURL + "subjects");
+    const res = await axios.get(baseURL + "/subjects");
+    console.log("✅ Data from API:", res.data);
+    console.log("👉 Is array?", Array.isArray(res.data));
     return res.data;
   } catch (error) {
     console.error("Error fetching subjects:", error);
@@ -17,8 +19,10 @@ export const getUnits = async (subject: string) => {
   const encodedSubject = encodeURIComponent(subject);
   try {
     const res = await axios.get(
-      baseURL + "subjects/" + encodedSubject + "/units"
+      baseURL + "/subjects/" + encodedSubject + "/units"
     );
+    console.log("✅ Data from API:", res.data);
+    console.log("👉 Is array?", Array.isArray(res.data));
     return res.data;
   } catch (error) {
     console.error("Error fetching units:", error);
@@ -28,7 +32,9 @@ export const getUnits = async (subject: string) => {
 
 export const getAllQuestions = async () => {
   try {
-    const res = await axios.get(baseURL + "questions");
+    const res = await axios.get(baseURL + "/questions");
+    console.log("✅ Data from API:", res.data);
+    console.log("👉 Is array?", Array.isArray(res.data));
     return res.data;
   } catch (error) {
     console.error("Error fetching questions:", error);
@@ -43,7 +49,7 @@ export const getQuestionsBySubject = async ({
   const encodedSubject = encodeURIComponent(subject);
   try {
     const res = await axios.get(
-      `${baseURL}subjects/${encodedSubject}/questions`
+      `${baseURL}/subjects/${encodedSubject}/questions`
     );
     return res.data;
   } catch (error) {
@@ -63,7 +69,7 @@ export const getQuestionsBySubjectUnit = async ({
 
   try {
     const res = await axios.get(
-      `${baseURL}subjects/${encodedSubject}/units/${encodedUnit}/questions`
+      `${baseURL}/subjects/${encodedSubject}/units/${encodedUnit}/questions`
     );
     return res.data;
   } catch (error) {
