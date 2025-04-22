@@ -35,7 +35,7 @@ const Header = ({
         </div>
       </div>
 
-      <div className="flex md:gap-4 items-stretch">
+      <div className="flex mt-1.5 md:gap-4 items-stretch">
         <Navbar />
 
         <CLanguageDropdown />
