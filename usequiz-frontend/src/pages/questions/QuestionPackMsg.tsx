@@ -13,14 +13,20 @@ const QuestionPackMsg = ({
   route: string;
 }) => {
   const navigate = useNavigate();
-
   const { t } = useTranslation();
-
   const { routeFrom, stats, setQuestions } = usePackStore();
 
   const handlePackStart = (questions: QuestionType[], route: string) => {
     if (questions.length === 0) return;
     setQuestions(questions, route);
+  };
+
+  const handleBack = () => {
+    if (window.history.length > 2) {
+      navigate(-1);
+    } else {
+      navigate("/");
+    }
   };
 
   return (
@@ -80,7 +86,7 @@ const QuestionPackMsg = ({
         <button className="btn btn-ghost" onClick={() => navigate(routeFrom)}>
           {t("dialog.warning.changepack_warning.actual")}
         </button>
-        <button className="btn btn-ghost" onClick={() => navigate(-1)}>
+        <button className="btn btn-ghost" onClick={handleBack}>
           {t("dialog.warning.changepack_warning.back")}
         </button>
       </div>

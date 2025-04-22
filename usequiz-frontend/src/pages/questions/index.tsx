@@ -5,6 +5,7 @@ import useQuestionPack from "../../hooks/useQuestionPack";
 
 const QuestionPack = () => {
   const {
+    isLoading,
     isOpenablePack,
     currentQ,
     loadedQuestions,
@@ -12,6 +13,16 @@ const QuestionPack = () => {
     packQuestions,
     setCurrentQ,
   } = useQuestionPack();
+
+  if (isLoading) {
+    return (
+      <main className="min-h-[calc(100vh-6.25rem)] flex items-center justify-center">
+        <p className="text-dark-teal/60 text-sm animate-pulse">
+          Loading pack...
+        </p>
+      </main>
+    );
+  }
 
   return (
     <main>

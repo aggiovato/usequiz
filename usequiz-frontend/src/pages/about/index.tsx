@@ -46,7 +46,7 @@ const AboutPage = () => {
           <h2 className="text-xl font-semibold text-dark-teal mb-2">
             {t("about.details_title")}
           </h2>
-          <ul className="text-dark-teal/80 text-sm space-y-1">
+          <ul className="text-dark-teal/80 text-sm space-y-2">
             <li>
               <Trans
                 i18nKey="about.details_list.1"

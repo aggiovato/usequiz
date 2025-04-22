@@ -6,6 +6,8 @@ import { compareQuestionPacks } from "../utils/compareQuestionPacks";
 
 const useQuestionPack = () => {
   const [isOpenablePack, setIsOpenablePack] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
   const { questions: loadedQuestions, route } = useLoaderData() as {
     questions: QuestionType[];
     route: string;
@@ -27,6 +29,8 @@ const useQuestionPack = () => {
     } else {
       setIsOpenablePack(compareQuestionPacks(loadedQuestions, packQuestions));
     }
+
+    setIsLoading(false);
   }, [
     loadedQuestions,
     packQuestions,
@@ -37,6 +41,7 @@ const useQuestionPack = () => {
   ]);
 
   return {
+    isLoading,
     isOpenablePack,
     currentQ,
     loadedQuestions,

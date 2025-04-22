@@ -14,15 +14,22 @@ const useUnit = () => {
     units,
     lettersMap,
     isLoading,
+    currentSubject,
     setUnits,
     setLettersMap,
     setIsLoading,
+    setCurrentSubject,
   } = useUnitStore();
 
   // useEffect to update the store on mount after the data has been already loaded
   useEffect(() => {
     const fetchUnits = async () => {
       try {
+        if (currentSubject === subject && units.length > 0) {
+          // The units are already loaded and the subject is the same
+          return;
+        }
+
         setIsLoading(true);
         const freshUnits = await getUnits(subject as string);
 
@@ -41,6 +48,7 @@ const useUnit = () => {
 
         setUnits(freshUnits);
         setLettersMap(freshMap);
+        setCurrentSubject(subject as string);
       } catch (err) {
         console.log(err);
       } finally {
@@ -49,17 +57,24 @@ const useUnit = () => {
     };
 
     fetchUnits();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [subject]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // useEffect to update the language on change
   const { i18n } = useTranslation();
-
   useEffect(() => {}, [i18n.language]);
 
   const handleSeeAllQuestions = () => {
     navigate(`/subjects/${subject}/questions`);
   };
 
-  return { subject, units, lettersMap, isLoading, handleSeeAllQuestions };
+  return {
+    subject,
+    units,
+    lettersMap,
+    isLoading,
+    currentSubject,
+    handleSeeAllQuestions,
+  };
 };
 
 export default useUnit;

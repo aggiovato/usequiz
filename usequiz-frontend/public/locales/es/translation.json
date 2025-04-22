@@ -104,7 +104,7 @@
     }
   },
   "404": {
-    "title": "¡Ooooops! ¿Estás perdido?",
+    "title": "¡Oooops! ¿Estás perdido?",
     "subtitle": "Parece que la página que estás buscando no existe.",
     "contact": "Si crees que esto es un error, por favor contáctanos.",
     "home_btn": "Ir a inicio",
