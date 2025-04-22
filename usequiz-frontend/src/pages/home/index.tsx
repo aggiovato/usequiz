@@ -1,14 +1,10 @@
-import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner";
 import WelcomeMsg from "./WelcomeMsg";
 import Features from "./Features";
+import banner from "../../assets/img/banner.svg";
+import bannerMobile from "../../assets/img/banner_mobile.svg";
 
 const HomePage = () => {
-  const { banner, bannerMobile } = useLoaderData() as {
-    banner: string;
-    bannerMobile: string;
-  };
-
   return (
     <div className="flex flex-col min-h-[calc(100vh-6.25rem)]">
       {/* Hero */}

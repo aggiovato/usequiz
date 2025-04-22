@@ -3,7 +3,20 @@ import { getSubjects } from "../services/questionService";
 import useSubjectStore from "../stores/useSubjectStore";
 import { SubjectType } from "../types/types";
 
+/******************************************************************************/
+
 export const subjectsLoader = async () => {
+  // Check if the subjects are in the zustand store
+  const store = useSubjectStore.getState();
+  if (store.subjects.length > 0 && Object.keys(store.lettersMap).length > 0) {
+    // theres already data so it returns the state to the loader
+    return {
+      subjects: store.subjects,
+      lettersMap: store.lettersMap,
+    };
+  }
+
+  // if theres not so it fetches the data
   const subjects: SubjectType[] = await getSubjects();
 
   const lettersResponse = await Promise.all(
@@ -19,8 +32,8 @@ export const subjectsLoader = async () => {
     lettersMap[subject.subject] = svg;
   });
 
-  useSubjectStore.getState().setSubjects(subjects);
-  useSubjectStore.getState().setLettersMap(lettersMap);
+  store.setSubjects(subjects);
+  store.setLettersMap(lettersMap);
 
   return { subjects, lettersMap };
 };

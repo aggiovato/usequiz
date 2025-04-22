@@ -1,70 +1,77 @@
 import { createBrowserRouter } from "react-router-dom";
-import { homeLoader } from "../loaders/homeLoader";
+import { JSX, lazy, Suspense } from "react";
 import { subjectsLoader } from "../loaders/subjectsLoader";
 import { questionsLoader } from "../loaders/questionsLoader";
-import { unitsLoader } from "../loaders/unitsLoader";
-import Questions from "../pages/questions";
-import MainLayout from "../layouts/MainLayout";
-import ContactLayout from "../layouts/ContactLayout";
-import Home from "../pages/home";
-import About from "../pages/about";
-import Subjects from "../pages/subjects";
-import Units from "../pages/units";
-import NotFound from "../pages/404";
-import Contact from "../pages/contact";
+import CLoader from "../components/customs/CLoader";
+
+// Lazy imports for pages
+const Home = lazy(() => import("../pages/home"));
+const About = lazy(() => import("../pages/about"));
+const Subjects = lazy(() => import("../pages/subjects"));
+const Units = lazy(() => import("../pages/units"));
+const Questions = lazy(() => import("../pages/questions"));
+const NotFound = lazy(() => import("../pages/404"));
+const Contact = lazy(() => import("../pages/contact"));
+
+// Lazy imports for layouts
+const MainLayout = lazy(() => import("../layouts/MainLayout"));
+const ContactLayout = lazy(() => import("../layouts/ContactLayout"));
+
+// Suspense wrapper
+const withSuspense = (Component: JSX.Element) => (
+  <Suspense fallback={<CLoader />}>{Component}</Suspense>
+);
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
+    element: withSuspense(<MainLayout />),
     children: [
       {
         index: true,
-        element: <Home />,
-        loader: homeLoader,
+        element: withSuspense(<Home />),
       },
       {
         path: "about",
-        element: <About />,
+        element: withSuspense(<About />),
       },
       {
         path: "subjects",
-        element: <Subjects />,
+        element: withSuspense(<Subjects />),
         loader: subjectsLoader,
       },
       {
         path: "subjects/:subject",
-        element: <Units />,
-        loader: unitsLoader,
+        element: withSuspense(<Units />),
       },
       {
         path: "questions",
-        element: <Questions />,
+        element: withSuspense(<Questions />),
         loader: questionsLoader,
       },
       {
         path: "subjects/:subject/questions",
-        element: <Questions />,
+        element: withSuspense(<Questions />),
         loader: questionsLoader,
       },
       {
         path: "subjects/:subject/:unit/questions",
-        element: <Questions />,
+        element: withSuspense(<Questions />),
         loader: questionsLoader,
       },
       {
         path: "*",
-        element: <NotFound />,
+        element: withSuspense(<NotFound />),
       },
     ],
   },
   {
     path: "contact",
-    element: <ContactLayout />,
+    element: withSuspense(<ContactLayout />),
     children: [
       {
         index: true,
-        element: <Contact />,
+        element: withSuspense(<Contact />),
       },
     ],
   },
