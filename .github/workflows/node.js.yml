@@ -8,6 +8,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: usequiz-frontend
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -18,7 +21,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Semantic Release
         run: npx semantic-release
