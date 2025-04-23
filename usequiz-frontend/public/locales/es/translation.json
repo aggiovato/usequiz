@@ -43,8 +43,9 @@
       "subjects": "Asignaturas",
       "questions": "Preguntas Globales",
       "questions_list": "Lista de Preguntas",
+      "sign_up": "Registrarse",
       "404": "No encontrado",
-      "all_questions": "Todas las preguntas",
+      "all_questions": "Todas las Preguntas",
       "all_units": "Unidades"
     },
     "navbar": {
@@ -109,6 +110,11 @@
     "contact": "Si crees que esto es un error, por favor contáctanos.",
     "home_btn": "Ir a inicio",
     "contact_btn": "Contáctanos"
+  },
+  "under_construction": {
+    "title": "En construcción",
+    "subtitle": "Esta página / función está en construcción.",
+    "desc": "Estamos trabajando para que esté disponible pronto, ¡así que estate atento a las novedades!"
   },
   "about": {
     "title": "Sobre este proyecto",

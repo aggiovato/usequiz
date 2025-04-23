@@ -43,6 +43,7 @@
       "subjects": "Subjects",
       "questions": "Global Questions",
       "questions_list": "Question List",
+      "sign_up": "Sign up",
       "404": "Not found",
       "all_questions": "All questions",
       "all_units": "Units"
@@ -108,6 +109,11 @@
     "contact": "If you think this is an error, please contact us.",
     "home_btn": "Go home",
     "contact_btn": "Contact us"
+  },
+  "under_construction": {
+    "title": "Under construction",
+    "subtitle": "This page / feature is under construction.",
+    "desc": "We are working hard to make it available soon, so stay tuned for updates!"
   },
   "about": {
     "title": "About this project",

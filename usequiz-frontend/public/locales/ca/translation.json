@@ -42,9 +42,10 @@
       "contact": "Contacte",
       "subjects": "Assignatures",
       "questions": "Preguntes Globals",
-      "questions_list": "Llista de preguntes",
+      "questions_list": "Llista de Preguntes",
+      "sign_up": "Registra't",
       "404": "No trobat",
-      "all_questions": "Totes les preguntes",
+      "all_questions": "Totes les Preguntes",
       "all_units": "Unitats"
     },
     "navbar": {
@@ -109,6 +110,11 @@
     "contact": "Si creus que això és un error, si us plau contacta amb nosaltres.",
     "home_btn": "Torna a l'inici",
     "contact_btn": "Contacta'ns"
+  },
+  "under_construction": {
+    "title": "En construcció",
+    "subtitle": "Aquesta pàgina / funcionalitat està en construcció.",
+    "desc": "Estem treballant intensament per fer-la disponible ben aviat, així que estigues atent a les novetats!"
   },
   "about": {
     "title": "Sobre aquest projecte",

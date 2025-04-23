@@ -42,9 +42,10 @@
       "contact": "Contatto",
       "subjects": "Materie",
       "questions": "Domande Globali",
-      "questions_list": "Elenco domande",
+      "questions_list": "Elenco Domande",
+      "sign_up": "Registrati",
       "404": "Non trovato",
-      "all_questions": "Tutte le domande",
+      "all_questions": "Tutte le Domande",
       "all_units": "Unità"
     },
     "navbar": {
@@ -109,6 +110,11 @@
     "contact": "Se pensi che ci sia un errore, ti preghiamo di contattarci.",
     "home_btn": "Vai alla home",
     "contact_btn": "Contattaci"
+  },
+  "under_construction": {
+    "title": "In costruzione",
+    "subtitle": "Questa pagina / funzionalità è in costruzione.",
+    "desc": "Stiamo lavorando per rendere disponibile presto, quindi non perdereti del tempo a tenerlo aggiornato!"
   },
   "about": {
     "title": "Informazioni sul progetto",

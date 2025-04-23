@@ -13,6 +13,8 @@ const Questions = lazy(() => import("../pages/questions"));
 const NotFound = lazy(() => import("../pages/404"));
 const Contact = lazy(() => import("../pages/contact"));
 
+const UnderConstruction = lazy(() => import("../pages/under_construction"));
+
 // Lazy imports for layouts
 const MainLayout = lazy(() => import("../layouts/MainLayout"));
 const ContactLayout = lazy(() => import("../layouts/ContactLayout"));
@@ -58,6 +60,10 @@ export const router = createBrowserRouter([
         path: "subjects/:subject/:unit/questions",
         element: withSuspense(<Questions />),
         loader: questionsLoader,
+      },
+      {
+        path: "sign-up",
+        element: withSuspense(<UnderConstruction />),
       },
       {
         path: "*",
