@@ -26,4 +26,4 @@ jobs:
       - name: Run Semantic Release
         run: npx semantic-release
         env:
-          USEQUIZ_TOKEN: ${{ secrets.USEQUIZ_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
