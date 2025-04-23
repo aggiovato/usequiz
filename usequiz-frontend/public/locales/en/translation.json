@@ -128,7 +128,7 @@
     "desc2": "This project is currently <1>under development</1> and aims to provide a fun and engaging experience for anyone who wants to learn, practice or test their knowledge. We're constantly working on new features such as user accounts, ranking systems, and collaborative quizzes. If you're using useQuiz, you're already learning smarter.",
     "details_title": "Project details",
     "details_list": {
-      "1": "<0>Version:</0> <1>1.0.0</1>",
+      "1": "<0>Version:</0> <1>{{version}}</1>",
       "2": "<0>Objective:</0> <1>Practice test questions in a simple way.</1>",
       "3": "<0>Future versions:</0> <1>user accounts, rating and comment systems, save progress and collaborative quizzes...</1>"
     },

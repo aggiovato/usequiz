@@ -2,6 +2,8 @@ import profileImg from "../../assets/img/profile.svg";
 import logoDark from "../../assets/img/rounded_dark.svg";
 import { useTranslation, Trans } from "react-i18next";
 
+import { version } from "../../version";
+
 const AboutPage = () => {
   const { t } = useTranslation();
   return (
@@ -50,6 +52,7 @@ const AboutPage = () => {
             <li>
               <Trans
                 i18nKey="about.details_list.1"
+                values={{ version }}
                 components={[<span />, <strong />]}
               />
             </li>

@@ -129,7 +129,7 @@
     "desc2": "Aquest projecte està actualment <1>en desenvolupament</1> i vol oferir una experiència divertida i atractiva per a qualsevol persona que vulgui aprendre, practicar o posar a prova els seus coneixements. Estem treballant constantment en noves funcionalitats com comptes d’usuari, sistemes de rànquing i qüestionaris col·laboratius. Si utilitzes useQuiz, ja estàs aprenent de forma més intel·ligent.",
     "details_title": "Detalls del projecte",
     "details_list": {
-      "1": "<0>Versió:</0> <1>1.0.0</1>",
+      "1": "<0>Versió:</0> <1>{{version}}</1>",
       "2": "<0>Objectiu:</0> <1>Practicar preguntes tipus test de manera senzilla.</1>",
       "3": "<0>Versions futures:</0> <1>comptes d'usuari, sistemes de valoració i comentaris, desar progrés i qüestionaris col·laboratius...</1>"
     },

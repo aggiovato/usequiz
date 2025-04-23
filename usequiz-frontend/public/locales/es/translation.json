@@ -129,7 +129,7 @@
     "desc2": "Este proyecto está actualmente <1>en desarrollo</1> y tiene como objetivo proporcionar una experiencia divertida y atractiva para quienes deseen aprender, practicar o poner a prueba sus conocimientos. Estamos trabajando constantemente en nuevas funciones como cuentas de usuario, sistemas de ranking y cuestionarios colaborativos. Si estás usando useQuiz, ya estás aprendiendo de forma más inteligente.",
     "details_title": "Detalles del proyecto",
     "details_list": {
-      "1": "<0>Versión:</0> <1>1.0.0</1>",
+      "1": "<0>Versión:</0> <1>{{version}}</1>",
       "2": "<0>Objetivo:</0> <1>Practicar preguntas tipo test de forma sencilla.</1>",
       "3": "<0>Futuras versiones:</0> <1>cuentas de usuario, sistema de valoraciones y comentarios, guardar progreso y cuestionarios colaborativos...</1>"
     },
