@@ -7,6 +7,6 @@ import "./i18n";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} fallbackElement={<div>Loading...</div>} />
+    <RouterProvider router={router} />
   </StrictMode>
 );
