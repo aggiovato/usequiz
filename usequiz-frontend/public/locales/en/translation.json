@@ -75,13 +75,20 @@
       "title": "Info"
     },
     "success": {
-      "title": "Success!"
+      "title": "Success!",
+      "completed": {
+        "title": "Congratulations! You've completed <1>{{title}}</1>",
+        "score": "You've completed correctly <1>{{score}}</1> out of <1>{{total}}</1> questions, so your accourancy is <2>{{score_percent}}%</2>",
+        "new-pack": "Start new pack",
+        "reset": "Reset pack",
+        "back": "Return"
+      }
     },
     "warning": {
       "title": "Warning!",
       "changepack_warning": {
-        "info_one": "Currently you have an active pack with <1>{{count}}</1> question and the following stats...",
-        "info_other": "Currently you have an active pack with <1>{{count}}</1> questions and the following stats...",
+        "info_one": "Currently you have an active pack with <1>{{count}}</1> question and the following stats",
+        "info_other": "Currently you have an active pack with <1>{{count}}</1> questions and the following stats",
         "stats": "Statistics",
         "seen_one": "<0>{{count}}</0> seen",
         "seen_other": "<0>{{count}}</0> seen",
@@ -143,5 +150,38 @@
       }
     },
     "footer": "This project is in constant development. Thanks for trying it!"
+  },
+  "questions": {
+    "all-questions": "All questions",
+    "question-card": {
+      "question": "Question",
+      "answer-chip": {
+        "correct": "Correct!",
+        "incorrect": "Incorrect!"
+      },
+      "right-answer": "Right answer: <1>{{answer}}</1>",
+      "verify": "Verify"
+    },
+    "ready": {
+      "title": "Ready to start?",
+      "subtitle_one": "You're about to start reviewing <1>{{count}}</1> question from module:",
+      "subtitle_other": "You're about to start reviewing <1>{{count}}</1> questions from module:",
+      "desc": "If you're ready to start reviewing, click on the \"Start\" button",
+      "start-btn": "Start"
+    },
+    "details": {
+      "details-btn": {
+        "show": "Show details",
+        "hide": "Hide details"
+      },
+      "explanation": "Explanation",
+      "subject": "Subject",
+      "unit": "Unit",
+      "difficulty": "Difficulty",
+      "tags": "Tags"
+    },
+    "list-nav": {
+      "questions-list": "Questions list"
+    }
   }
 }

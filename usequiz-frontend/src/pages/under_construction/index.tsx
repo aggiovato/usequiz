@@ -10,7 +10,7 @@ const UnderConstruction = () => {
 
   return (
     <div className="flex flex-col p-8 justify-center items-center">
-      <UnderCIcon className="w-100 h-60 md:w-140 md:h-85" />
+      <UnderCIcon className="w-80 h-60 md:w-140 md:h-85" />
       <h1 className="text-2xl font-bold mb-6 md:mb-2 text-center">
         {t("under_construction.title")}
       </h1>

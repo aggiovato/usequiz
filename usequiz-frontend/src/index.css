@@ -31,11 +31,11 @@ span {
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  @apply w-[8px];
+  @apply w-[5px];
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  @apply border-[15px] border-l-[2px] border-r-[2px] border-light-teal bg-teal-bright/30;
+  @apply border-[10px] border-l-[2px] border-r-[2px] border-light-teal bg-teal-bright/30;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -48,6 +48,10 @@ span {
 
 .spanned {
   @apply text-teal-strong/80 font-bold px-2 py-0 rounded-md bg-teal-bright/10;
+}
+
+.spanned-rose {
+  @apply text-rose-clay font-bold px-2 py-0 rounded-md bg-rose-clay/10;
 }
 
 .navbar {
@@ -86,6 +90,10 @@ span {
   @apply text-xs text-white bg-teal-bright border-2 border-teal-bright hover:shadow-inner hover:text-amber-glow active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
 }
 
+.btn-primary:disabled {
+  @apply opacity-50 cursor-not-allowed bg-gray-500 border-gray-500 text-white shadow-none hover:shadow-none hover:text-white;
+}
+
 .btn-ghost {
   @apply text-xs text-teal-bright bg-light-teal shadow-inner border-2 border-teal-bright hover:text-amber-glow hover:bg-teal-bright active:bg-dark-teal focus:outline-none focus:ring-2 focus:ring-amber-glow focus:shadow-md;
 }
@@ -103,7 +111,7 @@ span {
 }
 
 .question-section {
-  @apply flex flex-col gap-4 rounded-md p-4 md:px-10;
+  @apply flex flex-col gap-4 rounded-md p-2 md:p-4 md:px-10 text-base md:text-lg;
 }
 
 .question-section > h2 {
@@ -115,15 +123,15 @@ span {
 }
 
 .question-section h3 {
-  @apply text-teal-strong text-base font-semibold;
+  @apply text-teal-strong font-semibold;
 }
 
 .question-section label {
-  @apply text-sm;
+  @apply text-sm md:text-base;
 }
 
 .question-section pre {
-  @apply py-3 px-4 bg-teal-bright/15 rounded-md text-teal-bright font-mono overflow-auto wrap-break-word text-sm;
+  @apply py-3 px-4 bg-teal-bright/15 rounded-md text-teal-bright font-mono overflow-auto wrap-break-word text-sm md:text-base;
 }
 
 .question-section :not(pre) > code {
@@ -131,5 +139,5 @@ span {
 }
 
 .question-section label {
-  @apply text-sm;
+  @apply text-sm md:text-base;
 }

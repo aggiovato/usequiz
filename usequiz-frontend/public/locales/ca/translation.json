@@ -12,7 +12,7 @@
         "incorrect": "Incorrectes",
         "pending": "Pendents"
       },
-      "title": "Segueix així...",
+      "title": "Segueix...",
       "progress": "Has completat <1>{{viewed}}</1> de <1>{{total}}</1> preguntes."
     },
     "features": {
@@ -76,13 +76,20 @@
       "title": "Informació"
     },
     "success": {
-      "title": "Èxit!"
+      "title": "Èxit!",
+      "completed": {
+        "title": "Felicitats! Has completat <1>{{title}}</1>",
+        "score": "Has respost correctament <1>{{score}}</1> de <1>{{total}}</1> preguntes, així que el teu percentatge d'encerts és <2>{{score_percent}}%</2>",
+        "new-pack": "Comença un nou paquet",
+        "reset": "Reinicia el paquet",
+        "back": "Torna enrere"
+      }
     },
     "warning": {
       "title": "Atenció!",
       "changepack_warning": {
-        "info_one": "Actualment tens un paquet actiu amb <1>{{count}}</1> pregunta i les estadístiques següents...",
-        "info_other": "Actualment tens un paquet actiu amb <1>{{count}}</1> preguntes i les estadístiques següents...",
+        "info_one": "Actualment tens un paquet actiu amb <1>{{count}}</1> pregunta i les estadístiques següents",
+        "info_other": "Actualment tens un paquet actiu amb <1>{{count}}</1> preguntes i les estadístiques següents",
         "stats": "Estadístiques",
         "seen_one": "<0>{{count}}</0> vista",
         "seen_other": "<0>{{count}}</0> vistes",
@@ -144,5 +151,38 @@
       }
     },
     "footer": "Aquest projecte està en constant desenvolupament. Gràcies per provar-lo!"
+  },
+  "questions": {
+    "all-questions": "Totes les preguntes",
+    "question-card": {
+      "question": "Pregunta",
+      "answer-chip": {
+        "correct": "Correcte!",
+        "incorrect": "Incorrecte!"
+      },
+      "right-answer": "Resposta correcta: <1>{{answer}}</1>",
+      "verify": "Verifica"
+    },
+    "ready": {
+      "title": "Preparat per començar?",
+      "subtitle_one": "Estàs a punt de repassar <1>{{count}}</1> pregunta del mòdul:",
+      "subtitle_other": "Estàs a punt de repassar <1>{{count}}</1> preguntes del mòdul:",
+      "desc": "Si estàs preparat per repassar, fes clic al botó \"Comença\"",
+      "start-btn": "Comença"
+    },
+    "details": {
+      "details-btn": {
+        "show": "Mostra detalls",
+        "hide": "Amaga detalls"
+      },
+      "explanation": "Explicació",
+      "subject": "Assignatura",
+      "unit": "Unitat",
+      "difficulty": "Dificultat",
+      "tags": "Etiquetes"
+    },
+    "list-nav": {
+      "questions-list": "Llista de preguntes"
+    }
   }
 }

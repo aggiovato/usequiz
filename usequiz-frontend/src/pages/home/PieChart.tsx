@@ -4,6 +4,7 @@ import { PackStats, usePackStore } from "../../stores/usePackStore";
 import type { ChartOptions } from "chart.js";
 import { useTranslation, Trans } from "react-i18next";
 import { TFunction } from "i18next";
+import CTooltip from "../../components/customs/CTooltip";
 
 ChartJS.register(ArcElement, Tooltip);
 
@@ -57,7 +58,7 @@ const PieChart = ({
   className?: string;
 }) => {
   const { t } = useTranslation();
-  const { stats } = usePackStore();
+  const { stats, title } = usePackStore();
   const { data, options } = generateData(stats, t);
 
   return (
@@ -67,10 +68,17 @@ const PieChart = ({
       </div>
 
       {showInfo && (
-        <div className="text-center md:text-left md:order-1">
-          <h1 className="text-md font-bold text-dark-teal mb-2 mt-2">
+        <div className="relative text-center md:text-left md:order-1">
+          <h1 className="text-md font-bold text-dark-teal mb-2 mt-1">
             {t("home.donut.title")}
           </h1>
+          <CTooltip tooltipText={title}>
+            <div className="mb-2 max-w-[15ch] truncate">
+              <span>
+                {title === "questions.all-questions" ? t(title) : title}
+              </span>
+            </div>
+          </CTooltip>
           <p className="text-sm text-dark-teal/60">
             <Trans
               i18nKey="home.donut.progress"

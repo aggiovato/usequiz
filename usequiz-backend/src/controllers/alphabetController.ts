@@ -54,7 +54,7 @@ export const getAllLettersSVG = (req: Request, res: Response) => {
 export const getLetterSVG = (req: Request, res: Response) => {
   try {
     const { letter } = req.params;
-    if (!letter || letter.length !== 1) {
+    if (!letter) {
       res.status(400).json({ error: "Invalid letter" });
     }
 

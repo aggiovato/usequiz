@@ -10,7 +10,7 @@ const NotFound = () => {
 
   return (
     <div className="flex flex-col justify-center items-center p-8">
-      <NotFoundIcon className="w-90 h-40 md:w-120 md:h-60" />
+      <NotFoundIcon className="w-80 h-60 md:w-140 md:h-85" />
       <h1 className="text-2xl font-bold mt-12 mb-6 md:mt-8 md:mb-2 text-center">
         {t("404.title")}
       </h1>

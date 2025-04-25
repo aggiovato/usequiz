@@ -34,9 +34,9 @@ const HomePage = () => {
             rel="noreferrer"
             className="text-teal-strong hover:underline"
           >
-            Heber
+            Aggiovato
           </a>
-          <span className="text-sm text-dark-teal/60">v{version}</span>
+          <span className="text-sm text-dark-teal/60"> v{version}</span>
         </p>
       </footer>
     </div>

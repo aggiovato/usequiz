@@ -8,15 +8,22 @@ const useQuestionPack = () => {
   const [isOpenablePack, setIsOpenablePack] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  const { questions: loadedQuestions, route } = useLoaderData() as {
+  const {
+    questions: loadedQuestions,
+    route,
+    title,
+  } = useLoaderData() as {
     questions: QuestionType[];
     route: string;
+    title: string;
   };
 
   const {
     questions: packQuestions,
     stats,
     currentQ,
+    currentIndex,
+    setTitle,
     setQuestions,
     setCurrentQ,
   } = usePackStore();
@@ -24,6 +31,7 @@ const useQuestionPack = () => {
   useEffect(() => {
     if (stats.viewed.length === 0) {
       setQuestions(loadedQuestions, route);
+      setTitle(title);
       setCurrentQ(null, 0);
       setIsOpenablePack(true);
     } else {
@@ -32,10 +40,12 @@ const useQuestionPack = () => {
 
     setIsLoading(false);
   }, [
+    title,
     loadedQuestions,
     packQuestions,
     stats.viewed.length,
     route,
+    setTitle,
     setQuestions,
     setCurrentQ,
   ]);
@@ -43,11 +53,13 @@ const useQuestionPack = () => {
   return {
     isLoading,
     isOpenablePack,
+    title,
     currentQ,
     loadedQuestions,
     packQuestions,
     setCurrentQ,
     stats,
+    currentIndex,
     route,
   };
 };

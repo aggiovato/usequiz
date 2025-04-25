@@ -4,6 +4,7 @@ import {
   getQuestionsBySubjectUnit,
 } from "../services/questionService";
 import { QuestionType } from "../types/types";
+import { routeToTitle } from "../utils/routeToTitle";
 
 export const questionsLoader = async ({
   params,
@@ -11,7 +12,7 @@ export const questionsLoader = async ({
 }: {
   params: Record<string, string | undefined>;
   request: Request;
-}): Promise<{ questions: QuestionType[]; route: string }> => {
+}): Promise<{ questions: QuestionType[]; route: string; title: string }> => {
   const url = new URL(request.url);
   const pathname = url.pathname;
 
@@ -30,5 +31,7 @@ export const questionsLoader = async ({
     }
   }
 
-  return { questions, route: pathname };
+  const title = routeToTitle(pathname);
+
+  return { questions, route: pathname, title };
 };

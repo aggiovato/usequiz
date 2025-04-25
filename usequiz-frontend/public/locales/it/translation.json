@@ -12,7 +12,7 @@
         "incorrect": "Errate",
         "pending": "In sospeso"
       },
-      "title": "Continua così...",
+      "title": "Continua...",
       "progress": "Hai completato <1>{{viewed}}</1> su <1>{{total}}</1> domande."
     },
     "features": {
@@ -76,13 +76,20 @@
       "title": "Informazioni"
     },
     "success": {
-      "title": "Successo!"
+      "title": "Successo!",
+      "completed": {
+        "title": "Congratulazioni! Hai completato <1>{{title}}</1>",
+        "score": "Hai risposto correttamente a <1>{{score}}</1> su <1>{{total}}</1> domande, quindi la tua precisione è <2>{{score_percent}}%</2>",
+        "new-pack": "Inizia un nuovo pacchetto",
+        "reset": "Resetta il pacchetto",
+        "back": "Torna indietro"
+      }
     },
     "warning": {
       "title": "Attenzione!",
       "changepack_warning": {
-        "info_one": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domanda e le seguenti statistiche...",
-        "info_other": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domande e le seguenti statistiche...",
+        "info_one": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domanda e le seguenti statistiche",
+        "info_other": "Attualmente hai un pacchetto attivo con <1>{{count}}</1> domande e le seguenti statistiche",
         "stats": "Statistiche",
         "seen_one": "<0>{{count}}</0> vista",
         "seen_other": "<0>{{count}}</0> viste",
@@ -144,5 +151,38 @@
       }
     },
     "footer": "Questo progetto è in continuo sviluppo. Grazie per provarlo!"
+  },
+  "questions": {
+    "all-questions": "Tutte le domande",
+    "question-card": {
+      "question": "Domanda",
+      "answer-chip": {
+        "correct": "Corretto!",
+        "incorrect": "Errato!"
+      },
+      "right-answer": "Risposta corretta: <1>{{answer}}</1>",
+      "verify": "Verifica"
+    },
+    "ready": {
+      "title": "Pronto per iniziare?",
+      "subtitle_one": "Stai per ripassare <1>{{count}}</1> domanda del modulo:",
+      "subtitle_other": "Stai per ripassare <1>{{count}}</1> domande del modulo:",
+      "desc": "Se sei pronto per iniziare il ripasso, clicca sul pulsante \"Inizia\"",
+      "start-btn": "Inizia"
+    },
+    "details": {
+      "details-btn": {
+        "show": "Mostra dettagli",
+        "hide": "Nascondi dettagli"
+      },
+      "explanation": "Spiegazione",
+      "subject": "Materia",
+      "unit": "Unità",
+      "difficulty": "Difficoltà",
+      "tags": "Tag"
+    },
+    "list-nav": {
+      "questions-list": "Elenco domande"
+    }
   }
 }

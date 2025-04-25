@@ -5,7 +5,7 @@ import NextIcon from "../../components/icons/NextIcon";
 import PrevIcon from "../../components/icons/PrevIcon";
 import CDialogWrapper from "../../components/customs/CDialogWrapper";
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import _ from "lodash";
 
 // This is the current question
@@ -43,7 +43,7 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
       setIsCorrect(false);
       setIsFinished(false);
     }
-  }, [question.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [question.id, isFinished]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleVerifyAnswer = () => {
     if (selectionArr.length === 0) {
@@ -57,6 +57,7 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
 
     setIsCorrect(correct);
     setShowAnswer(true);
+    setIsFinished(true);
 
     usePackStore.getState().verifyAnswer(question.id, correct, selectionArr);
   };
@@ -86,15 +87,15 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
           </div>
         </CDialogWrapper>
       )}
-      <div className="question-section">
+      <div className={`question-section ${isFinished ? "text-gray-700" : ""}`}>
         <h2>
-          <span>{index + 1}.</span> Pregunta
+          <span>{index + 1}.</span> {t("questions.question-card.question")}
         </h2>
         <h3>
           <ReactMarkdown>{question.question}</ReactMarkdown>
         </h3>
 
-        <div className="flex flex-col max-h-3/5 md:max-h-5/7 overflow-y-auto custom-scrollbar">
+        <div className="flex flex-col min-h-4/5 max-h-4/5 md:min-h-8/9 md:max-h-8/9 h-full overflow-y-auto custom-scrollbar">
           {question.code && (
             <pre className="min-h-[150px] custom-scrollbar">
               <code>
@@ -127,25 +128,57 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
       </div>
 
       {/* This is the answer feedback */}
-      <div id="answer-section">
-        {showAnswer && (
+      <div
+        id="answer-section"
+        className="min-h-[80px] flex flex-col justify-start items-center"
+      >
+        {showAnswer ? (
           <>
-            <p
-              className={`font-bold ${
-                isCorrect ? "text-green-600" : "text-red-600"
+            <div
+              className={`inline-flex items-center gap-2 px-4 py-1 rounded-full text-xl font-semibold shadow-sm ${
+                isCorrect
+                  ? "bg-teal-bright/20 text-teal-800"
+                  : "bg-rose-clay/20 text-rose-800"
               }`}
             >
-              {isCorrect ? "¡Correcto!" : "Incorrecto"}
-            </p>
-            <p className="text-gray-700">
-              Respuestas correctas: {question.answers.join(", ")}
-            </p>
-            {!isCorrect && (
-              <p className="text-gray-700">
-                Tus respuestas: {selectionArr.join(", ")}
-              </p>
-            )}
+              {isCorrect
+                ? t("questions.question-card.answer-chip.correct")
+                : t("questions.question-card.answer-chip.incorrect")}
+            </div>
+            <div className="text-gray-700 text-sm mt-3 text-center">
+              <Trans
+                i18nKey="questions.question-card.right-answer"
+                values={{
+                  answer: question.answers
+                    .map(
+                      (answer) =>
+                        question.options.find((option) => option.id === answer)
+                          ?.text
+                    )
+                    .join(", "),
+                }}
+                components={[
+                  <></>,
+                  <div className="text-teal-bright/80 font-bold italic mt-2 max-w-[40ch] md:max-w-[80ch] w-full truncate overflow-hidden" />,
+                ]}
+              />
+            </div>
           </>
+        ) : (
+          // Invisible placeholder to preserve space
+          <div className="opacity-0 pointer-events-none">
+            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full text-xl font-semibold">
+              Placeholder
+            </div>
+            <div className="text-sm mt-1">
+              Placeholder
+              <div>
+                <p className="text-teal-bright/80 font-bold italic mt-2">
+                  Placeholder
+                </p>
+              </div>
+            </div>
+          </div>
         )}
       </div>
 
@@ -169,7 +202,7 @@ const QuestionCard = ({ question }: { question: QuestionType }) => {
           onClick={handleVerifyAnswer}
           disabled={isFinished}
         >
-          Verificar
+          {t("questions.question-card.verify")}
         </button>
         <button onClick={() => nextQuestion()}>
           <NextIcon

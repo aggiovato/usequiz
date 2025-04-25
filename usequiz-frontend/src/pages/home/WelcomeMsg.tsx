@@ -8,6 +8,11 @@ const WelcomeMsg = () => {
   const { stats, routeFrom } = usePackStore();
   const { t } = useTranslation();
 
+  const handleNavigate = () => {
+    if (stats.viewed.length !== stats.total) navigate(routeFrom);
+    else navigate("/questions");
+  };
+
   return (
     <div className="flex flex-col md:flex-row md:gap-12 items-center">
       <div className="relative flex flex-col items-center gap-6 mt-20">
@@ -40,7 +45,7 @@ const WelcomeMsg = () => {
       {stats.viewed.length > 0 && (
         <div
           className="relative overflow-hidden px-2 md:border-3 text-teal-strong border-teal-bright rounded-md  hover:border-teal-shine/70 transition hover:shadow-lg md:shadow-inner mt-8 md:mt-50"
-          onClick={() => navigate(routeFrom)}
+          onClick={handleNavigate}
         >
           <PieChart />
         </div>

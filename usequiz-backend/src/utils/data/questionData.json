@@ -1,27 +1,22 @@
 [
   {
-    "subject": "Ienguajes de marcas",
-    "unit": {
-      "order": 1,
-      "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "El intercambio de datos entre diferentes aplicaciones es posible gracias a:",
+    "question": "El **intercambio de datos** entre diferentes aplicaciones es posible gracias a:",
     "options": [
-      { "id": "a", "text": "Los lenguajes de marcado." },
-      { "id": "b", "text": "El texto plano." },
-      { "id": "c", "text": "Los editores." },
-      { "id": "d", "text": "Windows." }
+      { "id": "a", "text": "Los **lenguajes de marcado**." },
+      { "id": "b", "text": "El **texto plano**." },
+      { "id": "c", "text": "Los **editores**." },
+      { "id": "d", "text": "**Windows**." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Los lenguajes de marcado."
-  },
-  {
-    "subject": "Aenguajes de marcas",
+    "explanation": "Los **lenguajes de marcado**, como `XML` o `JSON`, permiten estructurar los datos de forma que puedan ser leídos por distintas aplicaciones. Esto es esencial para la **interoperabilidad**, ya que definen una forma común de representar la información.",
+    "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "Elige la respuesta que describe el texto plano (plain text) en el contexto de lenguajes de marcas:",
+    }
+  },
+  {
+    "question": "**Elige la respuesta que describe el texto plano `(plain text)` en el contexto de lenguajes de marcas:**",
     "options": [
       {
         "id": "a",
@@ -41,31 +36,32 @@
       }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Documentos formados exclusivamente por caracteres sin formato adicional."
-  },
-  {
-    "subject": "Benguajes de marcas",
-    "unit": {
-      "order": 1,
-      "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "El tipo de lenguaje de marca que se usa para describir datos de manera estructurada y semántica en documentos y aplicaciones web es:",
-    "options": [
-      { "id": "a", "text": "Tipo 1 o de procedimiento" },
-      { "id": "b", "text": "Tipo 2 o de presentación" },
-      { "id": "c", "text": "Tipo 3 o descriptivos o semánticos" },
-      { "id": "d", "text": "En todos los anteriores" }
-    ],
-    "answers": ["c"],
-    "explanation": "La respuesta correcta es: Tipo 3 o descriptivos o semánticos."
-  },
-  {
+    "explanation": "El **texto plano** es simplemente una secuencia de caracteres sin estilo, formato ni metadatos. Es la base sobre la que se aplican **lenguajes de marcas** para estructurar o dar formato a la información.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "La década en la que se empezaron a utilizar los lenguajes de marcado es:",
+    }
+  },
+  {
+    "question": "El tipo de lenguaje de marca que se usa para describir datos de manera **estructurada y semántica** en documentos y aplicaciones web es:",
+    "options": [
+      { "id": "a", "text": "Tipo 1 o de **procedimiento**" },
+      { "id": "b", "text": "Tipo 2 o de **presentación**" },
+      { "id": "c", "text": "Tipo 3 o **descriptivos o semánticos**" },
+      { "id": "d", "text": "En todos los anteriores" }
+    ],
+    "answers": ["c"],
+    "explanation": "Los **lenguajes de marca tipo 3**, como `XML` y `JSON-LD`, se enfocan en describir el **contenido** y su **significado**, no su presentación o forma de procesamiento. Son clave en la web semántica.",
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    }
+  },
+
+  {
+    "question": "La década en la que se empezaron a utilizar los **lenguajes de marcado** es:",
     "options": [
       { "id": "a", "text": "1950." },
       { "id": "b", "text": "1960." },
@@ -73,14 +69,14 @@
       { "id": "d", "text": "1980." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: 1960."
-  },
-  {
+    "explanation": "El origen de los lenguajes de marcado se remonta a los **años 60**, con la aparición de lenguajes como `GML` (precursor de SGML), que permitían etiquetar texto para su estructuración.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
+    }
+  },
+  {
     "question": "Las dos principales organizaciones desarrolladoras de los lenguajes de marcas son:",
     "options": [
       { "id": "a", "text": "DTD y XML Esquema." },
@@ -89,14 +85,14 @@
       { "id": "d", "text": "W3C y DTD." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: ISO y W3C."
-  },
-  {
+    "explanation": "**ISO** y **W3C** son las organizaciones que han estandarizado tecnologías clave como `SGML`, `XML`, y `HTML`, definiendo las normas para lenguajes de marcas.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
+    }
+  },
+  {
     "question": "Los lenguajes de marcas se pueden utilizar en:",
     "options": [
       { "id": "a", "text": "Páginas web." },
@@ -105,31 +101,32 @@
       { "id": "d", "text": "Todas son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas son correctas."
-  },
-  {
+    "explanation": "Los **lenguajes de marcas** tienen aplicaciones muy amplias: desde la estructura de una página web (`HTML`), hasta el formato de mensajes (`XMPP`) o la sindicación de contenido (`RSS`).",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "XML se incluye en el tipo de lenguaje:",
+    }
+  },
+
+  {
+    "question": "**XML** se incluye en el tipo de lenguaje:",
     "options": [
-      { "id": "a", "text": "Tipo 1 o de procedimiento." },
-      { "id": "b", "text": "Tipo 2 o de presentación." },
-      { "id": "c", "text": "Tipo 3 o descriptivos o semánticos." },
+      { "id": "a", "text": "Tipo 1 o de **procedimiento**." },
+      { "id": "b", "text": "Tipo 2 o de **presentación**." },
+      { "id": "c", "text": "Tipo 3 o **descriptivos o semánticos**." },
       { "id": "d", "text": "En todos los anteriores." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Tipo 3 o descriptivos o semánticos."
-  },
-  {
+    "explanation": "`XML` es un lenguaje **semántico**. No se centra en cómo se presenta la información, sino en describirla estructuradamente para que otras aplicaciones puedan procesarla.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "El nombre de un elemento que se encuentra entre un símbolo menor que (<) y otro símbolo mayor que (>) se denomina:",
+    }
+  },
+  {
+    "question": "El nombre de un **elemento** que se encuentra entre un símbolo menor que (`<`) y otro símbolo mayor que (`>`) se denomina:",
     "options": [
       { "id": "a", "text": "Clase" },
       { "id": "b", "text": "Gramática" },
@@ -137,14 +134,14 @@
       { "id": "d", "text": "Atributo." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Etiqueta."
-  },
-  {
+    "explanation": "En un lenguaje de marcas como `HTML` o `XML`, una **etiqueta** se escribe como `<etiqueta>`. Es la forma de **marcar el inicio o fin de un elemento**.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
+    }
+  },
+  {
     "question": "Una de las características comunes de los lenguajes de marcas es:",
     "options": [
       { "id": "a", "text": "Ineficacia." },
@@ -153,35 +150,41 @@
       { "id": "d", "text": "Flexibilidad." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Flexibilidad."
-  },
-  {
+    "explanation": "Los lenguajes de marcas permiten adaptarse a múltiples contextos y estructuras. Esta **flexibilidad** los hace ideales para representar información diversa y extensible.",
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 1,
       "title": "Lenguajes de marcas y sistemas de gestión de información"
-    },
-    "question": "La función de una gramática en un documento de lenguaje de marcas es:",
+    }
+  },
+  {
+    "question": "La función de una **gramática en un documento** de lenguaje de marcas es:",
     "options": [
       { "id": "a", "text": "Definir el lenguaje de programación utilizado." },
       {
         "id": "b",
         "text": "Definir el marcado permitido en el documento, el marcado requerido y cómo debe ser utilizado dicho marcado."
       },
-      { "id": "c", "text": "Definir la ortografía en lenguajes de marcas.." },
+      { "id": "c", "text": "Definir la ortografía en lenguajes de marcas." },
       {
         "id": "d",
         "text": "Establecer las reglas para la numeración de páginas en el documento."
       }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Definir el marcado permitido en el documento, el marcado requerido y cómo debe ser utilizado dicho marcado."
+    "explanation": "Una **gramática** (como un `DTD` o `XML Schema`) especifica **qué etiquetas pueden usarse**, en qué orden y con qué atributos, validando así la **estructura del documento**.",
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 1,
+      "title": "Lenguajes de marcas y sistemas de gestión de información"
+    }
   },
+
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "Acoplamiento patológico:",
     "options": [
@@ -200,23 +203,23 @@
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Se produce siempre que un módulo acceda a otro para leer o modificar los datos internos del último."
+    "explanation": "Este tipo de acoplamiento implica que un módulo rompe la encapsulación al manipular directamente los datos internos de otro módulo. Es una forma de **dependencia excesiva** y debe evitarse por razones de mantenibilidad y escalabilidad."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
-    "question": "Dentro de la simbología de los diagramas de flujo cuál de estas afirmaciones es falsa:",
+    "question": "Dentro de la simbología de los diagramas de flujo, ¿cuál de estas afirmaciones es falsa?",
     "options": [
       {
         "id": "a",
-        "text": "Las operaciones que se vayan realizando deben de seguir un orden en concreto, y este orden se indica con flechas."
+        "text": "Las operaciones que se vayan realizando deben seguir un orden en concreto, y este orden se indica con flechas."
       },
       {
         "id": "b",
-        "text": "Las decisiones se indican en un rombo donde pondremos tantas líneas de flujo como alternativas finales tengamos."
+        "text": "Las decisiones se indican en un rombo donde pondremos tantas líneas de flujo como alternativas tengamos."
       },
       {
         "id": "c",
@@ -224,17 +227,17 @@
       },
       {
         "id": "d",
-        "text": "Cada uno de los diagramas de flujo comienzan y terminan con terminal que se representa con un óvalo o elipse."
+        "text": "Cada uno de los diagramas de flujo comienza y termina con un terminal que se representa con un óvalo o elipse."
       }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Las operaciones de cálculo interno del programa se describen con una bandera."
+    "explanation": "El símbolo correcto para representar operaciones de cálculo es el **rectángulo**, no una bandera. La bandera no forma parte de la simbología estándar de diagramas de flujo."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "El valor Booleano:",
     "options": [
@@ -244,13 +247,13 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+    "explanation": "El valor **booleano** representa una condición lógica: `true` o `false`. No es numérico, secuencial ni modular. Por lo tanto, la opción correcta es 'ninguna de las anteriores'."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "En la cohesión comunicacional:",
     "options": [
@@ -260,7 +263,7 @@
       },
       {
         "id": "b",
-        "text": "La salida de una instrucción debe de coincidir de manera estricta con la entrada."
+        "text": "La salida de una instrucción debe coincidir de manera estricta con la entrada."
       },
       {
         "id": "c",
@@ -269,13 +272,13 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Conviven varias actividades paralelas que no siguen un orden específico y que comparten los mismos datos de entrada y salida."
+    "explanation": "La cohesión **comunicacional** se da cuando varias tareas dentro de un módulo trabajan con los mismos datos de entrada y salida, sin necesidad de estar secuencialmente ligadas entre sí."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "En la cohesión lógica:",
     "options": [
@@ -285,7 +288,7 @@
       },
       {
         "id": "b",
-        "text": "La salida de una instrucción debe de coincidir de manera estricta con la entrada."
+        "text": "La salida de una instrucción debe coincidir de manera estricta con la entrada."
       },
       {
         "id": "c",
@@ -294,29 +297,29 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores es correcta."
+    "explanation": "La cohesión **lógica** agrupa operaciones similares que comparten una naturaleza común, pero no necesariamente los mismos datos o secuencia de ejecución."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "Es una representación gráfica de elementos y sus relaciones:",
     "options": [
       { "id": "a", "text": "Paradigma." },
       { "id": "b", "text": "Diagrama." },
-      { "id": "c", "text": "Iteración" },
+      { "id": "c", "text": "Iteración." },
       { "id": "d", "text": "Todas las anteriores son incorrectas." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Diagrama."
+    "explanation": "Un **diagrama** permite representar visualmente componentes del sistema, procesos o relaciones, facilitando la comprensión del flujo o estructura del software."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "La cohesión es una cualidad de la estructura:",
     "options": [
@@ -326,13 +329,13 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+    "explanation": "La cohesión es una propiedad que describe el grado de relación entre las responsabilidades de un módulo, no una estructura de control como las listadas en las opciones."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "La cohesión funcional, secuencial y comunicacional son cohesiones:",
     "options": [
@@ -342,13 +345,13 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Fuertes."
+    "explanation": "Estas son consideradas formas de cohesión **fuerte**, ya que promueven módulos bien definidos con responsabilidades claras y acotadas."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "La estructura basada en bucles es:",
     "options": [
@@ -358,13 +361,13 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Iterativa."
+    "explanation": "Una estructura **iterativa** permite repetir una o varias instrucciones múltiples veces. Los bucles como `for`, `while` y `do while` son ejemplos de estructuras de este tipo."
   },
   {
     "subject": "Programación",
     "unit": {
       "order": 1,
-      "title": "Introducción a la programación"
+      "title": "Introducción a la Programación"
     },
     "question": "La programación surgió como un intento para:",
     "options": [
@@ -374,8 +377,9 @@
       { "id": "d", "text": "Ninguno de los anteriores." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Automatizar procesos."
+    "explanation": "La programación fue concebida como una forma de **automatizar procesos** y tareas repetitivas, permitiendo que los sistemas ejecuten instrucciones definidas por humanos."
   },
+
   {
     "subject": "Programación",
     "unit": {
@@ -390,7 +394,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Instancias."
+    "explanation": "En la **Programación Orientada a Objetos**, una clase actúa como un molde del cual se pueden crear múltiples **instancias** u objetos concretos."
   },
   {
     "subject": "Programación",
@@ -412,7 +416,7 @@
       }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Es cierto."
+    "explanation": "Las clases permiten crear tantas **instancias** como sea necesario, siempre que haya suficiente memoria. No hay un límite fijo por el lenguaje."
   },
   {
     "subject": "Programación",
@@ -434,7 +438,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Agrupación en un mismo elemento de los datos y las operaciones relacionadas con estos."
+    "explanation": "El **encapsulamiento** implica que los datos y los métodos que operan sobre ellos están agrupados dentro de una clase, controlando el acceso externo a dichos elementos."
   },
   {
     "subject": "Programación",
@@ -450,7 +454,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+    "explanation": "El término técnico adecuado es **campo** o **atributo**. Aunque 'propiedad' puede usarse informalmente, en lenguajes como Java el término más preciso no coincide con ninguna opción listada."
   },
   {
     "subject": "Programación",
@@ -466,7 +470,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Se encuentran los campos de la clase."
+    "explanation": "Los diagramas de clase UML están divididos en tres partes: nombre de la clase (arriba), **atributos o campos** (en el medio) y métodos (abajo)."
   },
   {
     "subject": "Programación",
@@ -482,7 +486,7 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Clase."
+    "explanation": "La **clase** es el núcleo de la programación orientada a objetos, ya que define la estructura y comportamiento de los objetos que se instanciarán a partir de ella."
   },
   {
     "subject": "Programación",
@@ -498,7 +502,7 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Objetos simples y compuestos."
+    "explanation": "Los **objetos simples y compuestos** están formados por datos primitivos (como `int`, `char`, etc.) y pueden agruparse para formar estructuras más complejas."
   },
   {
     "subject": "Programación",
@@ -520,7 +524,7 @@
       }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son incorrectas, Java no ofrece mecanismos para declararlas."
+    "explanation": "La afirmación correcta es que ninguna opción refleja con precisión cómo se declaran **propiedades (atributos)** en Java. Estas se definen como variables dentro de una clase y requieren acceso mediante métodos `get`/`set`."
   },
   {
     "subject": "Programación",
@@ -536,7 +540,7 @@
       { "id": "d", "text": "&" }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: +."
+    "explanation": "En UML, el símbolo **+** indica visibilidad **pública**, mientras que `-` indica privada y `#` protegida."
   },
   {
     "subject": "Programación",
@@ -552,8 +556,9 @@
       { "id": "d", "text": "Todas las anteriores son incorrectas." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Herencia polimorfa."
+    "explanation": "**Herencia polimorfa** no es una categoría reconocida de polimorfismo. Las formas típicas incluyen **sobrecarga** (compilación) y **sobrescritura** (ejecución)."
   },
+
   {
     "subject": "Programación",
     "unit": {
@@ -568,7 +573,7 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores es correcta."
+    "explanation": "La extensión `.war` (Web Application Archive) **almacena aplicaciones web completas** en un archivo comprimido, pero **no es simplemente un archivo ZIP común ni almacena solo texto o bytecode**. Su estructura contiene archivos como `WEB-INF`, `web.xml` y clases compiladas en formato `.class`. Por tanto, ninguna de las opciones describe completamente su función."
   },
   {
     "subject": "Programación",
@@ -584,7 +589,7 @@
       { "id": "d", "text": "Todas las anteriores son incorrectas." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Código máquina."
+    "explanation": "El **código máquina** es el lenguaje que el microprocesador puede entender y ejecutar directamente. Es el resultado de la compilación final desde lenguajes de alto nivel. El **código fuente** es legible por humanos, y el **código intermedio** requiere una traducción adicional."
   },
   {
     "subject": "Programación",
@@ -600,7 +605,7 @@
       { "id": "d", "text": "Ninguno de los anteriores es correcto." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: El código intermedio."
+    "explanation": "**CIL** (Common Intermediate Language) o **MSIL** (Microsoft Intermediate Language) es un tipo de **código intermedio** utilizado por .NET. Es el resultado de compilar el código fuente antes de ser convertido en código máquina por el compilador JIT."
   },
   {
     "subject": "Programación",
@@ -616,7 +621,7 @@
       { "id": "d", "text": "Marcar los objetos de eliminación." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Compactar el espacio usado."
+    "explanation": "El **último paso del recolector de basura (GC)** es **compactar el espacio de memoria** para reducir la fragmentación, una vez que ha marcado y eliminado los objetos que ya no se usan."
   },
   {
     "subject": "Programación",
@@ -632,7 +637,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Es semejante al humano."
+    "explanation": "Los lenguajes de alto nivel como Python, Java o C# están diseñados para ser **fácilmente legibles por humanos**, usando palabras clave comprensibles como `if`, `while`, `class`, etc."
   },
   {
     "subject": "Programación",
@@ -654,7 +659,7 @@
       { "id": "d", "text": "Todas las anteriores son incorrectas." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Permite establecer shortcuts."
+    "explanation": "**Keymap en NetBeans** permite al usuario **configurar combinaciones de teclas (shortcuts)** personalizadas para acelerar acciones como guardar, ejecutar o depurar el código."
   },
   {
     "subject": "Programación",
@@ -670,7 +675,7 @@
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+    "explanation": "**J2ME**, **J2SE** y **J2EE** son distintas ediciones de Java: Micro Edition, Standard Edition y Enterprise Edition, respectivamente, cada una orientada a diferentes entornos de ejecución."
   },
   {
     "subject": "Programación",
@@ -686,7 +691,7 @@
       { "id": "d", "text": "JRE." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: OpenJDK."
+    "explanation": "**OpenJDK** es la implementación de código abierto del JDK, y se distribuye bajo la **GNU General Public License, versión 2**, con una excepción de linking."
   },
   {
     "subject": "Programación",
@@ -708,7 +713,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Nos permite ahorrar tiempo al evitar que traduzcamos varias veces el mismo código."
+    "explanation": "El **compilador JIT (Just-In-Time)** traduce el código **intermedio a código máquina justo antes de su ejecución**, y guarda los resultados para futuras ejecuciones, lo que **mejora el rendimiento**."
   },
   {
     "subject": "Programación",
@@ -727,15 +732,16 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Consume recursos mientras se ejecuta."
+    "explanation": "Una desventaja del **garbage collector (GC)** es que **consume recursos del sistema** durante su ejecución, ya que analiza la memoria en uso para liberar la no referenciada, lo que puede afectar el rendimiento si no se gestiona bien."
   },
+
   {
     "subject": "Programación",
     "unit": {
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Estos ,continue, default, else y try, son:",
+    "question": "Estos `continue`, `default`, `else` y `try`, son:",
     "options": [
       { "id": "a", "text": "Palabras reservadas." },
       { "id": "b", "text": "Notaciones." },
@@ -743,7 +749,7 @@
       { "id": "d", "text": "Secuencias de escape." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Palabras reservadas."
+    "explanation": "Las **palabras reservadas** tienen un significado específico en el lenguaje de programación y no pueden usarse como identificadores. `continue`, `default`, `else` y `try` son ejemplos de estas palabras en lenguajes como Java o C++."
   },
   {
     "subject": "Programación",
@@ -751,7 +757,7 @@
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Estos, <, %, !, y ||, son:",
+    "question": "Estos `<`, `%`, `!` y `||`, son:",
     "options": [
       { "id": "a", "text": "Constantes." },
       { "id": "b", "text": "Tipos de datos primitivos." },
@@ -759,7 +765,7 @@
       { "id": "d", "text": "Variables." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Operadores."
+    "explanation": "Símbolos como `<`, `%`, `!` y `||` son **operadores** utilizados en programación para realizar comparaciones, operaciones aritméticas o lógicas."
   },
   {
     "subject": "Programación",
@@ -767,7 +773,7 @@
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Estos, char, int, boolean y double, son:",
+    "question": "`char`, `int`, `boolean` y `double` son:",
     "options": [
       { "id": "a", "text": "Constantes." },
       { "id": "b", "text": "Tipos de datos primitivos." },
@@ -775,7 +781,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Tipos de datos primitivos."
+    "explanation": "Estos son **tipos de datos primitivos** en muchos lenguajes como Java, y representan valores básicos como caracteres, números enteros, booleanos o decimales."
   },
   {
     "subject": "Programación",
@@ -800,7 +806,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Palabras que cuentan con su propio significado, por lo que no se pueden utilizar como identificadores en los programas."
+    "explanation": "Las **palabras reservadas** son términos que tienen una función específica dentro del lenguaje, como `if`, `for`, `return`, y no pueden usarse para nombrar variables o funciones."
   },
   {
     "subject": "Programación",
@@ -810,13 +816,13 @@
     },
     "question": "Los comentarios pueden iniciarse con la marca:",
     "options": [
-      { "id": "a", "text": "//." },
-      { "id": "b", "text": "/*." },
-      { "id": "c", "text": "/**." },
+      { "id": "a", "text": "`//`." },
+      { "id": "b", "text": "`/*`." },
+      { "id": "c", "text": "`/**`." },
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+    "explanation": "En lenguajes como Java o C, puedes usar:\n- `//` para comentarios de una línea,\n- `/* */` para comentarios de varias líneas,\n- `/** */` para comentarios de documentación.\nTodas son válidas."
   },
   {
     "subject": "Programación",
@@ -824,7 +830,7 @@
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Los datos primitivos al realizar casting pueden ser:",
+    "question": "Los datos primitivos al realizar **casting** pueden ser:",
     "options": [
       { "id": "a", "text": "Declarados y no declarados." },
       { "id": "b", "text": "Implícitos y explícitos." },
@@ -832,7 +838,7 @@
       { "id": "d", "text": "Compilatorio y compilado." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Implícitos y explícitos."
+    "explanation": "**Casting implícito** se da cuando un tipo más pequeño se convierte automáticamente a uno más grande. **Casting explícito** requiere una conversión forzada por el programador entre tipos incompatibles o más grandes a más pequeños."
   },
   {
     "subject": "Programación",
@@ -848,7 +854,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguna de las anteriores."
+    "explanation": "Ninguna de estas opciones es adecuada. El concepto descrito corresponde a **palabras reservadas**, pero no aparece en las opciones disponibles, por lo que `d` es la más precisa."
   },
   {
     "subject": "Programación",
@@ -856,15 +862,15 @@
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Sistemas de signos destinado a representar símbolos o conceptos especiales por pertenecer a campos específicos y por lo tanto no encontrarse en el lenguaje general:",
+    "question": "Sistemas de signos destinados a representar símbolos o conceptos especiales por pertenecer a campos específicos y por lo tanto no encontrarse en el lenguaje general:",
     "options": [
-      { "id": "a", "text": "lowercase." },
-      { "id": "b", "text": "UpperCamelCase." },
+      { "id": "a", "text": "`lowercase`." },
+      { "id": "b", "text": "`UpperCamelCase`." },
       { "id": "c", "text": "Datos primitivos." },
       { "id": "d", "text": "Notación." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Notación."
+    "explanation": "La **notación** se refiere a sistemas de símbolos que transmiten significado específico, como el uso de `camelCase` en programación o fórmulas en matemáticas."
   },
   {
     "subject": "Programación",
@@ -874,13 +880,13 @@
     },
     "question": "Un identificador puede emplear el símbolo:",
     "options": [
-      { "id": "a", "text": "&." },
-      { "id": "b", "text": "%." },
-      { "id": "c", "text": "$." },
-      { "id": "d", "text": "#." }
+      { "id": "a", "text": "`&`." },
+      { "id": "b", "text": "`%`." },
+      { "id": "c", "text": "`$`." },
+      { "id": "d", "text": "`#`." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: $."
+    "explanation": "El símbolo **`$`** puede usarse en nombres de identificadores en lenguajes como Java, aunque no es comúnmente recomendado. Los otros símbolos no son válidos."
   },
   {
     "subject": "Programación",
@@ -888,7 +894,7 @@
       "order": 4,
       "title": "Elementos de un programa informático"
     },
-    "question": "Un paquete paquetes:",
+    "question": "Un paquete de clases:",
     "options": [
       {
         "id": "a",
@@ -905,8 +911,9 @@
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+    "explanation": "Los **paquetes** en Java permiten agrupar clases relacionadas, evitar conflictos entre nombres y gestionar la visibilidad entre componentes. Por eso, todas las afirmaciones son válidas."
   },
+
   {
     "subject": "Programación",
     "unit": {
@@ -930,7 +937,7 @@
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+    "explanation": "La **depuración** consiste en revisar el código fuente para encontrar errores. Puede incluir pruebas unitarias, inspección manual del código y verificación de cómo afectan los datos de entrada al resultado."
   },
   {
     "subject": "Programación",
@@ -938,7 +945,7 @@
       "order": 5,
       "title": "Estructuras de control"
     },
-    "question": "La entrada de datos puede ser.",
+    "question": "La entrada de datos puede ser:",
     "options": [
       { "id": "a", "text": "Mediante argumentos." },
       { "id": "b", "text": "Por consola." },
@@ -946,7 +953,7 @@
       { "id": "d", "text": "Todas las opciones son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las opciones son correctas."
+    "explanation": "Los datos pueden entrar a un programa por distintas vías: **argumentos de línea de comandos**, entrada por **consola**, o incluso desde archivos u otras aplicaciones."
   },
   {
     "subject": "Programación",
@@ -954,7 +961,7 @@
       "order": 5,
       "title": "Estructuras de control"
     },
-    "question": "La estructura for",
+    "question": "La estructura `for`",
     "options": [
       { "id": "a", "text": "Es una estructura de repetición o iterativa." },
       { "id": "b", "text": "Es una estructura condicional." },
@@ -962,7 +969,7 @@
       { "id": "d", "text": "Es una estructura de flujo." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Es una estructura de repetición o iterativa."
+    "explanation": "`for` es una **estructura de control iterativa**, usada para repetir un bloque de código un número determinado de veces."
   },
   {
     "subject": "Programación",
@@ -970,7 +977,7 @@
       "order": 5,
       "title": "Estructuras de control"
     },
-    "question": "La estructura if",
+    "question": "La estructura `if`",
     "options": [
       {
         "id": "a",
@@ -984,7 +991,7 @@
       { "id": "d", "text": "Solo se ejecuta una vez" }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Permite ejecutar una parte de código según una condición"
+    "explanation": "`if` es una **estructura condicional** que permite decidir si un bloque de código se ejecuta o no según el valor de una expresión booleana."
   },
   {
     "subject": "Programación",
@@ -992,7 +999,7 @@
       "order": 5,
       "title": "Estructuras de control"
     },
-    "question": "La salida de datos por consola en java se emplea",
+    "question": "La salida de datos por consola en Java se emplea:",
     "options": [
       { "id": "a", "text": "System.out por defecto." },
       { "id": "b", "text": "System.in por defecto." },
@@ -1003,7 +1010,7 @@
       { "id": "d", "text": "Todas las opciones son correctas." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: System.out por defecto y System.err para salidas de error."
+    "explanation": "`System.out` se utiliza para imprimir información estándar en consola, y `System.err` para errores. `System.in` es para la entrada de datos."
   },
   {
     "subject": "Programación",
@@ -1011,7 +1018,7 @@
       "order": 5,
       "title": "Estructuras de control"
     },
-    "question": "La sentencia break permite",
+    "question": "La sentencia `break` permite:",
     "options": [
       {
         "id": "a",
@@ -1022,7 +1029,7 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Parar la ejecución de un bucle para ejecutar la próxima instrucción fuera del bucle."
+    "explanation": "`break` termina de inmediato la ejecución de un bucle o `switch`, y continúa con la siguiente instrucción fuera del mismo."
   },
   {
     "subject": "Programación",
@@ -1042,7 +1049,7 @@
       { "id": "d", "text": "No hará nada." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Solo se ejecutará la instrucción i++."
+    "explanation": "El primer `for` no se ejecuta porque `i < 10` es falso desde el inicio. El `do-while` se ejecuta **una vez**, incrementando `i` a 11, pero no imprime nada."
   },
   {
     "subject": "Programación",
@@ -1055,7 +1062,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Según el valor de la variable opciones ejecutara solo el código de uno de los valores 'a', 'b', 'c' o 'd'."
+        "text": "Según el valor de la variable opciones ejecutará solo el código de uno de los valores 'a', 'b', 'c' o 'd'."
       },
       {
         "id": "b",
@@ -1071,7 +1078,7 @@
       }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Según el valor de la variable opciones ejecutara solo el código de uno de los valores 'a', 'b', 'c' o 'd'."
+    "explanation": "El `switch` evalúa la variable `opciones` y ejecuta **solo el bloque** correspondiente al valor que coincida. Gracias al `break`, no se encadena con otros casos."
   },
   {
     "subject": "Programación",
@@ -1087,7 +1094,7 @@
       { "id": "d", "text": "hasNextInt()." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: nextLine()."
+    "explanation": "`nextLine()` permite leer una **línea completa** de entrada desde el teclado (incluidos los espacios). Es ideal para capturar cadenas de texto completas."
   },
   {
     "subject": "Programación",
@@ -1112,8 +1119,9 @@
       }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Necesita el manejo de información existiendo una entrada y salida de datos."
+    "explanation": "Toda aplicación **procesa información**: recibe datos de entrada, los transforma y produce una **salida**. Esto permite cumplir su propósito funcional."
   },
+
   {
     "subject": "Programación",
     "unit": {
@@ -1128,7 +1136,7 @@
       { "id": "d", "text": "Todas las anteriores son incorrectas." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Static."
+    "explanation": "La palabra clave `static` en Java permite que un campo sea compartido entre todas las instancias de una clase."
   },
   {
     "subject": "Programación",
@@ -1144,7 +1152,7 @@
       { "id": "d", "text": "Ninguna de las anteriores." }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Java."
+    "explanation": "El `Garbage Collector` es un mecanismo automático de Java para liberar memoria eliminando objetos no utilizados."
   },
   {
     "subject": "Programación",
@@ -1154,13 +1162,13 @@
     },
     "question": "Jfreechar es:",
     "options": [
-      { "id": "a", "text": "Un tipo de libreria." },
+      { "id": "a", "text": "Un tipo de librería." },
       { "id": "b", "text": "Un tipo de dato." },
       { "id": "c", "text": "Un tipo de llamada para métodos." },
       { "id": "d", "text": "Un tipo de mecanismo de Java." }
     ],
     "answers": ["a"],
-    "explanation": "La respuesta correcta es: Un tipo de libreria."
+    "explanation": "`JFreeChart` es una librería en Java utilizada para generar gráficos de manera sencilla."
   },
   {
     "subject": "Programación",
@@ -1176,7 +1184,7 @@
       { "id": "d", "text": "Todas las anteriores son correctas." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Todas las anteriores son correctas."
+    "explanation": "Los campos en una clase también se conocen como atributos, variables o fields, dependiendo del contexto."
   },
   {
     "subject": "Programación",
@@ -1192,7 +1200,7 @@
       { "id": "d", "text": "000." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Void."
+    "explanation": "En Java, cuando un método no devuelve ningún valor, se especifica con la palabra clave `void`."
   },
   {
     "subject": "Programación",
@@ -1208,7 +1216,7 @@
       { "id": "d", "text": "Ninguno de los anteriores." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Ninguno de los anteriores."
+    "explanation": "En Java se utiliza el operador `new` para instanciar objetos, no cualquiera de los listados."
   },
   {
     "subject": "Programación",
@@ -1236,7 +1244,7 @@
       }
     ],
     "answers": ["c"],
-    "explanation": "La respuesta correcta es: Declaración de un mismo método en una misma clase, pero con diferentes parámetros."
+    "explanation": "La sobrecarga de métodos permite definir múltiples métodos con el mismo nombre, pero diferentes parámetros."
   },
   {
     "subject": "Programación",
@@ -1252,7 +1260,7 @@
       { "id": "d", "text": "Ninguna de las anteriores es correcta" }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Observadores."
+    "explanation": "Los métodos llamados `getters` o `observadores` permiten acceder al valor de los atributos privados de un objeto."
   },
   {
     "subject": "Programación",
@@ -1260,7 +1268,7 @@
       "order": 6,
       "title": "Clases y utilización de objetos"
     },
-    "question": "Tipo de visibilidad, tendrá acceso a la clase desde el mismo paquete o subclases que estén en diferente paquete. Una clase externa en otro paquete no tendrá acceso:",
+    "question": "Tipo de visibilidad, tendrá acceso a la clase desde el mismo paquete o subclases que estén en diferente paquete:",
     "options": [
       { "id": "a", "text": "Public." },
       { "id": "b", "text": "Protected." },
@@ -1268,7 +1276,7 @@
       { "id": "d", "text": "Private." }
     ],
     "answers": ["b"],
-    "explanation": "La respuesta correcta es: Protected."
+    "explanation": "La visibilidad `protected` permite que las clases del mismo paquete o las subclases accedan a los miembros protegidos."
   },
   {
     "subject": "Programación",
@@ -1284,6 +1292,1393 @@
       { "id": "d", "text": "Por valor." }
     ],
     "answers": ["d"],
-    "explanation": "La respuesta correcta es: Por valor."
+    "explanation": "El paso por valor (`by value`) envía una copia de la variable al método, protegiendo el valor original."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Con qué programa podemos crear un documento HTML?",
+    "options": [
+      { "id": "a", "text": "Kompozer" },
+      { "id": "b", "text": "Bloc de Notas." },
+      { "id": "c", "text": "HTML Online Editor." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todos los programas mencionados permiten crear documentos HTML, ya sea mediante un editor especializado como **Kompozer**, un editor de texto plano como **Bloc de Notas**, o un editor online como **HTML Online Editor**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "CSS son las siglas de:",
+    "options": [
+      { "id": "a", "text": "Code Sheets Style." },
+      { "id": "b", "text": "Code Style Sheets." },
+      { "id": "c", "text": "Cascading Style Sheets." },
+      { "id": "d", "text": "Cascading Sheets Style." }
+    ],
+    "answers": ["c"],
+    "explanation": "**CSS** significa *Cascading Style Sheets*, que en español es 'Hojas de estilo en cascada'. Se utilizan para definir el aspecto visual de los documentos HTML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Qué documento permite validar un documento XML?",
+    "options": [
+      { "id": "a", "text": "DTD." },
+      { "id": "b", "text": "OS/2." },
+      { "id": "c", "text": "SASS." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "Un **DTD** (Document Type Definition) especifica la estructura y reglas que debe cumplir un documento **XML**, y por lo tanto se usa para validarlo."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "Dreamweaver es:",
+    "options": [
+      { "id": "a", "text": "Una herramienta de diseño web de código abierto." },
+      { "id": "b", "text": "Una herramienta de diseño web comercial." },
+      {
+        "id": "c",
+        "text": "No es una herramienta de diseño web, sino de edición."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "**Dreamweaver** es un software comercial desarrollado por Adobe que se utiliza para el diseño y edición de páginas web de forma visual y con soporte de código."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "En HTML la etiqueta `<link>` determina:",
+    "options": [
+      { "id": "a", "text": "La versión." },
+      { "id": "b", "text": "Estándar empleado." },
+      { "id": "c", "text": "Recursos externos, hojas de estilo." },
+      { "id": "d", "text": "Estilos empleados." }
+    ],
+    "answers": ["c"],
+    "explanation": "La etiqueta `<link>` se utiliza en el `<head>` del HTML para vincular recursos externos como **hojas de estilo CSS**, íconos, etc."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿En qué año surgió HTML5?",
+    "options": [
+      { "id": "a", "text": "1998." },
+      { "id": "b", "text": "2001." },
+      { "id": "c", "text": "2014." },
+      { "id": "d", "text": "2020." }
+    ],
+    "answers": ["c"],
+    "explanation": "**HTML5** fue publicado como recomendación oficial por el **W3C en octubre de 2014**, incorporando nuevas etiquetas semánticas y soporte multimedia."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Cómo se crean las esquinas redondeadas en CSS?",
+    "options": [
+      { "id": "a", "text": "Solamente con un valor." },
+      { "id": "b", "text": "Con uno o dos valores." },
+      { "id": "c", "text": "Con uno, dos o tres valores." },
+      { "id": "d", "text": "Con uno, dos, tres o cuatros valores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La propiedad `border-radius` en CSS permite redondear las esquinas, y puede recibir **hasta 4 valores** (uno por esquina) para definir su forma."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Cómo se asigna un valor a un atributo HTML?",
+    "options": [
+      { "id": "a", "text": "Mediante el signo +." },
+      { "id": "b", "text": "Usando comillas dobles." },
+      { "id": "c", "text": "Con un guion bajo." },
+      { "id": "d", "text": "Usando el signo igual (=)." }
+    ],
+    "answers": ["d"],
+    "explanation": "En HTML, la forma correcta de asignar un valor a un atributo es utilizando el signo **`=`**. Ejemplo: `<input type=\"text\">`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Qué característica define a los enlaces absolutos?",
+    "options": [
+      { "id": "a", "text": "Emplean una URL." },
+      { "id": "b", "text": "Emplean archivos en el mismo servidor." },
+      { "id": "c", "text": "Emplean archivos en la misma página." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "Un **enlace absoluto** utiliza una URL completa como `https://www.ejemplo.com`, mientras que uno relativo usa rutas internas."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 2,
+      "title": "Lenguajes para la visualización de la información"
+    },
+    "question": "¿Cuál de las siguientes **no** es una nueva etiqueta en HTML5?",
+    "options": [
+      { "id": "a", "text": "`dialog`." },
+      { "id": "b", "text": "`figure`." },
+      { "id": "c", "text": "`progress`." },
+      { "id": "d", "text": "`form`." }
+    ],
+    "answers": ["d"],
+    "explanation": "La etiqueta `<form>` ya existía antes de HTML5. Las demás, como `<dialog>`, `<figure>` y `<progress>`, fueron introducidas en HTML5."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "Además de Windows **Gedit** puede emplearse con:",
+    "options": [
+      { "id": "a", "text": "Uso en Windows y entornos como GNOME." },
+      { "id": "b", "text": "Guardar y copiar texto." },
+      { "id": "c", "text": "Uso en Windows." },
+      { "id": "d", "text": "Distintos usos de fuentes." }
+    ],
+    "answers": ["a"],
+    "explanation": "Gedit es un editor de texto versátil que puede utilizarse tanto en **Windows** como en **GNOME**, el entorno gráfico de sistemas GNU/Linux."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "¿Con cuál de estos podemos editar páginas web?",
+    "options": [
+      { "id": "a", "text": "Bloc de notas de Windows." },
+      { "id": "b", "text": "Gedit." },
+      { "id": "c", "text": "Notepad++." },
+      { "id": "d", "text": "Todas las anteriores son correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todos estos editores permiten modificar archivos **HTML**, **CSS** y otros relacionados con desarrollo web."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "El formato de codificación de caracteres generalmente empleado por XML es:",
+    "options": [
+      { "id": "a", "text": "uef-8." },
+      { "id": "b", "text": "utf-8." },
+      { "id": "c", "text": "uft-8." },
+      { "id": "d", "text": "ufe-8." }
+    ],
+    "answers": ["b"],
+    "explanation": "**UTF-8** es la codificación estándar recomendada por el W3C para documentos XML y HTML modernos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "En XML los valores siempre deben:",
+    "options": [
+      { "id": "a", "text": "Ser numéricos." },
+      { "id": "b", "text": "Entrecomillarse." },
+      { "id": "c", "text": "Ir entre símbolos de igual." },
+      { "id": "d", "text": "Acotarse con los símbolos \"<\" y \">\"." }
+    ],
+    "answers": ["b"],
+    "explanation": "En **XML**, los valores de los atributos deben ir entre comillas dobles o simples, como en: `<etiqueta atributo=\"valor\">`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "Señala la afirmación correcta:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Los elementos XML no necesitan estar anidados correctamente."
+      },
+      {
+        "id": "b",
+        "text": "Un documento XML puede tener múltiples elementos raíz."
+      },
+      {
+        "id": "c",
+        "text": "La estructura de los documenta XML debe ser jerárquica con un único elemento raíz."
+      },
+      {
+        "id": "d",
+        "text": "No es necesario que los elementos se abran y cierren en el orden correcto."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Todo documento **XML** debe tener una estructura **jerárquica** con un único **elemento raíz** que contenga a los demás elementos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "La estructura de XML consta de:",
+    "options": [
+      { "id": "a", "text": "Prólogo y directorio." },
+      { "id": "b", "text": "Índice y cuerpo." },
+      { "id": "c", "text": "Prólogo y cuerpo." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "La estructura básica de un documento **XML** incluye el **prólogo** (con declaración de versión y codificación) y el **cuerpo** (contenido de datos estructurados)."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "La extensión predeterminada de los archivos del bloc de notas es:",
+    "options": [
+      { "id": "a", "text": ".txt." },
+      { "id": "b", "text": ".doc." },
+      { "id": "c", "text": ".docx." },
+      { "id": "d", "text": ".xml." }
+    ],
+    "answers": ["a"],
+    "explanation": "El **Bloc de Notas** de Windows guarda por defecto con extensión **.txt**, que es texto plano sin formato."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "Los lenguajes de marcas pueden ser de:",
+    "options": [
+      { "id": "a", "text": "Procedimiento." },
+      { "id": "b", "text": "Presentación." },
+      { "id": "c", "text": "Descriptivos." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Existen distintos tipos de **lenguajes de marcas**: descriptivos como XML, de presentación como HTML y de procedimiento como XSLT."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "SGML son las siglas de:",
+    "options": [
+      { "id": "a", "text": "standard generalized markup language." },
+      { "id": "b", "text": "sistem generalized markup language." },
+      { "id": "c", "text": "synthesis generalized markup language." },
+      { "id": "d", "text": "Es GSML no SGML." }
+    ],
+    "answers": ["a"],
+    "explanation": "**SGML** significa *Standard Generalized Markup Language* y es el precursor de XML y HTML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 3,
+      "title": "Lenguajes para el almacenamiento / transmisión de info"
+    },
+    "question": "¿Cuál de las siguientes características no es comúnmente proporcionada por Notepad++?",
+    "options": [
+      { "id": "a", "text": "Autocompletado." },
+      { "id": "b", "text": "Búsqueda y reemplazo." },
+      { "id": "c", "text": "Resultado de sintaxis." },
+      { "id": "d", "text": "Edición de imágenes." }
+    ],
+    "answers": ["d"],
+    "explanation": "**Notepad++** es un editor de texto avanzado, pero no ofrece **edición de imágenes**, ya que no está diseñado para ello."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "The headphones am in the closet." },
+      { "id": "b", "text": "The headphones is in the closet." },
+      { "id": "c", "text": "The headphones are in the closet." },
+      { "id": "d", "text": "The headphone are in the closet." }
+    ],
+    "answers": ["c"],
+    "explanation": "The noun *headphones* is **plural**, so it requires the verb **are**. The correct sentence is: *The headphones are in the closet.*"
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "Does she have a laptop?" },
+      { "id": "b", "text": "Has she got a laptop?" },
+      { "id": "c", "text": "Do she have a laptop?" },
+      { "id": "d", "text": "A and B are correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Both **Does she have a laptop?** and **Has she got a laptop?** are grammatically correct and commonly used to ask about possession."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Support specialists usually fix computer problems."
+      },
+      {
+        "id": "b",
+        "text": "Support specialists fixing computer problems usually."
+      },
+      {
+        "id": "c",
+        "text": "Usually support specialists fix computer problems."
+      },
+      {
+        "id": "d",
+        "text": "Support specialists fixes computer problems usually."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "The correct word order for adverbs of frequency is: **subject + adverb + verb** → *Support specialists usually fix...*"
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Choose the wrong sentence:",
+    "options": [
+      { "id": "a", "text": "I like using technology." },
+      { "id": "b", "text": "I hate assembling computers." },
+      { "id": "c", "text": "I dislike repair mobile phones." },
+      { "id": "d", "text": "I don’t love working at nights." }
+    ],
+    "answers": ["c"],
+    "explanation": "After **dislike**, we must use the gerund form: *I dislike repairing mobile phones.*"
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Choose the wrong sentence.",
+    "options": [
+      { "id": "a", "text": "I always visit my family in Christmas." },
+      { "id": "b", "text": "I go to the gym on Sunday mornings." },
+      { "id": "c", "text": "What do you do at weekends?" },
+      { "id": "d", "text": "Her birthday is in July." }
+    ],
+    "answers": ["a"],
+    "explanation": "We say **at Christmas**, not *in Christmas*. Correct form: *I always visit my family at Christmas.*"
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Complete the word with the right suffix: “Broad-“",
+    "options": [
+      { "id": "a", "text": "-byte." },
+      { "id": "b", "text": "-ware." },
+      { "id": "c", "text": "-band." },
+      { "id": "d", "text": "-phone." }
+    ],
+    "answers": ["c"],
+    "explanation": "**Broadband** refers to high-speed internet connection. It is the correct suffix in this context."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Fill in the gaps with the correct possessive forms: “Sam has forgotten ______ USB flash drive at home, can he borrow _______?”",
+    "options": [
+      { "id": "a", "text": "his/your" },
+      { "id": "b", "text": "her/yours" },
+      { "id": "c", "text": "him/you" },
+      { "id": "d", "text": "his/yours" }
+    ],
+    "answers": ["d"],
+    "explanation": "**His** is the possessive adjective for Sam, and **yours** is the possessive pronoun referring to the second person."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "The hardware is...",
+    "options": [
+      { "id": "a", "text": "a language used to program computers." },
+      { "id": "b", "text": "the physical and electronic parts of a computer." },
+      {
+        "id": "c",
+        "text": "the instructions that control what a computer can do."
+      },
+      { "id": "d", "text": "none of the above." }
+    ],
+    "answers": ["b"],
+    "explanation": "**Hardware** refers to the **physical components** of a computer system, like the monitor, keyboard, and motherboard."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Which of these gerunds is wrong?",
+    "options": [
+      { "id": "a", "text": "fixing" },
+      { "id": "b", "text": "runing" },
+      { "id": "c", "text": "taking" },
+      { "id": "d", "text": "lying" }
+    ],
+    "answers": ["b"],
+    "explanation": "The correct gerund of *run* is **running**, not *runing*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 1,
+      "title": "Getting ready to be a professional"
+    },
+    "question": "Which statement is not correct?",
+    "options": [
+      { "id": "a", "text": "How often is used to ask for frequency." },
+      { "id": "b", "text": "How much is used to ask for countable nouns." },
+      {
+        "id": "c",
+        "text": "Why is used to ask about the reason of something."
+      },
+      { "id": "d", "text": "Who is used to ask about people." }
+    ],
+    "answers": ["b"],
+    "explanation": "**How much** is used for **uncountable nouns**, not countable ones. For countable, we use **How many**."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "When I were a child, I was afraid of dogs." },
+      { "id": "b", "text": "When I was a child, I was afraid of dogs." },
+      { "id": "c", "text": "When I were a child, I were afraid of dogs." },
+      { "id": "d", "text": "When I was a child, I were afraid of dogs." }
+    ],
+    "answers": ["b"],
+    "explanation": "La forma correcta del verbo *to be* en pasado con el sujeto *I* es **was**, no *were*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "I used to study French." },
+      { "id": "b", "text": "They use to assemble computers." },
+      { "id": "c", "text": "She didn’t used to like technology." },
+      { "id": "d", "text": "Did he used to play video games?" }
+    ],
+    "answers": ["a"],
+    "explanation": "La forma correcta es **used to**. Las opciones B, C y D están gramaticalmente incorrectas."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "I walked home when I was seeing my boss." },
+      { "id": "b", "text": "I was walking home when I saw my boss." },
+      { "id": "c", "text": "I walk home when I saw my boss." },
+      { "id": "d", "text": "I was walking home when I was seeing my boss." }
+    ],
+    "answers": ["b"],
+    "explanation": "La estructura correcta para expresar acciones simultáneas en pasado es: *Past continuous* + *past simple*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the right answer:",
+    "options": [
+      { "id": "a", "text": "He is more tall than me." },
+      {
+        "id": "b",
+        "text": "She is the most intelligent worker in the workshop."
+      },
+      { "id": "c", "text": "Alcohol is as worse as tobacco." },
+      { "id": "d", "text": "It is the more dangerous activity." }
+    ],
+    "answers": ["b"],
+    "explanation": "La opción B es la única gramaticalmente correcta en el uso de superlativos."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the wrong answer:",
+    "options": [
+      { "id": "a", "text": "I have already read this book." },
+      { "id": "b", "text": "They’ve just finished the exam." },
+      { "id": "c", "text": "She has always wanted to be a computer engineer." },
+      { "id": "d", "text": "We have started yet." }
+    ],
+    "answers": ["d"],
+    "explanation": "La palabra **yet** se usa generalmente en frases negativas o interrogativas, no afirmativas como en la opción D."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the wrong answer.",
+    "options": [
+      { "id": "a", "text": "There was an accident at the roundabout." },
+      { "id": "b", "text": "There was a long queue of people on the gate." },
+      {
+        "id": "c",
+        "text": "My grandparents live in a small village in the mountains."
+      },
+      { "id": "d", "text": "Jimmy passed on his bike." }
+    ],
+    "answers": ["b"],
+    "explanation": "La expresión correcta es **at the gate**, no *on the gate*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Choose the wrong verb in the Past Simple:",
+    "options": [
+      { "id": "a", "text": "fixed" },
+      { "id": "b", "text": "met" },
+      { "id": "c", "text": "goed" },
+      { "id": "d", "text": "assembled" }
+    ],
+    "answers": ["c"],
+    "explanation": "La forma correcta del pasado de *go* es **went**, no *goed*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Complete the sentence: “She hasn’t found the document…”",
+    "options": [
+      { "id": "a", "text": "since" },
+      { "id": "b", "text": "just" },
+      { "id": "c", "text": "yet" },
+      { "id": "d", "text": "None of the above." }
+    ],
+    "answers": ["c"],
+    "explanation": "**Yet** se usa con el present perfect para indicar que algo aún no ha sucedido."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Which is an input device?",
+    "options": [
+      { "id": "a", "text": "projector" },
+      { "id": "b", "text": "speaker" },
+      { "id": "c", "text": "mouse" },
+      { "id": "d", "text": "Printer" }
+    ],
+    "answers": ["c"],
+    "explanation": "El **mouse** es un dispositivo de entrada que permite al usuario interactuar con el sistema."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 2,
+      "title": "Computers and peripherals"
+    },
+    "question": "Which is not a part of the motherboard?",
+    "options": [
+      { "id": "a", "text": "The mainframe." },
+      { "id": "b", "text": "The CPU." },
+      { "id": "c", "text": "RAM memory." },
+      { "id": "d", "text": "The heat sink." }
+    ],
+    "answers": ["a"],
+    "explanation": "**Mainframe** no es una parte de la placa base. Es un tipo de ordenador de gran escala, no un componente."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right option:",
+    "options": [
+      { "id": "a", "text": "This coffee is too hot to drink." },
+      { "id": "b", "text": "This coffee is enough hot to drink." },
+      { "id": "c", "text": "This coffee is hot too to drink." },
+      { "id": "d", "text": "None of them." }
+    ],
+    "answers": ["a"],
+    "explanation": "La estructura correcta es **too + adjective + to + verb**, por eso 'too hot to drink' es la forma adecuada."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right demonstrative: “Can you pass me _______ book over there, please?”",
+    "options": [
+      { "id": "a", "text": "this" },
+      { "id": "b", "text": "that" },
+      { "id": "c", "text": "these" },
+      { "id": "d", "text": "those" }
+    ],
+    "answers": ["b"],
+    "explanation": "**That** se utiliza para señalar algo que está lejos del hablante, mientras que *this* es para cosas cercanas."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right option for this sentence: “What are your plans for summer?”",
+    "options": [
+      { "id": "a", "text": "We going to travel to London." },
+      { "id": "b", "text": "We will travel to London." },
+      { "id": "c", "text": "We are going to travel to London." },
+      { "id": "d", "text": "We travel to London." }
+    ],
+    "answers": ["c"],
+    "explanation": "La expresión **be going to** es adecuada para planes ya decididos."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right option:",
+    "options": [
+      {
+        "id": "a",
+        "text": "That computer looks heavy. I’m going to help you with it."
+      },
+      {
+        "id": "b",
+        "text": "That computer looks heavy. I’ll help you with it."
+      },
+      {
+        "id": "c",
+        "text": "That computer looks heavy. I’m helping you with it."
+      },
+      { "id": "d", "text": "That computer looks heavy. I help you with it." }
+    ],
+    "answers": ["b"],
+    "explanation": "Se usa **I'll** para decisiones espontáneas, como en este caso al ver que el ordenador pesa."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right option:",
+    "options": [
+      { "id": "a", "text": "My train will leave at 5 pm tomorrow." },
+      { "id": "b", "text": "My train leaves at 5 pm tomorrow." },
+      { "id": "c", "text": "My train is leaving at 5 pm tomorrow." },
+      { "id": "d", "text": "My train is going to leave at 5 pm tomorrow." }
+    ],
+    "answers": ["b"],
+    "explanation": "El **present simple** se usa con sentido futuro cuando hablamos de horarios o calendarios oficiales."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right option:",
+    "options": [
+      { "id": "a", "text": "She isn’t old enough to drive." },
+      { "id": "b", "text": "He’s too short to play in a basketball team." },
+      { "id": "c", "text": "I don’t have enough money to buy a new phone." },
+      { "id": "d", "text": "All of them are correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las frases son gramaticalmente correctas y muestran usos comunes de *too* y *enough*."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "Choose the right preposition for the sentence: “Every time we drive __________ a tunnel I hold my breath.”",
+    "options": [
+      { "id": "a", "text": "along" },
+      { "id": "b", "text": "across" },
+      { "id": "c", "text": "over" },
+      { "id": "d", "text": "through" }
+    ],
+    "answers": ["d"],
+    "explanation": "**Through** se usa para indicar movimiento dentro de un espacio cerrado, como un túnel."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "We use the present simple with a future meaning…",
+    "options": [
+      { "id": "a", "text": "To talk about timetables." },
+      { "id": "b", "text": "When we have something arranged or decided." },
+      { "id": "c", "text": "For spontaneous decisions." },
+      { "id": "d", "text": "To predict something." }
+    ],
+    "answers": ["a"],
+    "explanation": "El **present simple** puede expresar futuro cuando se habla de horarios o eventos fijos."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "What does IP stand for?",
+    "options": [
+      { "id": "a", "text": "Internal Procedure" },
+      { "id": "b", "text": "Internal Protocol" },
+      { "id": "c", "text": "Internet Protocol" },
+      { "id": "d", "text": "Important Program" }
+    ],
+    "answers": ["c"],
+    "explanation": "**IP** significa *Internet Protocol*, el conjunto de reglas para enrutar datos entre dispositivos en una red."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 3,
+      "title": "The Internet"
+    },
+    "question": "What is the name of this symbol “@”?",
+    "options": [
+      { "id": "a", "text": "at" },
+      { "id": "b", "text": "ampersand" },
+      { "id": "c", "text": "hash" },
+      { "id": "d", "text": "asterisk" }
+    ],
+    "answers": ["a"],
+    "explanation": "El símbolo **@** se lee como *at* en inglés, muy común en direcciones de correo electrónico."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      {
+        "id": "a",
+        "text": "This is the computer technician which fixed my laptop."
+      },
+      {
+        "id": "b",
+        "text": "This is the computer technician who fixed my laptop."
+      },
+      {
+        "id": "c",
+        "text": "This is the computer technician whose fixed my laptop."
+      },
+      {
+        "id": "d",
+        "text": "This is the computer technician where fixed my laptop."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "Se usa **who** para referirse a personas en oraciones relativas."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Choose the right option: “____________ anybody in the office?”",
+    "options": [
+      { "id": "a", "text": "Are there" },
+      { "id": "b", "text": "There is" },
+      { "id": "c", "text": "There are" },
+      { "id": "d", "text": "Is there" }
+    ],
+    "answers": ["d"],
+    "explanation": "**Is there** es la forma correcta para preguntas con sujeto singular o no contable."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Choose the sentence without any mistake.",
+    "options": [
+      { "id": "a", "text": "If she work hard, she will be promoted." },
+      { "id": "b", "text": "If she will work hard, she will be promoted." },
+      { "id": "c", "text": "If she work hard, she get promoted." },
+      { "id": "d", "text": "If she works hard, she will be promoted." }
+    ],
+    "answers": ["d"],
+    "explanation": "La estructura del primer condicional es: **If + present simple**, **will + base verb**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Chose the right option:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Unless she find a solution, the laptop won´t work."
+      },
+      {
+        "id": "b",
+        "text": "Unless she finds a solution, the laptop won’t work."
+      },
+      {
+        "id": "c",
+        "text": "Unless she doesn’t find a solution, she laptop will work."
+      },
+      {
+        "id": "d",
+        "text": "Unless she finds a solution, the laptop don’t work."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "**Unless** implica una condición negativa, por lo que no se usa *doesn’t*. Se usa el **present simple** en la oración condicional."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Complete the sentence: “He __________ promoted if he _________ harder.”",
+    "options": [
+      { "id": "a", "text": "would has been / had worked" },
+      { "id": "b", "text": "will be / studied" },
+      { "id": "c", "text": "would have been / had worked" },
+      { "id": "d", "text": "would be / works" }
+    ],
+    "answers": ["c"],
+    "explanation": "La estructura correcta para el tercer condicional es: **would have + past participle** / **if + past perfect**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Complete the sentence: “There are _____ workstations in the office, but there is ______ space”.",
+    "options": [
+      { "id": "a", "text": "many/little" },
+      { "id": "b", "text": "much/little" },
+      { "id": "c", "text": "many/few" },
+      { "id": "d", "text": "many/a few" }
+    ],
+    "answers": ["a"],
+    "explanation": "Se usa **many** con contables como 'workstations' y **little** con incontables como 'space'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Complete the sentence. “This is the company _______ I used to go work five years ago.”",
+    "options": [
+      { "id": "a", "text": "where" },
+      { "id": "b", "text": "which" },
+      { "id": "c", "text": "whose" },
+      { "id": "d", "text": "who" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Where** se usa para referirse a lugares en oraciones relativas."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Which is the right option?",
+    "options": [
+      { "id": "a", "text": "Mikel is such an interesting and amazed person." },
+      { "id": "b", "text": "Mikel is such an interesting and amazing person." },
+      { "id": "c", "text": "Mikel is such an interested and amazed person." },
+      { "id": "d", "text": "Mikel is such an interested and amazing person." }
+    ],
+    "answers": ["b"],
+    "explanation": "**Interesting** y **amazing** son adjetivos que describen el efecto que algo tiene en otros. *Interested* y *amazed* describen emociones personales."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Which one is an application software?",
+    "options": [
+      { "id": "a", "text": "Linux" },
+      { "id": "b", "text": "Java" },
+      { "id": "c", "text": "Word" },
+      { "id": "d", "text": "C++" }
+    ],
+    "answers": ["c"],
+    "explanation": "**Microsoft Word** es un software de aplicación; se usa para tareas específicas como procesar textos."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 4,
+      "title": "Software"
+    },
+    "question": "Which one is the shortcut for undoing the previous action?",
+    "options": [
+      { "id": "a", "text": "Ctrl+Z" },
+      { "id": "b", "text": "Ctrl+Y" },
+      { "id": "c", "text": "Ctrl+S" },
+      { "id": "d", "text": "Ctrl+X" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Ctrl+Z** es el atajo universal para deshacer la acción anterior."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      { "id": "a", "text": "She must to carry her laptop at work." },
+      { "id": "b", "text": "She musts carry her laptop at work." },
+      { "id": "c", "text": "She must carry her laptop at work." },
+      { "id": "d", "text": "She must carries her laptop at work." }
+    ],
+    "answers": ["c"],
+    "explanation": "El verbo modal **must** va seguido directamente del verbo en infinitivo sin 'to'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Choose the right option:",
+    "options": [
+      { "id": "a", "text": "Peter’s desk is the one at the back." },
+      { "id": "b", "text": "Mary’s computer is broken." },
+      { "id": "c", "text": "Sam and Michelle’s boss is Ms Fox." },
+      { "id": "d", "text": "All of them are correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las frases están gramaticalmente correctas y utilizan apropiadamente el caso posesivo."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Complete the gap with the suitable word: “________ came to the meeting, so we couldn’t resolve ___________.”",
+    "options": [
+      { "id": "a", "text": "Anyone / nothing" },
+      { "id": "b", "text": "Somebody / nothing" },
+      { "id": "c", "text": "Anybody / something" },
+      { "id": "d", "text": "No-one / anything" }
+    ],
+    "answers": ["d"],
+    "explanation": "La combinación correcta en una oración negativa es **no-one** y **anything**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Complete the sentence: “Never expect ____________ from _____________.”",
+    "options": [
+      { "id": "a", "text": "anything / anyone" },
+      { "id": "b", "text": "nothing / anybody" },
+      { "id": "c", "text": "anything / something" },
+      { "id": "d", "text": "nothing / no-one" }
+    ],
+    "answers": ["a"],
+    "explanation": "La forma gramatical correcta es **anything** (forma afirmativa en oración negativa) y **anyone**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Complete the sentence. “My two ________ company is closed due to Covid-19.”",
+    "options": [
+      { "id": "a", "text": "friend’s" },
+      { "id": "b", "text": "friends’" },
+      { "id": "c", "text": "friends’s" },
+      { "id": "d", "text": "friend" }
+    ],
+    "answers": ["b"],
+    "explanation": "**friends’** es el posesivo correcto para plural terminado en -s."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Complete the sentence. “They ________ protect their computer from malware attacks last month.”",
+    "options": [
+      { "id": "a", "text": "must" },
+      { "id": "b", "text": "had to" },
+      { "id": "c", "text": "can" },
+      { "id": "d", "text": "might" }
+    ],
+    "answers": ["b"],
+    "explanation": "La forma pasada de obligación con 'must' es **had to**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Phishing is…",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deceiving individuals to gain private or personal information about that person."
+      },
+      { "id": "b", "text": "Pretending you are someone that you are not" },
+      {
+        "id": "c",
+        "text": "Releasing another person's personal information without their permission."
+      },
+      { "id": "d", "text": "Writing, creating, or distributing malware." }
+    ],
+    "answers": ["a"],
+    "explanation": "**Phishing** es una técnica para obtener información personal engañando a las personas."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "To be protected against cybercrime, we should…",
+    "options": [
+      { "id": "a", "text": "Keep software and operating system updated." },
+      { "id": "b", "text": "Do not open attachments in spam emails." },
+      { "id": "c", "text": "Be mindful of which website URLs are visited." },
+      { "id": "d", "text": "All the answers are correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las acciones mencionadas son buenas prácticas para protegerse contra el **cybercrime**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Which is the right answer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "You should talk to the head manager and tell her what you saw."
+      },
+      {
+        "id": "b",
+        "text": "You must talk to the head manager and tell her what you saw."
+      },
+      {
+        "id": "c",
+        "text": "You ought to talk to the head manager and tell her what you saw."
+      },
+      { "id": "d", "text": "Any answer is correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Las tres primeras opciones son gramaticalmente válidas, por lo que **todas son correctas**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 5,
+      "title": "Dangers"
+    },
+    "question": "Which of these is not a type of malicious software?",
+    "options": [
+      { "id": "a", "text": "Ransomware." },
+      { "id": "b", "text": "Spyware." },
+      { "id": "c", "text": "Hardware." },
+      { "id": "d", "text": "Adware." }
+    ],
+    "answers": ["c"],
+    "explanation": "**Hardware** no es software, mientras que las otras opciones sí son tipos de malware."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      {
+        "id": "a",
+        "text": "She told me that she was going to repair her laptop the next day."
+      },
+      {
+        "id": "b",
+        "text": "She said me that she was going to repair her laptop the next day."
+      },
+      {
+        "id": "c",
+        "text": "She told me that she were going to repair her laptop the next day."
+      },
+      {
+        "id": "d",
+        "text": "She said that she is going to repair her laptop the next day."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "En estilo indirecto, se utiliza el pasado ('was going') y 'told someone that', no 'said me'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option for this sentence: He asked: “What are you doing now?”",
+    "options": [
+      { "id": "a", "text": "He asked what you were doing now." },
+      { "id": "b", "text": "He asked what you was doing then." },
+      { "id": "c", "text": "He asked if you were doing then." },
+      { "id": "d", "text": "He asked what you were doing then." }
+    ],
+    "answers": ["d"],
+    "explanation": "Al pasar a estilo indirecto, 'now' se convierte en 'then' y el tiempo verbal cambia a pasado continuo."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option of Causative sentence:",
+    "options": [
+      { "id": "a", "text": "We will have our computer repaired." },
+      { "id": "b", "text": "We will have our computer repair." },
+      { "id": "c", "text": "We have our computer repair." },
+      { "id": "d", "text": "Our computer will have repaired." }
+    ],
+    "answers": ["a"],
+    "explanation": "La estructura correcta para causativa en futuro es 'will have + objeto + past participle'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option of Causative sentence:",
+    "options": [
+      { "id": "a", "text": "She gets her phone assemble." },
+      { "id": "b", "text": "She is getting her phone assembled." },
+      { "id": "c", "text": "She get her phone assembled." },
+      { "id": "d", "text": "She got her phone assemble." }
+    ],
+    "answers": ["b"],
+    "explanation": "La forma correcta es 'is getting + objeto + past participle' para expresar causativa en presente continuo."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      { "id": "a", "text": "The computer will assembled by the IT guy." },
+      { "id": "b", "text": "The computer is assembled of the IT guy." },
+      { "id": "c", "text": "The computer is assembled by the IT guy." },
+      { "id": "d", "text": "The computer is being assemble by the IT guy." }
+    ],
+    "answers": ["c"],
+    "explanation": "La opción correcta utiliza voz pasiva en presente: 'is assembled by'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      { "id": "a", "text": "The book will be given to me by Martha." },
+      { "id": "b", "text": "I have been given the book by Martha." },
+      { "id": "c", "text": "The book was given to me by Martha." },
+      { "id": "d", "text": "All are correct." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las frases son correctas y usan voz pasiva en distintos tiempos verbales."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Choose the correct option:",
+    "options": [
+      { "id": "a", "text": "He ordered me to logging in to the system." },
+      { "id": "b", "text": "He told me to log in to the system." },
+      { "id": "c", "text": "He said me to log in to the system." },
+      { "id": "d", "text": "He said to me that log in to the system." }
+    ],
+    "answers": ["b"],
+    "explanation": "La forma correcta con 'tell' es 'told me to + infinitive'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Complete the gap with a suitable verb tense: “The flash drive was _____ on the table yesterday.”",
+    "options": [
+      { "id": "a", "text": "leave" },
+      { "id": "b", "text": "leaving" },
+      { "id": "c", "text": "left" },
+      { "id": "d", "text": "lefted" }
+    ],
+    "answers": ["c"],
+    "explanation": "La forma correcta del pasado participio de 'leave' es **left**."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Ctrl + E is used to…",
+    "options": [
+      { "id": "a", "text": "save the document." },
+      { "id": "b", "text": "insert footnote." },
+      { "id": "c", "text": "apply underline format." },
+      { "id": "d", "text": "select the entire document." }
+    ],
+    "answers": ["d"],
+    "explanation": "Ctrl + E se usa para **seleccionar todo el documento** en muchas aplicaciones de procesamiento de texto."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 6,
+      "title": "Office software"
+    },
+    "question": "Which one is not a word processor?",
+    "options": [
+      { "id": "a", "text": "Word" },
+      { "id": "b", "text": "NotePad" },
+      { "id": "c", "text": "PowerPoint" },
+      { "id": "d", "text": "WordPad" }
+    ],
+    "answers": ["c"],
+    "explanation": "**PowerPoint** es una herramienta de presentaciones, no de procesamiento de texto."
   }
 ]

@@ -76,13 +76,20 @@
       "title": "Información"
     },
     "success": {
-      "title": "¡Éxito!"
+      "title": "¡Éxito!",
+      "completed": {
+        "title": "¡Felicidades! Has completado <1>{{title}}</1>",
+        "score": "Has respondido correctamente <1>{{score}}</1> de <1>{{total}}</1> preguntas, así que tu precisión es del <2>{{score_percent}}%</2>",
+        "new-pack": "Comenzar nuevo pack",
+        "reset": "Reiniciar pack",
+        "back": "Volver"
+      }
     },
     "warning": {
       "title": "¡Advertencia!",
       "changepack_warning": {
-        "info_one": "Actualmente tienes un paquete activo con <1>{{count}}</1> pregunta y las siguientes estadísticas...",
-        "info_other": "Actualmente tienes un paquete activo con <1>{{count}}</1> preguntas y las siguientes estadísticas...",
+        "info_one": "Actualmente tienes un paquete activo con <1>{{count}}</1> pregunta y las siguientes estadísticas",
+        "info_other": "Actualmente tienes un paquete activo con <1>{{count}}</1> preguntas y las siguientes estadísticas",
         "stats": "Estadísticas",
         "seen_one": "<0>{{count}}</0> vista",
         "seen_other": "<0>{{count}}</0> vistas",
@@ -144,5 +151,38 @@
       }
     },
     "footer": "Este proyecto está en constante desarrollo. ¡Gracias por probarlo!"
+  },
+  "questions": {
+    "all-questions": "Todas las preguntas",
+    "question-card": {
+      "question": "Pregunta",
+      "answer-chip": {
+        "correct": "¡Correcto!",
+        "incorrect": "¡Incorrecto!"
+      },
+      "right-answer": "Respuesta correcta: <1>{{answer}}</1>",
+      "verify": "Verificar"
+    },
+    "ready": {
+      "title": "¿Listo para empezar?",
+      "subtitle_one": "Estás a punto de repasar <1>{{count}}</1> pregunta del módulo:",
+      "subtitle_other": "Estás a punto de repasar <1>{{count}}</1> preguntas del módulo:",
+      "desc": "Si estás listo para repasar, haz clic en el botón \"Empezar\"",
+      "start-btn": "Empezar"
+    },
+    "details": {
+      "details-btn": {
+        "show": "Mostrar detalles",
+        "hide": "Ocultar detalles"
+      },
+      "explanation": "Explicación",
+      "subject": "Asignatura",
+      "unit": "Unidad",
+      "difficulty": "Dificultad",
+      "tags": "Etiquetas"
+    },
+    "list-nav": {
+      "questions-list": "Lista de preguntas"
+    }
   }
 }

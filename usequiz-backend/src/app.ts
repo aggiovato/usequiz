@@ -9,12 +9,7 @@ import { notFound } from "./middlewares/notFound";
 const app = express();
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: ["https://usequiz.vercel.app"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => {

@@ -14,11 +14,13 @@ export interface PackStats {
 }
 
 interface PackState {
+  title: string;
   questions: QuestionType[];
   currentIndex: number;
   currentQ: QuestionType | null;
   stats: PackStats;
   routeFrom: string;
+  setTitle: (title: string) => void;
   setQuestions: (questions: QuestionType[], routeFrom: string) => void;
   setCurrentQ: (currentQ: QuestionType | null, index: number) => void;
   nextQuestion: () => void;
@@ -31,6 +33,7 @@ export const usePackStore = create<PackState>()(
   persist(
     // to save in localStorage
     (set, get) => ({
+      title: "",
       questions: [],
       currentIndex: 0,
       currentQ: null,
@@ -43,6 +46,8 @@ export const usePackStore = create<PackState>()(
         responses: {},
         startTime: 0,
       },
+
+      setTitle: (title) => set({ title }),
 
       setQuestions: (questions, routeFrom) =>
         set({
@@ -106,6 +111,7 @@ export const usePackStore = create<PackState>()(
 
       resetPack: () =>
         set({
+          title: "",
           questions: [],
           currentIndex: 0,
           currentQ: null,
@@ -123,6 +129,7 @@ export const usePackStore = create<PackState>()(
     {
       name: "pack-storage", // key in localStorage
       partialize: (state) => ({
+        title: state.title,
         questions: state.questions,
         currentIndex: state.currentIndex,
         currentQ: state.currentQ,
