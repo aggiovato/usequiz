@@ -3,6 +3,7 @@ import WelcomeMsg from "./WelcomeMsg";
 import Footer from "./Footer";
 import Features from "./Features";
 import banner from "../../assets/img/banner.svg";
+import footer from "../../assets/img/footer.svg";
 import bannerMobile from "../../assets/img/banner_mobile.svg";
 
 const HomePage = () => {
@@ -25,7 +26,7 @@ const HomePage = () => {
 
       {/* Footer */}
       <section className="relative">
-        <Footer />
+        <Footer footer={footer} />
       </section>
     </div>
   );

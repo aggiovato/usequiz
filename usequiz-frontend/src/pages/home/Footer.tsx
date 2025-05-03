@@ -5,7 +5,7 @@ import GitHubIcon from "../../components/icons/GitHubIcon";
 import AtIcon from "../../components/icons/AtIcon";
 import CopyRightIcon from "../../components/icons/CopyRightIcon";
 
-const Footer = () => {
+const Footer = ({ footer }: { footer: string }) => {
   const { t } = useTranslation();
 
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
       {/* Background decoration */}
 
       <img
-        src="./src/assets/img/footer.svg"
+        src={footer}
         alt="Decorative Footer Background"
         className="w-full h-auto block pointer-events-none"
       />
