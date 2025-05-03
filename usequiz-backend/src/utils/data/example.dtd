@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT alphabet (letter+)>
+<!ELEMENT letter (#PCDATA)>
+<!ATTLIST letter
+    letter CDATA #REQUIRED
+    svg CDATA #REQUIRED
+>

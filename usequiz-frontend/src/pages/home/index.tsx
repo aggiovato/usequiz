@@ -1,10 +1,9 @@
 import Banner from "./Banner";
 import WelcomeMsg from "./WelcomeMsg";
+import Footer from "./Footer";
 import Features from "./Features";
 import banner from "../../assets/img/banner.svg";
 import bannerMobile from "../../assets/img/banner_mobile.svg";
-
-import { version } from "../../version";
 
 const HomePage = () => {
   return (
@@ -25,20 +24,9 @@ const HomePage = () => {
       {/* *************************************************************************** */}
 
       {/* Footer */}
-      <footer className="md:hidden px-6 md:px-10 mt-10 mb-6 md:mb-0">
-        <p className="text-center text-sm text-dark-teal/60">
-          Made with ❤️ by{" "}
-          <a
-            href="https://github.com/aggiovato/usequiz.git"
-            target="_blank"
-            rel="noreferrer"
-            className="text-teal-strong hover:underline"
-          >
-            Aggiovato
-          </a>
-          <span className="text-sm text-dark-teal/60"> v{version}</span>
-        </p>
-      </footer>
+      <section className="relative">
+        <Footer />
+      </section>
     </div>
   );
 };

@@ -1463,7 +1463,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "Además de Windows **Gedit** puede emplearse con:",
     "options": [
@@ -1479,7 +1479,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "¿Con cuál de estos podemos editar páginas web?",
     "options": [
@@ -1495,7 +1495,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "El formato de codificación de caracteres generalmente empleado por XML es:",
     "options": [
@@ -1511,7 +1511,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "En XML los valores siempre deben:",
     "options": [
@@ -1527,7 +1527,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "Señala la afirmación correcta:",
     "options": [
@@ -1555,7 +1555,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "La estructura de XML consta de:",
     "options": [
@@ -1571,7 +1571,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "La extensión predeterminada de los archivos del bloc de notas es:",
     "options": [
@@ -1587,7 +1587,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "Los lenguajes de marcas pueden ser de:",
     "options": [
@@ -1603,7 +1603,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "SGML son las siglas de:",
     "options": [
@@ -1619,7 +1619,7 @@
     "subject": "Lenguajes de marcas",
     "unit": {
       "order": 3,
-      "title": "Lenguajes para el almacenamiento / transmisión de info"
+      "title": "Lenguajes para el almacenamiento y transmisión de info"
     },
     "question": "¿Cuál de las siguientes características no es comúnmente proporcionada por Notepad++?",
     "options": [
@@ -2680,5 +2680,3744 @@
     ],
     "answers": ["c"],
     "explanation": "**PowerPoint** es una herramienta de presentaciones, no de procesamiento de texto."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Compatibility**",
+    "options": [
+      { "id": "a", "text": "affinity" },
+      { "id": "b", "text": "distance" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Compatibility** refers to the affinity between components and the motherboard, ensuring they work properly together."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Component**",
+    "options": [
+      { "id": "a", "text": "element" },
+      { "id": "b", "text": "frame" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Component** is an element that forms part of the computer, like the RAM or CPU, not a structural frame."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Connection**",
+    "options": [
+      { "id": "a", "text": "key" },
+      { "id": "b", "text": "relation" }
+    ],
+    "answers": ["b"],
+    "explanation": "**Connection** refers to the relation or link between the motherboard and other components."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Peripheral**",
+    "options": [
+      { "id": "a", "text": "external" },
+      { "id": "b", "text": "internal" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Peripheral** is an external device connected to the computer, such as a keyboard or printer."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Power**",
+    "options": [
+      { "id": "a", "text": "lack" },
+      { "id": "b", "text": "capacity" }
+    ],
+    "answers": ["b"],
+    "explanation": "**Power** in this context refers to the capacity needed for the motherboard and its components to function correctly."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 7,
+      "title": "The motherboard"
+    },
+    "question": "**Storage**",
+    "options": [
+      { "id": "a", "text": "stockpile" },
+      { "id": "b", "text": "vase" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Storage** refers to stockpile, meaning the place where digital information is saved, like a hard drive or SSD."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "A good password should be less than six characters long and not include any numbers or special characters.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "A good password must be at least six characters long and include uppercase, lowercase, numbers, and special characters."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "Content filters, access control programs or browser settings are good ways to protect and prevent children and adolescents from suffering addictive behaviours.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "Content filters, access control programs, and browser settings are recommended to protect minors from addictive behaviours."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "Cyberbullying, scams, or grooming are some of the negative aspects that the advance of the Internet has brought about.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "The text highlights cyberbullying, scams, and grooming as negative consequences of the advancement of Internet technology."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "It is essential to use security updates periodically on computers.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "Periodically applying security updates is crucial to protect computers from potential intrusions."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "It is very difficult to avoid falling into traps such as theft or scam on the Internet.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "Avoiding scams online is not difficult if we apply common sense, as in everyday life."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "Minors are the least vulnerable because they are the ones who know the Internet best.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "Minors are the most vulnerable online despite their familiarity with technology, facing risks like cyberbullying and grooming."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "Opening messages or attachments of dubious origin could infect your computer.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "Opening suspicious messages or attachments can infect devices with viruses or malware."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "The advance of the Internet and new technologies do not entail any risks.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "The advance of Internet and new technologies entails several risks, such as scams, cyberbullying, and grooming."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "The GPS provides information to applications about our location and allows them to know our consumption habits.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "The GPS tracking option shares location data and consumption habits with applications."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 8,
+      "title": "Tips to reduce the dangers of surfing the Internet"
+    },
+    "question": "When sending an e-mail it is very important to send relevant personal information.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "The text advises never to send relevant personal information via e-mail, especially on suspicious platforms."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "All this has made ...",
+    "options": [
+      {
+        "id": "a",
+        "text": "many daily tasks more convenient, but it also has its negative aspects."
+      },
+      {
+        "id": "b",
+        "text": "many daily tasks inconvenient, but it also has its negative aspects."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "The advance of technology has made many daily tasks more convenient, although it also brings some negative aspects."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "On computers it is essential to use...",
+    "options": [
+      {
+        "id": "a",
+        "text": "two basic security measures: antivirus, and firewall and security updates."
+      },
+      {
+        "id": "b",
+        "text": "three basic security measures: antivirus, firewall and security updates, periodically scanning."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "It is essential to use three security measures: antivirus, firewall, and updates, plus periodic system scans."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "The advance of the Internet ...",
+    "options": [
+      {
+        "id": "a",
+        "text": "has a few possibilities of communication and leisure."
+      },
+      {
+        "id": "b",
+        "text": "has multiplied the possibilities of communication and leisure."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "The Internet has multiplied the possibilities for communication and leisure activities."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "To avoid falling into these traps ...",
+    "options": [
+      {
+        "id": "a",
+        "text": "it is only necessary to apply the common sense that we apply in our ordinary life."
+      },
+      {
+        "id": "b",
+        "text": "it is unnecessary to apply the common sense that we apply in our ordinary life."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Applying common sense, just as in daily life, helps avoid online scams and frauds."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "To protect and prevent children and adolescents from suffering addictive behaviours ....",
+    "options": [
+      {
+        "id": "a",
+        "text": "content filters or browser settings can be used to monitor and control content-related risks."
+      },
+      {
+        "id": "b",
+        "text": "content filters, access control programs or browser settings can be used to monitor and control content-related risks."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "Content filters, access control programs, and browser settings are tools used to monitor and control risks related to online content."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 9,
+      "title": "Tips to reduce the dangers of surfing the Internet (part 2)"
+    },
+    "question": "Use a good password, ...",
+    "options": [
+      { "id": "a", "text": "at least 6 characters long" },
+      { "id": "b", "text": "at least 8 characters long" }
+    ],
+    "answers": ["a"],
+    "explanation": "A good password must be at least 6 characters long, including letters, numbers, and special symbols."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "A system update may cause your computer to slow down.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "System updates generally improve performance; they should not slow down your device."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "If your device gets a virus, you could transmit it to the people you interact with online.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "If a device is infected, it can spread viruses to other users through online interactions."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "It is okay to postpone the last step of the update and restart your device whenever you want.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "You should not delay restarting your device after an update to complete the installation properly."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "Security flaws are also known as software vulnerabilities.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "Security flaws and software vulnerabilities refer to the same weaknesses in systems."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "Software updates do not add new features to your device.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "Software updates often add new features and improvements besides fixing bugs."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "Software updates remove bugs from your computer.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "A key purpose of software updates is to fix bugs and improve system performance."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "When you update the software, your computer becomes more vulnerable to hackers’ attacks.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["b"],
+    "explanation": "Updating your software strengthens security, making it harder for hackers to attack."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 10,
+      "title": "Software updates"
+    },
+    "question": "You can set up automatic updates for your programs and applications at a time that is convenient for you.",
+    "options": [
+      { "id": "a", "text": "Verdadero" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answers": ["a"],
+    "explanation": "You can schedule automatic updates at convenient times to avoid interruptions."
+  },
+
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "By what other name was Niobium formerly known?",
+    "options": [
+      { "id": "a", "text": "Tantalum" },
+      { "id": "b", "text": "Columbium" },
+      { "id": "c", "text": "Pelopium" }
+    ],
+    "answers": ["b"],
+    "explanation": "Niobium was formerly known as Columbium."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "How many deaths have been caused by wars for control of land and mines?",
+    "options": [
+      { "id": "a", "text": "5,000,000" },
+      { "id": "b", "text": "15,000,000" },
+      { "id": "c", "text": "50,000,000" }
+    ],
+    "answers": ["a"],
+    "explanation": "Wars for control of land and mines have caused around 5 million deaths."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "In which of these industries is Coltan not used?",
+    "options": [
+      { "id": "a", "text": "Electronics industry" },
+      { "id": "b", "text": "Aerospace industry" },
+      { "id": "c", "text": "Textile industry" }
+    ],
+    "answers": ["c"],
+    "explanation": "Coltan is not used in the textile industry."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "What is coltan made of?",
+    "options": [
+      { "id": "a", "text": "Niobium and tantalum" },
+      { "id": "b", "text": "Niobium and columbium" },
+      { "id": "c", "text": "Tin and copper" }
+    ],
+    "answers": ["a"],
+    "explanation": "Coltan is composed of two minerals: niobium and tantalum."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "What is the estimated number of minors working in the coltan mines of Congo?",
+    "options": [
+      { "id": "a", "text": "4,000" },
+      { "id": "b", "text": "40,000" },
+      { "id": "c", "text": "400,000" }
+    ],
+    "answers": ["b"],
+    "explanation": "Around 40,000 minors are estimated to work in the coltan mines of Congo."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "What other names is coltan also known by?",
+    "options": [
+      { "id": "a", "text": "Black gold" },
+      { "id": "b", "text": "Blood mineral" },
+      { "id": "c", "text": "Both" }
+    ],
+    "answers": ["c"],
+    "explanation": "Coltan is also referred to as 'black gold' and 'blood mineral'."
+  },
+  {
+    "subject": "Inglés profesional",
+    "unit": {
+      "order": 11,
+      "title": "The coltan problem"
+    },
+    "question": "Which country is home to 80% of coltan deposits?",
+    "options": [
+      { "id": "a", "text": "Australia" },
+      { "id": "b", "text": "Congo" },
+      { "id": "c", "text": "Brazil" }
+    ],
+    "answers": ["b"],
+    "explanation": "Congo holds around 80% of the world's coltan deposits."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**En el contexto de XML, el término _Case Sensitive_ se refiere a:**",
+    "options": [
+      { "id": "a", "text": "Cualidad que permite referenciar elementos DTD." },
+      {
+        "id": "b",
+        "text": "Propiedad que permite distinguir entre mayúsculas y minúsculas."
+      },
+      {
+        "id": "c",
+        "text": "Cualidad de los elementos de consulta que permite asignar valores."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "XML distingue entre mayúsculas y minúsculas, por eso se dice que es **case sensitive**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**¿Cuál no es una herramienta de creación y edición de XML?**",
+    "options": [
+      { "id": "a", "text": "Stylus Studio." },
+      { "id": "b", "text": "Oxygen XML." },
+      { "id": "c", "text": "Excharger XML Editor." },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son herramientas de creación y edición de XML."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "**Stylus Studio**, **Oxygen XML** y **Exchanger XML Editor** son herramientas de edición de XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**Del lenguaje XML surgieron otros como:**",
+    "options": [
+      { "id": "a", "text": "XHTML." },
+      { "id": "b", "text": "MathML." },
+      { "id": "c", "text": "SVG." },
+      { "id": "d", "text": "Todos los anteriores son correctos." }
+    ],
+    "answers": ["d"],
+    "explanation": "**XHTML**, **MathML** y **SVG** son lenguajes derivados de XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**DTD es:**",
+    "options": [
+      { "id": "a", "text": "Un sistema numérico." },
+      { "id": "b", "text": "Un tipo de atributo." },
+      { "id": "c", "text": "Un documento de verificación." },
+      { "id": "d", "text": "Un tipo de etiqueta." }
+    ],
+    "answers": ["c"],
+    "explanation": "**DTD** (Document Type Definition) define la estructura y las reglas de un documento XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**El prólogo del documento XML se marca con:**",
+    "options": [
+      { "id": "a", "text": "<= ... =>." },
+      { "id": "b", "text": "<\\\" ... \\\">" },
+      { "id": "c", "text": "< ... >." },
+      { "id": "d", "text": "<? ...?>." }
+    ],
+    "answers": ["d"],
+    "explanation": "El prólogo XML correcto se marca con `<?xml version=\"1.0\"?>`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**El valor `#IMPLIED` en DTD implica que el atributo:**",
+    "options": [
+      { "id": "a", "text": "Es obligatorio." },
+      { "id": "b", "text": "Es opcional." },
+      { "id": "c", "text": "Es fijo." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "En **DTD**, `#IMPLIED` significa que el atributo es **opcional**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**Las anotaciones con `<![CDATA[` deben cerrarse con:**",
+    "options": [
+      { "id": "a", "text": "]!>." },
+      { "id": "b", "text": "!]>." },
+      { "id": "c", "text": "]]>." },
+      { "id": "d", "text": "]!]>" }
+    ],
+    "answers": ["c"],
+    "explanation": "Las secciones **CDATA** finalizan siempre con `]]>`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**Las etiquetas XML:**",
+    "options": [
+      { "id": "a", "text": "Pueden contener espacios." },
+      {
+        "id": "b",
+        "text": "Deben estar acompañadas de los signos '[' y ']' para delimitarlas."
+      },
+      {
+        "id": "c",
+        "text": "No requieren el uso de los signos '<' y '>' para delimitarlas."
+      },
+      {
+        "id": "d",
+        "text": "Deben estar acompañadas de los signos '<' y '>' para delimitarlas."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Las etiquetas XML deben estar delimitadas por los signos **`<`** y **`>`**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**Selecciona el elemento XML correcto:**",
+    "options": [
+      { "id": "a", "text": "<Texto></Text>" },
+      { "id": "b", "text": "<.Texto></.Texto>" },
+      { "id": "c", "text": "<Texto$></Texto$>" },
+      { "id": "d", "text": "<Texto />" }
+    ],
+    "answers": ["d"],
+    "explanation": "Un elemento vacío correcto en XML se escribe como `<Texto />`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 4,
+      "title": "Definición de esquemas XML"
+    },
+    "question": "**Parser es:**",
+    "options": [
+      { "id": "a", "text": "Un analizador sintáctico." },
+      { "id": "b", "text": "Un modelo de base de datos No-SQL." },
+      { "id": "c", "text": "Un nodo de XPath." },
+      { "id": "d", "text": "Ninguna de las anteriores, Parser no existe." }
+    ],
+    "answers": ["a"],
+    "explanation": "Un **parser** analiza la sintaxis de un documento XML para validarlo o procesarlo."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**¿Cuál es el símbolo faltante en esta etiqueta XSL `<xsl(...)value-of>`?**",
+    "options": [
+      { "id": "a", "text": "=, igual." },
+      { "id": "b", "text": "?, interrogación." },
+      { "id": "c", "text": "_, barra baja." },
+      { "id": "d", "text": ":, Dos puntos." }
+    ],
+    "answers": ["d"],
+    "explanation": "En XSL el símbolo **':'** (dos puntos) separa el prefijo del nombre del elemento, como en `<xsl:value-of>`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**El concepto de paquete:**",
+    "options": [
+      { "id": "a", "text": "No existe en XSLT." },
+      { "id": "b", "text": "Se introduce en la versión 2.0." },
+      { "id": "c", "text": "Se introduce en la versión 3.0." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "Aunque el concepto formal de **paquete** (`xsl:package`) aparece en XSLT 3.0, en algunos manuales se asocia a XSLT 2.0."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**En las hojas de estilo XSL, el símbolo `/` en solitario indica:**",
+    "options": [
+      { "id": "a", "text": "Un comentario." },
+      { "id": "b", "text": "Un atributo." },
+      { "id": "c", "text": "Un valor." },
+      { "id": "d", "text": "Todos los anteriores son correctos." }
+    ],
+    "answers": ["c"],
+    "explanation": "El símbolo **`/`** indica la raíz o un valor relativo a la raíz en una ruta XPath."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**La etiqueta `<xsl:choose>` permite:**",
+    "options": [
+      { "id": "a", "text": "Delimitar un elemento seleccionado." },
+      { "id": "b", "text": "Seleccionar un elemento seleccionado." },
+      { "id": "c", "text": "Seleccionar diversos elementos." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "`<xsl:choose>` permite realizar selecciones condicionales entre múltiples alternativas, como un `switch`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**La transformación XSLT da como resultado:**",
+    "options": [
+      { "id": "a", "text": "Un solo documento de salida." },
+      { "id": "b", "text": "Dos documentos de salida." },
+      { "id": "c", "text": "Tres documentos de salida." },
+      { "id": "d", "text": "XSLT no produce transformaciones." }
+    ],
+    "answers": ["a"],
+    "explanation": "Una transformación XSLT estándar genera **un único documento de salida**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**Oxygen XML Editor permite:**",
+    "options": [
+      { "id": "a", "text": "La edición estructurada de XML." },
+      { "id": "b", "text": "El empleo de herramientas de validación." },
+      { "id": "c", "text": "Depuración de XSLT." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "**Oxygen XML Editor** ofrece edición XML, validación, depuración de XSLT y otras funcionalidades avanzadas."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**Saxon es:**",
+    "options": [
+      { "id": "a", "text": "Es un procesador XSLT." },
+      { "id": "b", "text": "Una herramienta para validar HTML." },
+      { "id": "c", "text": "Una herramienta para trabajar con XHTML." },
+      { "id": "d", "text": "Ninguna de las anteriores, Saxon no existe." }
+    ],
+    "answers": ["a"],
+    "explanation": "**Saxon** es uno de los procesadores de XSLT más utilizados profesionalmente."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**Una _style sheet_ es:**",
+    "options": [
+      { "id": "a", "text": "Una hoja de estilo." },
+      { "id": "b", "text": "Un estilo de escritura." },
+      { "id": "c", "text": "Un estilo de codificación." },
+      { "id": "d", "text": "Es style sheeps no style sheets." }
+    ],
+    "answers": ["a"],
+    "explanation": "Una **style sheet** en informática es una **hoja de estilo** para formatear la presentación de datos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**XSL-FOR son las siglas de:**",
+    "options": [
+      { "id": "a", "text": "extensible stylesheet language formatting." },
+      {
+        "id": "b",
+        "text": "extensible stylesheet language formatting objects reload."
+      },
+      { "id": "c", "text": "XML stylesheets language for transformation." },
+      { "id": "d", "text": "XSL-FOR no existe." }
+    ],
+    "answers": ["d"],
+    "explanation": "**XSL-FOR** no existe como especificación estándar. El término correcto es **XSL-FO**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 5,
+      "title": "Conversión y adaptación de XML"
+    },
+    "question": "**XSLT requiere la entrada de:**",
+    "options": [
+      { "id": "a", "text": "Una hoja de estilo." },
+      { "id": "b", "text": "Dos hojas de estilo." },
+      { "id": "c", "text": "Una hoja de estilo y un documento XML." },
+      { "id": "d", "text": "Dos documentos XML." }
+    ],
+    "answers": ["c"],
+    "explanation": "**XSLT** transforma un **documento XML** usando una **hoja de estilo** (XSL)."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**En XPath `|` permite:**",
+    "options": [
+      { "id": "a", "text": "Computar dos nodos simultáneos." },
+      { "id": "b", "text": "Dividir los valores de dos nodos." },
+      {
+        "id": "c",
+        "text": "Marcar una disyunción entre uno o más nodos entre los que elegir."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores es correcta ese símbolo no se emplea."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "En **XPath**, el operador `|` permite **computar dos nodos simultáneamente** combinando sus resultados."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**¿Cuál de los siguientes elementos se considera un nodo en XPath?**",
+    "options": [
+      { "id": "a", "text": "Elemento." },
+      { "id": "b", "text": "Texto." },
+      { "id": "c", "text": "Atributo." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "En **XPath**, **elementos**, **atributos** y **textos** son considerados nodos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**El valor atómico hace referencia a:**",
+    "options": [
+      { "id": "a", "text": "Un tipo de base de datos." },
+      { "id": "b", "text": "Un tipo de nodo." },
+      { "id": "c", "text": "Un tipo de analizador sintáctico." },
+      { "id": "d", "text": "Todos los anteriores son incorrectos." }
+    ],
+    "answers": ["b"],
+    "explanation": "Un **valor atómico** es un **nodo simple** que contiene un valor individual, sin estructura interna."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**En una dirección `[last()-1]` permite la selección de:**",
+    "options": [
+      { "id": "a", "text": "El último elemento." },
+      { "id": "b", "text": "El penúltimo elemento." },
+      { "id": "c", "text": "Todos los elementos menos el último." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "La expresión `[last()-1]` selecciona **el penúltimo elemento** en un conjunto de nodos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**En XPath, la expresión de ruta `/` se utiliza para seleccionar:**",
+    "options": [
+      { "id": "a", "text": "El nodo con un nombre específico." },
+      { "id": "b", "text": "El nodo raíz." },
+      { "id": "c", "text": "Selecciona el nodo actual." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "El `/` selecciona el **nodo raíz** de un documento XML en XPath."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**Las bases de datos XML enabled son:**",
+    "options": [
+      { "id": "a", "text": "Bases de datos no nativas." },
+      { "id": "b", "text": "Bases de datos relacionales." },
+      { "id": "c", "text": "Bases de datos que trabajan con XML." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Las **XML-enabled databases** pueden ser **relacionales**, **no nativas** o **compatibles con XML**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**Namespace es:**",
+    "options": [
+      { "id": "a", "text": "Un tipo de lenguaje de consulta." },
+      { "id": "b", "text": "Un elemento de XQuery." },
+      { "id": "c", "text": "Un nodo de XPath." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "Un **namespace** en XML se trata como un **nodo** dentro de consultas XPath."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**¿Cuál no es una base de datos nativa?**",
+    "options": [
+      { "id": "a", "text": "BaseX." },
+      { "id": "b", "text": "BaseN." },
+      { "id": "c", "text": "Sedna." },
+      { "id": "d", "text": "eXist." }
+    ],
+    "answers": ["b"],
+    "explanation": "**BaseN** no es una base de datos nativa XML reconocida; **BaseX**, **Sedna** y **eXist** sí lo son."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**Oracle Berkeley DB XML posee una licencia:**",
+    "options": [
+      { "id": "a", "text": "De código abierto." },
+      { "id": "b", "text": "BSD." },
+      { "id": "c", "text": "LGPL." },
+      { "id": "d", "text": "Apache." }
+    ],
+    "answers": ["a"],
+    "explanation": "**Oracle Berkeley DB XML** se distribuye bajo una **licencia de código abierto**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 6,
+      "title": "Almacenamiento de info"
+    },
+    "question": "**¿Qué es XQuery?**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lenguaje de consultas especializado en datos XML."
+      },
+      { "id": "b", "text": "Lenguaje de procesamiento de documentos XML." },
+      { "id": "c", "text": "Lenguaje de verificación empleado por DTD." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["a"],
+    "explanation": "**XQuery** es un **lenguaje de consultas** diseñado específicamente para **datos en formato XML**."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Los agregadores pueden ser:**",
+    "options": [
+      { "id": "a", "text": "Online." },
+      { "id": "b", "text": "De escritorio." },
+      { "id": "c", "text": "De clientes de correo web y navegadores web." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Los **agregadores** pueden ser **online**, **de escritorio** o **integrados en clientes web**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Elementos básicos de un feed que se deben introducir en channel:**",
+    "options": [
+      { "id": "a", "text": "Title, link y URL." },
+      { "id": "b", "text": "Title, link e imagen." },
+      { "id": "c", "text": "Title, URL y description." },
+      { "id": "d", "text": "Title, link y description." }
+    ],
+    "answers": ["d"],
+    "explanation": "Un feed necesita **Title**, **Link** y **Description** como elementos básicos del `<channel>`."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Entre los elementos secundarios de channel, el elemento `ttl` indica:**",
+    "options": [
+      { "id": "a", "text": "Marca la fecha de publicación." },
+      { "id": "b", "text": "El tipo de licencia." },
+      { "id": "c", "text": "Marca el tiempo de actualización en el caché." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "**`ttl`** especifica el tiempo que debe mantenerse el feed en la caché antes de actualizarse."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**El elemento `pubDate` en item especifica la fecha en formato:**",
+    "options": [
+      { "id": "a", "text": "RFC 733." },
+      { "id": "b", "text": "RFC 3501." },
+      { "id": "c", "text": "RFC 5322." },
+      { "id": "d", "text": "RFC 822." }
+    ],
+    "answers": ["d"],
+    "explanation": "El campo `pubDate` utiliza el estándar **RFC 822** para representar fecha y hora."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Freeware es:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un tipo licencia para software gratuito, pero con derechos de autor."
+      },
+      {
+        "id": "b",
+        "text": "Un tipo de licencia para software de código abierto."
+      },
+      { "id": "c", "text": "Un tipo de licencia para software de pago." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "**Freeware** es software **gratuito** pero **protegido por derechos de autor**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Herramientas como FeedForAll permiten:**",
+    "options": [
+      { "id": "a", "text": "La validación de feed." },
+      { "id": "b", "text": "La creación de feed." },
+      { "id": "c", "text": "La distribución de feed." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "**FeedForAll** permite **crear, validar y distribuir feeds RSS**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**La sindicalización no permite:**",
+    "options": [
+      { "id": "a", "text": "La subscripción." },
+      { "id": "b", "text": "Evitar el spam." },
+      { "id": "c", "text": "Acceder a noticias en tiempo real." },
+      { "id": "d", "text": "Permite todas las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "La **sindicalización** facilita la suscripción, el acceso a noticias en tiempo real y ayuda a evitar el spam."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**Otro tipo de sindicalización de contenido muy parecido a RSS es:**",
+    "options": [
+      { "id": "a", "text": "FeedTe." },
+      { "id": "b", "text": "REIS." },
+      { "id": "c", "text": "ATOM." },
+      { "id": "d", "text": "Todos los anteriores son incorrectos." }
+    ],
+    "answers": ["c"],
+    "explanation": "**Atom** es otro formato de feed similar a RSS, usado ampliamente en la web."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**RSS hace referencia a:**",
+    "options": [
+      { "id": "a", "text": "Really Simple Syndication." },
+      { "id": "b", "text": "Real Sindication Simple." },
+      { "id": "c", "text": "Real Sindicate Simplified." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["a"],
+    "explanation": "**RSS** significa **Really Simple Syndication**, un estándar para compartir contenidos web."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 7,
+      "title": "Sindicación de contenidos"
+    },
+    "question": "**URI se puede definir como:**",
+    "options": [
+      { "id": "a", "text": "Un identificador que incluye el subtipo URL." },
+      { "id": "b", "text": "Localizador de datos." },
+      { "id": "c", "text": "Unidad de Registro de Información." },
+      { "id": "d", "text": "Validador de datos." }
+    ],
+    "answers": ["a"],
+    "explanation": "Una **URI** (Uniform Resource Identifier) es un identificador que puede ser una **URL** o un **URN**."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**La seguridad de los ERP:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "No es muy alta, por lo que se deben implementar medidas por parte de la empresa."
+      },
+      {
+        "id": "b",
+        "text": "No es muy alta, pero un mínimo cuidado por parte de la empresa es suficiente."
+      },
+      {
+        "id": "c",
+        "text": "Es muy alta, por lo que no requiere de otras medidas por parte de la empresa."
+      },
+      {
+        "id": "d",
+        "text": "Es muy alta, pero, además, se recomienda que la empresa tome sus propias medidas de seguridad adicionales."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Aunque **los ERP** tienen alta seguridad, se recomienda implementar **medidas adicionales** por parte de la empresa."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**Dentro de los ERP podemos encontrar el módulo TPV, el cual permite:**",
+    "options": [
+      { "id": "a", "text": "La exposición masiva al público." },
+      { "id": "b", "text": "Controlar de manera eficaz la logística." },
+      { "id": "c", "text": "Mantener el inventario actualizado." },
+      { "id": "d", "text": "Mantener un registro de los recursos humanos." }
+    ],
+    "answers": ["c"],
+    "explanation": "El módulo **TPV** en un ERP permite **actualizar y gestionar el inventario** en tiempo real."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**El último paso de la minería de datos es:**",
+    "options": [
+      { "id": "a", "text": "La obtención de los patrones deseados." },
+      { "id": "b", "text": "La verificación los patrones obtenidos." },
+      {
+        "id": "c",
+        "text": "Llevar a la puesta en práctica dicho patrón verificado."
+      },
+      {
+        "id": "d",
+        "text": "Comprobar los resultados de dicho patrón una vez puesto en práctica."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "En **data mining**, tras encontrar patrones, se realiza la **verificación** para validar su validez."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**El intercambio y almacenamiento de datos por parte de los ERP se suele hacer en:**",
+    "options": [
+      { "id": "a", "text": "Ficheros CSV." },
+      { "id": "b", "text": "Ficheros XML." },
+      { "id": "c", "text": "Documentos ofimáticos." },
+      { "id": "d", "text": "Todas los anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "**ERP** suele manejar datos en **CSV, XML** o **documentos ofimáticos**, dependiendo del sistema."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**El sistema de gestión CRM hace referencia a:**",
+    "options": [
+      { "id": "a", "text": "Client Relation Management." },
+      { "id": "b", "text": "Client Relationship Management." },
+      { "id": "c", "text": "Customer Relationship Management." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "**CRM** significa **Customer Relationship Management**, gestión de relaciones con clientes."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**La minería de datos, o data mining, permite:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hacer acopio de toda la información posible para encontrar patrones con dicha información."
+      },
+      {
+        "id": "b",
+        "text": "Encontrar datos específicos dentro de grandes bases de datos."
+      },
+      { "id": "c", "text": "Recopilar información, reducida, pero relevante." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["a"],
+    "explanation": "La **minería de datos** busca **patrones relevantes** dentro de grandes volúmenes de datos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**Los sistemas de gestión empresarial requieren de múltiples herramientas, por lo que:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Se recomienda emplear múltiples herramientas específicas individuales."
+      },
+      {
+        "id": "b",
+        "text": "Se recomienda realizarlo todo en una única herramienta, aunque no sea lo ideal."
+      },
+      {
+        "id": "c",
+        "text": "Se recomienda emplear un único sistema con diversas herramientas incorporadas, para evitar problemas de incompatibilidad."
+      },
+      {
+        "id": "d",
+        "text": "Los sistemas de gestión empresarial deben hacer uso de una única herramienta."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Se recomienda un **único sistema** que integre **múltiples herramientas** para evitar **incompatibilidades**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**Los tres pilares de los CRM son:**",
+    "options": [
+      { "id": "a", "text": "Marketing, venta y servicio postventa." },
+      { "id": "b", "text": "Marketing, compra y servicio postventa." },
+      { "id": "c", "text": "Marketing, venta y análisis." },
+      { "id": "d", "text": "Marketing, compra y análisis." }
+    ],
+    "answers": ["a"],
+    "explanation": "Los **CRM** se basan en **marketing, venta** y **servicio postventa** para fidelizar clientes."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**No es un CRM:**",
+    "options": [
+      { "id": "a", "text": "Slack" },
+      { "id": "b", "text": "Salesforce" },
+      { "id": "c", "text": "SalesBoom" },
+      { "id": "d", "text": "SugarCRM" }
+    ],
+    "answers": ["a"],
+    "explanation": "**Slack** es una **herramienta de comunicación**, no un **CRM** para gestionar clientes."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": {
+      "order": 8,
+      "title": "Sistemas de gestión empresarial"
+    },
+    "question": "**OLAP es el acrónimo de:**",
+    "options": [
+      { "id": "a", "text": "online analytical process." },
+      { "id": "b", "text": "online analysis processing." },
+      { "id": "c", "text": "offline analytical processing." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["d"],
+    "explanation": "**OLAP** significa **Online Analytical Processing**, ninguna de las opciones propuestas es correcta."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Qué es XQuery?**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lenguaje de consultas especializado en datos XML."
+      },
+      { "id": "b", "text": "Lenguaje de procesamiento de documentos XML." },
+      { "id": "c", "text": "Lenguaje de verificación empleado por DTD" },
+      { "id": "d", "text": "Todas las anteriores son incorrecta." }
+    ],
+    "answers": ["a"],
+    "explanation": "**XQuery** es un lenguaje de consultas especialmente diseñado para extraer y manipular datos XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Cómo se denomina el elemento que modifica o añade información a una etiqueta?**",
+    "options": [
+      { "id": "a", "text": "Elemento." },
+      { "id": "b", "text": "Gramática." },
+      { "id": "c", "text": "Etiqueta." },
+      { "id": "d", "text": "Atributo." }
+    ],
+    "answers": ["d"],
+    "explanation": "Un **atributo** proporciona información adicional sobre un elemento en XML o HTML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Con qué programa podemos crear un documento HTML?**",
+    "options": [
+      { "id": "a", "text": "Kompozer" },
+      { "id": "b", "text": "Bloc de Notas." },
+      { "id": "c", "text": "HTML Online Editor." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todos los programas mencionados permiten crear archivos HTML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**CSS son las siglas de:**",
+    "options": [
+      { "id": "a", "text": "Code Sheets Style." },
+      { "id": "b", "text": "Code Style Sheets." },
+      { "id": "c", "text": "Cascading Style Sheets." },
+      { "id": "d", "text": "Cascading Sheets Style." }
+    ],
+    "answers": ["c"],
+    "explanation": "**CSS** significa *Cascading Style Sheets*, hojas de estilo en cascada."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Cuál de las siguientes extensiones no corresponde con un archivo de lenguaje de marcas?**",
+    "options": [
+      { "id": "a", "text": ".css." },
+      { "id": "b", "text": ".sgml." },
+      { "id": "c", "text": ".html." },
+      { "id": "d", "text": ".xml." }
+    ],
+    "answers": ["a"],
+    "explanation": "**.css** es una hoja de estilo, no un archivo de lenguaje de marcas."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Cuál de las siguientes opciones no es una etiqueta específica?**",
+    "options": [
+      { "id": "a", "text": "<xsl:value-of>" },
+      { "id": "b", "text": "<xsl:for-each>" },
+      { "id": "c", "text": "<xsl:boolean›" },
+      { "id": "d", "text": "<xsl:choose>" }
+    ],
+    "answers": ["c"],
+    "explanation": "`<xsl:boolean>` no es una etiqueta válida en XSLT."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Cuál de los siguientes no es un formato para el intercambio y almacenamiento de los datos?**",
+    "options": [
+      { "id": "a", "text": "Ficheros CSV." },
+      { "id": "b", "text": "Ficheros JSON." },
+      { "id": "c", "text": "Ficheros XML." },
+      { "id": "d", "text": "Fichero TEMP." }
+    ],
+    "answers": ["d"],
+    "explanation": "Los archivos TEMP son archivos temporales, no formatos estándar de datos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Cuál es el símbolo faltante, marcado con (…), en esta etiqueta XSL `<xsl(...)value-of>`?**",
+    "options": [
+      { "id": "a", "text": "=, igual." },
+      { "id": "b", "text": "?, interrogación." },
+      { "id": "c", "text": "_, barra baja." },
+      { "id": "d", "text": ":, Dos puntos." }
+    ],
+    "answers": ["d"],
+    "explanation": "En XSLT, los elementos utilizan **dos puntos (:)** para separar prefijo y nombre."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Documento que permite validar un documento XML:**",
+    "options": [
+      { "id": "a", "text": "DTD." },
+      { "id": "b", "text": "OS/2." },
+      { "id": "c", "text": "SASS." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "El **DTD** define la estructura y reglas de un documento XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**DTD es:**",
+    "options": [
+      { "id": "a", "text": "Un sistema numérico." },
+      { "id": "b", "text": "Un tipo de atributo." },
+      { "id": "c", "text": "Un documento de verificación." },
+      { "id": "d", "text": "Un tipo de etiqueta." }
+    ],
+    "answers": ["c"],
+    "explanation": "**DTD** significa *Document Type Definition*, usado para validar XML."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**El atributo CDATA de DTD implica que el valor:**",
+    "options": [
+      { "id": "a", "text": "Es un contenido único e inequívoco." },
+      { "id": "b", "text": "Refiere a otro elemento" },
+      { "id": "c", "text": "Es alfanumérico." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "**CDATA** en DTD indica que el valor del atributo puede ser cualquier cadena de caracteres alfanuméricos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**El módulo encargado de permitir la venta online mediante el pago electrónico es:**",
+    "options": [
+      { "id": "a", "text": "Módulo de TPV." },
+      { "id": "b", "text": "Módulo de Marketing." },
+      { "id": "c", "text": "Módulo de proyectos." },
+      { "id": "d", "text": "Módulo de gestión de almacenes." }
+    ],
+    "answers": ["a"],
+    "explanation": "El **módulo de TPV** (Terminal de Punto de Venta) permite la venta online y pagos electrónicos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En un DTD, #IMPLIED implica que el atributo:**",
+    "options": [
+      { "id": "a", "text": "Es obligatorio." },
+      { "id": "b", "text": "Es opcional." },
+      { "id": "c", "text": "Es fijo." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "**#IMPLIED** significa que el atributo es opcional en el DTD."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Elementos básicos de un feed que se deben introducir en channel:**",
+    "options": [
+      { "id": "a", "text": "Title, link y URL." },
+      { "id": "b", "text": "Title, link e imagen." },
+      { "id": "c", "text": "Title, URL y description." },
+      { "id": "d", "text": "Title, link y description." }
+    ],
+    "answers": ["d"],
+    "explanation": "En un feed RSS, los elementos básicos son **title, link y description**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En el lenguaje XPath, la expresión de ruta '/' se utiliza para seleccionar:**",
+    "options": [
+      { "id": "a", "text": "El nodo con un nombre específico." },
+      { "id": "b", "text": "El nodo raíz." },
+      { "id": "c", "text": "El nodo actual." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "El símbolo `/` en XPath selecciona el **nodo raíz** del documento."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En esta regla de CSS: `h2 { color: #B6E1F9; }` definimos 'color' como:**",
+    "options": [
+      { "id": "a", "text": "Selector" },
+      { "id": "b", "text": "Declaración" },
+      { "id": "c", "text": "Propiedad." },
+      { "id": "d", "text": "Valor" }
+    ],
+    "answers": ["c"],
+    "explanation": "En CSS, **color** es la **propiedad** y `#B6E1F9` su valor."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En HTML la etiqueta `<link>` determina:**",
+    "options": [
+      { "id": "a", "text": "La versión." },
+      { "id": "b", "text": "Estándar empleado." },
+      { "id": "c", "text": "Recursos externos, hojas de estilo." },
+      { "id": "d", "text": "Estilos empleados." }
+    ],
+    "answers": ["c"],
+    "explanation": "La etiqueta `<link>` conecta **recursos externos** como hojas de estilo CSS."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En las hojas de estilo XSL el símbolo `/` en solitario indica:**",
+    "options": [
+      { "id": "a", "text": "Un comentario." },
+      { "id": "b", "text": "Un atributo." },
+      { "id": "c", "text": "Un valor." },
+      { "id": "d", "text": "Todos los anteriores son correctos." }
+    ],
+    "answers": ["c"],
+    "explanation": "En XSL, el `/` se usa para indicar un **valor** o separación jerárquica de nodos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En XML los valores siempre deben:**",
+    "options": [
+      { "id": "a", "text": "Ser numéricos." },
+      { "id": "b", "text": "Entrecomillarse." },
+      { "id": "c", "text": "Ir entre símbolos de igual." },
+      { "id": "d", "text": "Acotarse con los símbolos '<' y '>'." }
+    ],
+    "answers": ["b"],
+    "explanation": "Los **valores de atributos en XML** deben estar **entrecomillados**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**En XPath '|' permite:**",
+    "options": [
+      { "id": "a", "text": "Computar dos nodos simultáneos." },
+      { "id": "b", "text": "Dividir los valores de dos nodos." },
+      {
+        "id": "c",
+        "text": "Marcar una disyunción entre uno o más nodos entre los que elegir."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores es correcta ese símbolo no se emplea."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "El operador `|` en XPath **marca una disyunción** entre diferentes caminos de nodos."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Entre los elementos secundarios de channel, el elemento ttl:**",
+    "options": [
+      { "id": "a", "text": "Marca la fecha de publicación." },
+      { "id": "b", "text": "El tipo de licencia." },
+      { "id": "c", "text": "Marca el tiempo de actualización en el caché." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "El elemento **ttl** en un feed RSS indica el tiempo de actualización en caché en minutos."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**HTML son las siglas de:**",
+    "options": [
+      { "id": "a", "text": "Hypertext Markup Language" },
+      { "id": "b", "text": "Hypertext Medium Language." },
+      { "id": "c", "text": "Hyperlink Meta List." },
+      { "id": "d", "text": "Hiperlink Mask Line" }
+    ],
+    "answers": ["a"],
+    "explanation": "**HTML** significa **Hypertext Markup Language** (Lenguaje de Marcado de Hipertexto)."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**La estructura de XML consta de:**",
+    "options": [
+      { "id": "a", "text": "Prólogo y directorio." },
+      { "id": "b", "text": "Índice y cuerpo." },
+      { "id": "c", "text": "Prólogo y cuerpo." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "La estructura de un documento **XML** consta de **prólogo** y **cuerpo**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**La información XML se puede almacenar en forma de:**",
+    "options": [
+      { "id": "a", "text": "Ficheros." },
+      { "id": "b", "text": "XML enabled." },
+      { "id": "c", "text": "Bases de datos nativas en XML." },
+      { "id": "d", "text": "Todas son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "La información XML puede almacenarse en **ficheros, bases de datos XML enabled y bases de datos nativas**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**La seguridad de los ERP:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "No es muy alta, por lo que se deben implementar medidas por parte de la empresa."
+      },
+      {
+        "id": "b",
+        "text": "No es muy alta, pero un mínimo cuidado por parte de la empresa es suficiente."
+      },
+      {
+        "id": "c",
+        "text": "Es muy alta, por lo que no requiere de otras medidas por parte de la empresa."
+      },
+      {
+        "id": "d",
+        "text": "Es muy alta, pero, además, se recomienda que la empresa tome sus propias medidas de seguridad adicional."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Aunque los ERP tienen buena seguridad, **se recomienda aplicar medidas adicionales** en la empresa."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**La sintaxis FLOWR es un acrónimo de For, Let, Where, Order by y....**",
+    "options": [
+      { "id": "a", "text": "Rearrange." },
+      { "id": "b", "text": "React." },
+      { "id": "c", "text": "Return." },
+      { "id": "d", "text": "Remove." }
+    ],
+    "answers": ["c"],
+    "explanation": "En XQuery, la sintaxis **FLOWR** termina con **Return**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Las bases de datos XML enabled son:**",
+    "options": [
+      { "id": "a", "text": "Bases de datos no nativas." },
+      { "id": "b", "text": "Bases de datos relacionales." },
+      { "id": "c", "text": "Bases de datos que trabajan con XML." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "**XML enabled** son bases de datos que combinan estructuras relacionales con soporte para XML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Las marcas de cierre:**",
+    "options": [
+      { "id": "a", "text": "Son iguales que las de apertura." },
+      { "id": "b", "text": "Se marcan con ?." },
+      { "id": "c", "text": "Se marcan con =." },
+      { "id": "d", "text": "Se marcan con /." }
+    ],
+    "answers": ["d"],
+    "explanation": "En XML, las etiquetas de cierre se indican con **/** (por ejemplo, `</nombre>`)."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Los agregadores pueden ser:**",
+    "options": [
+      { "id": "a", "text": "Online." },
+      { "id": "b", "text": "De escritorio." },
+      { "id": "c", "text": "De clientes de correo web y navegadores web." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Existen agregadores **online, de escritorio y de navegadores o correos web**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Los lenguajes de marcas se pueden utilizar en:**",
+    "options": [
+      { "id": "a", "text": "Páginas web." },
+      { "id": "b", "text": "Mensajería instantánea." },
+      { "id": "c", "text": "Sindicación de contenidos." },
+      { "id": "d", "text": "Todas son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Los lenguajes de marcas como **XML** y **HTML** tienen aplicación en todos esos ámbitos."
+  },
+
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Los sistemas de gestión empresarial requieren de múltiples herramientas, por lo que:**",
+    "options": [
+      {
+        "id": "a",
+        "text": "Se recomienda emplear múltiples herramientas específicas individuales."
+      },
+      {
+        "id": "b",
+        "text": "Se recomienda realizarlo todo en una única herramienta, aunque no sea lo ideal."
+      },
+      {
+        "id": "c",
+        "text": "Se recomienda emplear un único sistema con diversas herramientas incorporadas, para evitar problemas de incompatibilidad."
+      },
+      {
+        "id": "d",
+        "text": "Los sistemas de gestión empresarial deben hacer uso de una única herramienta."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Se aconseja un único sistema con módulos integrados para evitar problemas de **compatibilidad**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Los tres pilares de los CRM son:**",
+    "options": [
+      { "id": "a", "text": "Marketing, venta y servicio postventa." },
+      { "id": "b", "text": "Marketing, compra y servicio postventa." },
+      { "id": "c", "text": "Marketing, venta y análisis." },
+      { "id": "d", "text": "Marketing, compra y análisis." }
+    ],
+    "answers": ["a"],
+    "explanation": "Los pilares de un **CRM** son: **marketing**, **ventas** y **servicio postventa**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Qué debe incluir el prólogo del documento XML?**",
+    "options": [
+      { "id": "a", "text": "Presentación." },
+      { "id": "b", "text": "Versión." },
+      { "id": "c", "text": "Estructura del documento." },
+      { "id": "d", "text": "Ninguna es correcta." }
+    ],
+    "answers": ["b"],
+    "explanation": "El prólogo de un documento **XML** debe especificar la **versión** utilizada."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Qué tipo de estructura jerárquica tiene un documento XML?**",
+    "options": [
+      { "id": "a", "text": "Estructura ascendente arbórea." },
+      { "id": "b", "text": "Estructura descendente canórea." },
+      { "id": "c", "text": "Estructura descendente arbórea." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "La estructura de XML es una **estructura descendente arbórea**, similar a un árbol."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**¿Qué tipo de sindicación se utiliza en este documento XML?**",
+    "code": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <title>\n  </title>\n  <entry>\n  </entry>\n  <entry>\n  </entry>\n  <entry>\n  </entry>\n</feed>",
+    "options": [
+      { "id": "a", "text": "FeedTe." },
+      { "id": "b", "text": "RSS." },
+      { "id": "c", "text": "ATOM." },
+      { "id": "d", "text": "Todos los anteriores son incorrectos." }
+    ],
+    "answers": ["c"],
+    "explanation": "El espacio de nombres (`xmlns`) indica que se trata de un feed **ATOM**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**RSS hace referencia a:**",
+    "options": [
+      { "id": "a", "text": "Really Simple Syndication." },
+      { "id": "b", "text": "Real Sindication Simple." },
+      { "id": "c", "text": "Real Sindicate Simplified." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["a"],
+    "explanation": "**RSS** significa **Really Simple Syndication**, es decir, Sindicación Realmente Simple."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**Un texto que se encuentra entre los símbolos < y > se denomina:**",
+    "options": [
+      { "id": "a", "text": "Elemento." },
+      { "id": "b", "text": "Gramática." },
+      { "id": "c", "text": "Etiqueta." },
+      { "id": "d", "text": "Atributo." }
+    ],
+    "answers": ["c"],
+    "explanation": "Un **texto delimitado por `<` y `>`** se llama **etiqueta** en XML y HTML."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**XML se incluye en el tipo de lenguaje de marcas:**",
+    "options": [
+      { "id": "a", "text": "Tipo 1 o de procedimiento." },
+      { "id": "b", "text": "Tipo 2 o de presentación." },
+      { "id": "c", "text": "Tipo 3 o descriptivos o semánticos." },
+      { "id": "d", "text": "En todos los anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "**XML** es un lenguaje de marcas **descriptivo o semántico** (Tipo 3)."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**XSL-FOR son las siglas de:**",
+    "options": [
+      { "id": "a", "text": "extensible stylesheet language formatting." },
+      {
+        "id": "b",
+        "text": "extensible stylesheet language formatting objects reload."
+      },
+      { "id": "c", "text": "XML stylesheets language for transformation." },
+      { "id": "d", "text": "XSL-FOR no existe." }
+    ],
+    "answers": ["d"],
+    "explanation": "**XSL-FOR** no existe como estándar reconocido; la opción correcta es que **no existe**."
+  },
+  {
+    "subject": "Lenguajes de marcas",
+    "unit": { "order": 9, "title": "Prueba semestral" },
+    "question": "**XSLT requiere la entrada de:**",
+    "options": [
+      { "id": "a", "text": "Una hoja de estilo." },
+      { "id": "b", "text": "Dos hojas de estilo." },
+      { "id": "c", "text": "Una hoja de estilo y un documento XML." },
+      { "id": "d", "text": "Dos documentos XML." }
+    ],
+    "answers": ["c"],
+    "explanation": "**XSLT** transforma un **documento XML** usando **una hoja de estilo** definida."
+  },
+
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Al sobrescribir el método este se modificará para la clase concreta, el método original:",
+    "options": [
+      { "id": "a", "text": "Se eliminará de la clase padre." },
+      {
+        "id": "b",
+        "text": "Seguirá estando disponible para la clase padre u otras clases que hereden."
+      },
+      { "id": "c", "text": "También se sobrescribirá." },
+      { "id": "d", "text": "Cambiará su visibilidad a público." }
+    ],
+    "answers": ["b"],
+    "explanation": "**Al sobrescribir un método**, el método original sigue **disponible en la clase padre** y en otras clases que hereden de ella."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "El operador instanceof:",
+    "options": [
+      { "id": "a", "text": "Permite crear una instancia de una clase." },
+      {
+        "id": "b",
+        "text": "Permite crear una instancia de una clase evitando que herede los métodos de esta."
+      },
+      {
+        "id": "c",
+        "text": "Permite comprobar si un objeto es instancia de un tipo concreto."
+      },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "`instanceof` se utiliza para **comprobar** si un objeto pertenece a una **clase específica**."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "La interfaz permite:",
+    "options": [
+      { "id": "a", "text": "La organización y estructuración del código." },
+      {
+        "id": "b",
+        "text": "La separación de la parte visual a su implementación."
+      },
+      { "id": "c", "text": "Las dos anteriores son correctas." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "Las **interfaces** ayudan a **organizar y separar** la lógica y la implementación."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Las clases abstractas:",
+    "options": [
+      { "id": "a", "text": "Pueden ser instanciadas normalmente." },
+      {
+        "id": "b",
+        "text": "Pueden ser instanciadas pero requieren de la palabra reservada abstract."
+      },
+      {
+        "id": "c",
+        "text": "No puede ser instanciada ni empleada de otro modo."
+      },
+      {
+        "id": "d",
+        "text": "No puede ser instanciada, pero sí empleada para la herencia."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Una **clase abstracta** no puede ser instanciada, pero sí puede **servir de base para heredar**."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "¿Qué afirmación es verdadera con respecto a los constructores en la herencia y clases abstractas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Existen en las clases abstractas para facilitar la construcción de objetos."
+      },
+      {
+        "id": "b",
+        "text": "Los constructores no pueden ser heredados directamente."
+      },
+      { "id": "c", "text": "Se pueden sobreescribir con Override." },
+      { "id": "d", "text": "Todas las anteriores son correctas." }
+    ],
+    "answers": ["b"],
+    "explanation": "Los **constructores** **no se heredan** en la herencia de clases."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Los métodos sobrescritos tendrán que añadir encima de la cabecera del método la palabra reservada:",
+    "options": [
+      { "id": "a", "text": "@override." },
+      { "id": "b", "text": "@overwrite." },
+      { "id": "c", "text": "$override." },
+      { "id": "d", "text": "$overwrite." }
+    ],
+    "answers": ["a"],
+    "explanation": "Se utiliza **@override** para indicar que un método **sobrescribe** uno heredado."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "No pueden pasar por un proceso de override:",
+    "options": [
+      { "id": "a", "text": "Métodos." },
+      { "id": "b", "text": "Métodos abstractos." },
+      { "id": "c", "text": "Constructores." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["c"],
+    "explanation": "Los **constructores no pueden ser sobrescritos (override)**."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Palabra reservada que permite llamar y hacer uso de la interfaz:",
+    "options": [
+      { "id": "a", "text": "null." },
+      { "id": "b", "text": "void." },
+      { "id": "c", "text": "status." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "Se **implementa** una interfaz usando `implements`, pero **ninguna opción** es correcta."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Relación donde una clase no tiene sentido sin otra, ambas son dependientes:",
+    "options": [
+      { "id": "a", "text": "Asociación." },
+      { "id": "b", "text": "Composición de clases." },
+      { "id": "c", "text": "Agregación." },
+      { "id": "d", "text": "Entrelazado." }
+    ],
+    "answers": ["b"],
+    "explanation": "En la **composición**, una clase depende **completamente** de la otra."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 7, "title": "Clases avanzadas" },
+    "question": "Subrutina que permite instanciar objetos a partir de una clase:",
+    "options": [
+      { "id": "a", "text": "Constructores." },
+      { "id": "b", "text": "Observadores." },
+      { "id": "c", "text": "Modificadores." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["a"],
+    "explanation": "Un **constructor** es la subrutina especial para **crear instancias** de una clase."
+  },
+
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "¿Cómo podemos conocer la longitud de un array?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Recorriendo todo el array y guardando el total de elementos."
+      },
+      { "id": "b", "text": "Con la función `.length`" },
+      { "id": "c", "text": "Las opciones a) y b) son correctas." },
+      { "id": "d", "text": "Ninguna opción es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "Un array puede conocerse recorriéndolo manualmente o directamente usando la propiedad `.length`."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "¿De qué tipo se puede declarar los valores un array?",
+    "options": [
+      { "id": "a", "text": "Tipo primitivo o abstracto." },
+      { "id": "b", "text": "Tipo primitivo." },
+      { "id": "c", "text": "Tipo abstracto." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "Los arrays pueden almacenar valores de tipo primitivo (int, char, etc.) o de tipo objeto (abstracto)."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "¿Es posible cambiar el tamaño de un array durante su ejecución?",
+    "options": [
+      { "id": "a", "text": "Sí." },
+      { "id": "b", "text": "Sí, solo cuando tenga un primer valor asignado." },
+      { "id": "c", "text": "Sí, en cualquier momento." },
+      {
+        "id": "d",
+        "text": "No, solo se puede indicar su tamaño en la declaración inicial."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Los arrays en Java tienen tamaño fijo al ser creados; no pueden modificarse dinámicamente."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "¿Qué función permite cortar una cadena de caracteres?",
+    "options": [
+      { "id": "a", "text": "`replace(String cadenaBuscada, String remplazo)`" },
+      {
+        "id": "b",
+        "text": "`substring(int posiciónInicial, int posiciónFinal)`"
+      },
+      { "id": "c", "text": "`trim()`" },
+      { "id": "d", "text": "`contains(String cadena)`" }
+    ],
+    "answers": ["b"],
+    "explanation": "La función `substring()` permite extraer una parte específica de una cadena de caracteres."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "El tipo String se considera por ser:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tipo primitivo que define una cadena de caracteres."
+      },
+      {
+        "id": "b",
+        "text": "Tipo primitivo que define una agrupación de datos de tipo carácter."
+      },
+      {
+        "id": "c",
+        "text": "Tipo primitivo que define un conjunto de cadenas."
+      },
+      { "id": "d", "text": "Todas las anteriores son falsas." }
+    ],
+    "answers": ["d"],
+    "explanation": "El tipo `String` en Java es un objeto, no un tipo primitivo."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "Indica qué código es el correcto para cambiar el número 10,5 a cadena.",
+    "options": [
+      { "id": "a", "text": "`String.valueOf(10.5f);`" },
+      { "id": "b", "text": "`Float.parseFloat(10.5f);`" },
+      { "id": "c", "text": "`New String(10.5f);`" },
+      { "id": "d", "text": "`String.parseString(10.5f);`" }
+    ],
+    "answers": ["a"],
+    "explanation": "`String.valueOf(valor)` convierte cualquier valor en String."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "Indica qué código es el correcto para inicializar un array.",
+    "options": [
+      {
+        "id": "a",
+        "text": "`int [][] numeros = new int[2][1]; numeros[0][0] = 1; numeros[1][0] = 2;`"
+      },
+      { "id": "b", "text": "`int [][] numeros1 = {{1},{2}};`" },
+      { "id": "c", "text": "`int [][] numeros2 = numeros.clone();`" },
+      { "id": "d", "text": "Todas las opciones son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las opciones son formas válidas de trabajar con arrays en Java."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "Si queremos hacer una copia exacta y que el objeto sea independiente de un array de tipo clase estamos hablando de:",
+    "options": [
+      { "id": "a", "text": "Copia shallow" },
+      { "id": "b", "text": "Copia deep" },
+      { "id": "c", "text": "Copia uno a uno" },
+      { "id": "d", "text": "Copia incremental" }
+    ],
+    "answers": ["b"],
+    "explanation": "La copia `deep` implica duplicar todos los datos, no solo referencias."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "Si se quiere acceder al primer y último elemento de un array de tipo int con un total de valores de 10, usaremos el siguiente código:",
+    "options": [
+      {
+        "id": "a",
+        "text": "`int primerElemento = nombreArray[1]; int ultimoElemento = nombreArray[9];`"
+      },
+      {
+        "id": "b",
+        "text": "`int primerElemento = nombreArray[1]; int ultimoElemento = nombreArray[10];`"
+      },
+      {
+        "id": "c",
+        "text": "`int primerElemento = nombreArray[0]; int ultimoElemento = nombreArray[9];`"
+      },
+      {
+        "id": "d",
+        "text": "`int primerElemento = nombreArray[0]; int ultimoElemento = nombreArray[10];`"
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Los arrays en Java empiezan en el índice 0; el último índice sería `length - 1`."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 8, "title": "Arrays y cadenas de caracteres" },
+    "question": "Un array se puede definir como:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un objeto estático que almacena elementos de forma secuencial un número ilimitado de valores."
+      },
+      {
+        "id": "b",
+        "text": "Un objeto estático que almacena elementos de forma secuencial un número limitado de valores."
+      },
+      {
+        "id": "c",
+        "text": "Un objeto dinámico que almacena elementos de forma secuencial un número limitado de valores."
+      },
+      {
+        "id": "d",
+        "text": "Un objeto dinámico que almacena elementos de forma secuencial un número ilimitado de valores."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "Un array tiene tamaño fijo (limitado) y almacena los datos en orden."
+  },
+
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "¿Qué es una colección?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Una estructura estática que almacena elementos de forma secuencial con un tamaño ilimitado de valores."
+      },
+      {
+        "id": "b",
+        "text": "Una estructura estática que almacena elementos con un tamaño limitado de valores."
+      },
+      {
+        "id": "c",
+        "text": "Una estructura dinámica que almacena un grupo de elementos limitado."
+      },
+      {
+        "id": "d",
+        "text": "Una estructura dinámica que almacena un grupo de elementos ilimitado."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Una colección es una estructura dinámica que almacena un grupo de elementos ilimitado."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "Collection es la interfaz de:",
+    "options": [
+      { "id": "a", "text": "Set, List y Queue" },
+      { "id": "b", "text": "Map" },
+      { "id": "c", "text": "TreeMap" },
+      { "id": "d", "text": "Ninguna de las anteriores" }
+    ],
+    "answers": ["a"],
+    "explanation": "Collection es la interfaz principal de Set, List y Queue."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "Con ArrayDeque se puede implementar:",
+    "options": [
+      { "id": "a", "text": "Una cola." },
+      { "id": "b", "text": "Una pila." },
+      { "id": "c", "text": "Una cola y pila simultáneamente." },
+      { "id": "d", "text": "Todas las opciones son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "ArrayDeque permite implementar colas y pilas de forma simultánea."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "Indica la principal característica de una colección Set",
+    "options": [
+      { "id": "a", "text": "Puede tener elementos repetidos." },
+      { "id": "b", "text": "Ordena sus elementos." },
+      { "id": "c", "text": "Permite tener valores null." },
+      { "id": "d", "text": "No puede tener elementos repetidos." }
+    ],
+    "answers": ["d"],
+    "explanation": "Set no permite tener elementos repetidos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "La interfaz Map almacena siempre sus elementos haciendo uso de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Una clave como identificador y el valor del elemento."
+      },
+      { "id": "b", "text": "Una tabla hash." },
+      { "id": "c", "text": "Índices." },
+      { "id": "d", "text": "No usa nada para almacenar sus elementos." }
+    ],
+    "answers": ["a"],
+    "explanation": "Map almacena elementos mediante clave-valor."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "PriorityQueue se puede definir por:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es una cola que hace uso de la interfaz Collection, almacenando elementos duplicados y ordenándolos por su orden natural o definido por el usuario."
+      },
+      {
+        "id": "b",
+        "text": "Es una cola que hace uso de la interfaz Collection, almacenando elementos únicos, sin duplicados y ordenándolos según una prioridad."
+      },
+      {
+        "id": "c",
+        "text": "Es una cola que hace uso de la interfaz Collection, almacenando elementos duplicados, y ordenándolos según una prioridad."
+      },
+      {
+        "id": "d",
+        "text": "Es una cola que hace uso de la interfaz Map, almacenando elementos únicos, sin duplicados y ordenándolos según una prioridad."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "PriorityQueue permite almacenar elementos duplicados, ordenados por prioridad."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "¿Qué estructura permite almacenar los elementos ordenados en una colección Set?",
+    "options": [
+      { "id": "a", "text": "HashSet." },
+      { "id": "b", "text": "LinkedHashSet." },
+      { "id": "c", "text": "TreeSet." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "TreeSet almacena los elementos ordenados de forma natural o por comparador."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "¿Qué hace el método `int lastIndexOf(E elemento)` de la clase ArrayList?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Devuelve la posición de la primera ocurrencia del elemento."
+      },
+      {
+        "id": "b",
+        "text": "Devuelve la posición de la última ocurrencia del elemento."
+      },
+      {
+        "id": "c",
+        "text": "Devuelve un valor mayor de 0 si encuentra el elemento."
+      },
+      {
+        "id": "d",
+        "text": "Devuelve un valor menor de 0 si encuentra el elemento."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "`lastIndexOf` devuelve la posición de la última ocurrencia del elemento buscado."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "¿Qué tipo de interfaces raíces existen para implementar colecciones?",
+    "options": [
+      { "id": "a", "text": "ArrayList y LinkedList" },
+      { "id": "b", "text": "Collection y Map" },
+      { "id": "c", "text": "Collection y ArrayDeque" },
+      { "id": "d", "text": "Ninguna de las anteriores" }
+    ],
+    "answers": ["b"],
+    "explanation": "Las interfaces raíz son Collection y Map."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 9, "title": "Colecciones y tipos abstractos de datos" },
+    "question": "Se puede definir un ArrayList como:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un array estático que no se puede modificar su tamaño en ejecución."
+      },
+      {
+        "id": "b",
+        "text": "Un array dinámico que se puede modificar su tamaño en ejecución."
+      },
+      {
+        "id": "c",
+        "text": "Un array estático ordenado que se puede modificar su tamaño en ejecución."
+      },
+      {
+        "id": "d",
+        "text": "Un array dinámico ordenado que se puede modificar su tamaño en ejecución."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "ArrayList es un array dinámico y ordenado que permite cambios de tamaño."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Qué es una excepción?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un error producido en tiempo de ejecución y que altera el flujo normal del programa."
+      },
+      {
+        "id": "b",
+        "text": "Un evento producido en tiempo de compilación y que altera el flujo normal del programa."
+      },
+      {
+        "id": "c",
+        "text": "Un código excepcional que se usa cuando se produce un evento."
+      },
+      {
+        "id": "d",
+        "text": "Un código excepcional que se usa en casos especiales."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Un error producido en tiempo de ejecución y que altera el flujo normal del programa."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Como podemos capturar una excepción?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Incluir el código que puede provocar una excepción dentro del bloque try."
+      },
+      {
+        "id": "b",
+        "text": "Incluir el código que puede provocar una excepción dentro del bloque catch."
+      },
+      {
+        "id": "c",
+        "text": "Incluir el código que puede provocar una excepción dentro del bloque finally."
+      },
+      {
+        "id": "d",
+        "text": "Incluir el código que puede provocar una excepción dentro de un método exclusivo."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Incluir el código que puede provocar una excepción dentro del bloque try."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Como podemos tratar una excepción?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Incluir el código correctivo dentro del bloque try."
+      },
+      {
+        "id": "b",
+        "text": "Incluir el código correctivo dentro del bloque catch."
+      },
+      {
+        "id": "c",
+        "text": "Incluir el código correctivo dentro del constructor."
+      },
+      {
+        "id": "d",
+        "text": "Incluir el código correctivo dentro de un método exclusivo."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Incluir el código correctivo dentro del bloque catch."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Haciendo uso de throw podemos?",
+    "options": [
+      { "id": "a", "text": "Invocar nuevas excepciones." },
+      { "id": "b", "text": "Capturar una excepción." },
+      { "id": "c", "text": "Propagar excepciones en un método." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "La respuesta correcta es: Invocar nuevas excepciones."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "Indica que recomendación no es correcta.",
+    "options": [
+      { "id": "a", "text": "No abusar de excepciones." },
+      { "id": "b", "text": "Hacer uso de excepciones genéricas." },
+      {
+        "id": "c",
+        "text": "No crear nuevas excepciones y reutilizar las existentes."
+      },
+      { "id": "d", "text": "No hacer tratamiento de excepciones graves." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Hacer uso de excepciones genéricas."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "La pila de llamadas se puede definir como:",
+    "options": [
+      { "id": "a", "text": "Una lista de métodos que podemos usar." },
+      {
+        "id": "b",
+        "text": "Un contenedor de métodos que ya no se están usando."
+      },
+      {
+        "id": "c",
+        "text": "Una estructura que guarda el flujo de llamadas que se está ejecutando."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Una estructura que guarda el flujo de llamadas que se está ejecutando."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Qué hace finally en un bloque try/catch?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ejecuta el código de su interior cuando se produce una excepción."
+      },
+      { "id": "b", "text": "Ejecuta el código de su interior siempre." },
+      {
+        "id": "c",
+        "text": "Ejecuta el código de su interior cuando no se produce una excepción."
+      },
+      { "id": "d", "text": "Finaliza el programa." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: Ejecuta el código de su interior siempre."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "¿Qué permite hacer con la palabra reservada throws?",
+    "options": [
+      { "id": "a", "text": "Invocar nuevas excepciones." },
+      { "id": "b", "text": "Propagar excepciones en un método." },
+      { "id": "c", "text": "Capturar una excepción." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answer": "b",
+    "explanation": "La respuesta correcta es: Propagar excepciones en un método."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "Todas las excepciones deben de heredar de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "La clase que contiene el método main o cualquier subclase."
+      },
+      { "id": "b", "text": "La clase Throwable o cualquier subclase." },
+      { "id": "c", "text": "La clase System o cualquier subclase." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "La respuesta correcta es: La clase Throwable o cualquier subclase."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 10,
+      "title": "Control y manejo de excepciones"
+    },
+    "question": "Un tipo de excepción Checked",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es una excepción de carácter grave que no es recomendable tratar."
+      },
+      {
+        "id": "b",
+        "text": "Es una excepción de carácter grave que hay que tratar."
+      },
+      {
+        "id": "c",
+        "text": "Es una excepción de carácter leve que es obligatorio tratar."
+      },
+      {
+        "id": "d",
+        "text": "Es una excepción de carácter leve que no es recomendable tratar."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La respuesta correcta es: Es una excepción de carácter leve que es obligatorio tratar."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "¿Qué es una excepción?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un error producido en tiempo de ejecución y que altera el flujo normal del programa."
+      },
+      {
+        "id": "b",
+        "text": "Un evento producido en tiempo de compilación y que altera el flujo normal del programa."
+      },
+      {
+        "id": "c",
+        "text": "Un código excepcional que se usa cuando se produce un evento."
+      },
+      {
+        "id": "d",
+        "text": "Un código excepcional que se usa en casos especiales."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Una excepción es un error que ocurre en tiempo de ejecución, lo que interrumpe el flujo normal del programa. Esto se debe a que la excepción se maneja durante la ejecución del código. Las opciones b), c) y d) no son correctas ya que las excepciones se producen en tiempo de ejecución y no en tiempo de compilación ni son simplemente eventos o códigos excepcionales."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "En la recursividad nos vamos a encontrar siempre:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Una condición de terminación o caso base."
+      },
+      {
+        "id": "b",
+        "text": "Un método que se llama a sí mismo una o más veces. O indirectamente entre métodos."
+      },
+      {
+        "id": "c",
+        "text": "La opción A) y B) es correcta."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las opciones es correcta."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La recursividad siempre implica un caso base (condición de terminación) y al menos una llamada recursiva, ya sea directa o indirecta. La opción c) es correcta porque ambas afirmaciones (A y B) son necesarias para que un algoritmo sea recursivo. Las otras opciones no cubren ambas condiciones."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "La complejidad algorítmica se puede medir:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Con la anotación Big-0 (Notación Asintótica o Notación Landau)."
+      },
+      {
+        "id": "b",
+        "text": "Con la anotación cromática."
+      },
+      {
+        "id": "c",
+        "text": "En unidades de tiempo."
+      },
+      {
+        "id": "d",
+        "text": "En unidades métricas."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La anotación Big-O es la forma estándar de medir la complejidad algorítmica en términos del crecimiento de la cantidad de operaciones que un algoritmo realiza a medida que el tamaño de la entrada aumenta. Las opciones b), c) y d) no son métodos válidos para medir la complejidad algorítmica."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "La diferencia entre la recursividad simple y múltiple depende de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "El número de llamadas."
+      },
+      {
+        "id": "b",
+        "text": "Si en los parámetros de una de las llamadas se incluye al menos una propia llamada."
+      },
+      {
+        "id": "c",
+        "text": "La cantidad de métodos que hacen las llamadas."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "La diferencia principal entre la recursividad simple y la múltiple es el número de llamadas recursivas. En la recursividad simple, se hace una sola llamada recursiva, mientras que en la recursividad múltiple, se hacen varias llamadas recursivas, ya sea en un mismo método o entre diferentes métodos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "Qué orden de complejidad es la peor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "O(1)"
+      },
+      {
+        "id": "b",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "c",
+        "text": "O(n2)"
+      },
+      {
+        "id": "d",
+        "text": "O(log n)"
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "La complejidad O(n2) es la peor entre las opciones porque representa una complejidad cuadrática, que crece rápidamente a medida que aumenta el tamaño de los datos. O(n log n) es más eficiente que O(n2), y O(1) y O(log n) son aún más eficientes, ya que O(1) es constante y O(log n) es logarítmica."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 11, "title": "Recursividad y complejidad algorítmica" },
+    "question": "Qué reglas básicas nos ayuda a calcular la orden de complejidad de un algoritmo:",
+    "options": [
+      {
+        "id": "a",
+        "text": "En la recursividad la orden de complejidad depende del caso base y de los recurrentes."
+      },
+      {
+        "id": "b",
+        "text": "Las sentencias if/else su orden se cogerá de la mayor de cualquiera de sus partes condicionales."
+      },
+      {
+        "id": "c",
+        "text": "En los bucles anidados se partirá de O(n2) a O(na) según el nivel de anidamiento."
+      },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son correctas."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "Todas las afirmaciones son correctas. En la recursividad, la complejidad depende de los casos base y recurrentes. Las sentencias if/else deben considerar la parte condicional con mayor complejidad, y los bucles anidados multiplican la complejidad en función de su nivel de anidamiento."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "¿Como podemos comprobar si un fichero o directorio existe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Usando isFile()"
+      },
+      {
+        "id": "b",
+        "text": "Usando isDirectory()"
+      },
+      {
+        "id": "c",
+        "text": "Usando exists()"
+      },
+      {
+        "id": "d",
+        "text": "Usando getPath()"
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Usamos `exists()` para comprobar si el fichero o directorio existe. Este método devuelve `true` si el archivo o directorio existe en el sistema de archivos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Con FileWriter podemos:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Escribir para un flujo de caracteres."
+      },
+      {
+        "id": "b",
+        "text": "Escribir para un flujo de bytes."
+      },
+      {
+        "id": "c",
+        "text": "Escribir para un flujo predeterminado."
+      },
+      {
+        "id": "d",
+        "text": "Escribir o leer un flujo de bytes."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "FileWriter está diseñado para escribir en un flujo de caracteres, no en un flujo de bytes."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "En Java un flujo se denomina:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Flush"
+      },
+      {
+        "id": "b",
+        "text": "Stream"
+      },
+      {
+        "id": "c",
+        "text": "Eoa"
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "En Java, los flujos se denominan `Stream`, que representa una secuencia de datos que puede ser leída o escrita."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Es habitual trabajar directamente con ficheros de tipo de datos",
+    "options": [
+      {
+        "id": "a",
+        "text": "De bytes o caracteres."
+      },
+      {
+        "id": "b",
+        "text": "De enteros."
+      },
+      {
+        "id": "c",
+        "text": "De cadena de caracteres."
+      },
+      {
+        "id": "d",
+        "text": "De hexadecimal."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Normalmente trabajamos con flujos de bytes o caracteres, que son los formatos más comunes al manipular ficheros en Java."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "La serialización consiste en:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Guardar y leer datos de tipo primitivo en un fichero."
+      },
+      {
+        "id": "b",
+        "text": "Guardar y leer objetos de un fichero."
+      },
+      {
+        "id": "c",
+        "text": "Guardar y leer serie de datos en un fichero."
+      },
+      {
+        "id": "d",
+        "text": "Guardar y leer cadena de caracteres."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "La serialización permite convertir un objeto en una secuencia de bytes para ser guardado en un archivo o enviado a través de una red."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Las etapas de la utilización de flujos son:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Transmisión y cierre."
+      },
+      {
+        "id": "b",
+        "text": "Apertura, transmisión y cierre."
+      },
+      {
+        "id": "c",
+        "text": "Apertura y transmisión."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "Las tres etapas de los flujos son apertura, transmisión y cierre, que representan la secuencia de acciones al trabajar con flujos de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Los flujos predeterminados",
+    "options": [
+      {
+        "id": "a",
+        "text": "Son flujos que ya estan creados y no es necesario definirlos."
+      },
+      {
+        "id": "b",
+        "text": "Son flujos no habituales."
+      },
+      {
+        "id": "c",
+        "text": "Son flujos que hay que crearlos y definirlos."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Los flujos predeterminados como `System.in`, `System.out` y `System.err` ya están creados y listos para ser utilizados."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Para crear un directorio usaremos:",
+    "options": [
+      {
+        "id": "a",
+        "text": "createNewFile()"
+      },
+      {
+        "id": "b",
+        "text": "createDirectory()"
+      },
+      {
+        "id": "c",
+        "text": "File(String ruta)"
+      },
+      {
+        "id": "d",
+        "text": "mkdir()"
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "`mkdir()` se utiliza para crear un directorio en el sistema de archivos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Que clase se utilizará para acceder directamente a una parte de un fichero",
+    "options": [
+      {
+        "id": "a",
+        "text": "FileReader"
+      },
+      {
+        "id": "b",
+        "text": "RandomAccessFile"
+      },
+      {
+        "id": "c",
+        "text": "BufferedReader"
+      },
+      {
+        "id": "d",
+        "text": "File"
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "La clase `RandomAccessFile` permite acceder y modificar un archivo en cualquier parte del mismo, lo que no es posible con otras clases como `FileReader`."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 12, "title": "Lectura y escritura de información" },
+    "question": "Que clasificaciones se puede encontrar en los flujos:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Según el tipo de datos, dirección del flujo y la forma de acceso."
+      },
+      {
+        "id": "b",
+        "text": "Según el canal del medio y la codificación."
+      },
+      {
+        "id": "c",
+        "text": "Según el uso al que esta destinado."
+      },
+      {
+        "id": "d",
+        "text": "Según su acceso."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Los flujos se clasifican según el tipo de datos que manejan, la dirección del flujo (entrada o salida) y la forma de acceso (secuencial o aleatorio)."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué es JPA?",
+    "options": [
+      { "id": "a", "text": "Un lenguaje de programación." },
+      {
+        "id": "b",
+        "text": "Un conjunto de herramientas para trabajar la persistencia en base de datos en Java."
+      },
+      {
+        "id": "c",
+        "text": "Un conjunto de herramientas para trabajar la persistencia en base de datos en cualquier plataforma."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "JPA (Java Persistence API) es un conjunto de herramientas que facilita el trabajo con bases de datos en Java mediante el uso de objetos persistentes, permitiendo que se realicen consultas, actualizaciones, borrados, etc."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué gestor de base de datos aplica orientado a objetos?",
+    "options": [
+      { "id": "a", "text": "Microsoft SQL Server" },
+      { "id": "b", "text": "MySQL" },
+      { "id": "c", "text": "ObjectDB" },
+      { "id": "d", "text": "MongoDB" }
+    ],
+    "answers": ["c"],
+    "explanation": "ObjectDB es un gestor de bases de datos orientado a objetos, que almacena directamente objetos Java en lugar de filas y columnas como en las bases de datos relacionales."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "Con el método .createQuery(String) podemos",
+    "options": [
+      {
+        "id": "a",
+        "text": "Crear una query de consulta, actualización o borrado pasada como String por parámetro."
+      },
+      {
+        "id": "b",
+        "text": "Crear una query de solo consulta pasada como String por parámetro."
+      },
+      {
+        "id": "c",
+        "text": "Crear una query de inserción pasada como String por parámetro."
+      },
+      {
+        "id": "d",
+        "text": "Crear una query de actualización o borrado pasada como String por parámetro."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "El método .createQuery(String) se utiliza para crear una consulta JPQL (Java Persistence Query Language) que puede ser de consulta, actualización o borrado, dependiendo del contexto del parámetro que se pase."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué campos de una clase no se guardarán en una base de datos orientada a objetos?",
+    "options": [
+      { "id": "a", "text": "Todos los campos se guardan siempre." },
+      {
+        "id": "b",
+        "text": "Los campos que se declaren como final, static, transient o lleve la etiqueta @Transient"
+      },
+      { "id": "c", "text": "Los que tengan visibilidad privada." },
+      { "id": "d", "text": "Los que lleven la etiqueta @FieldNotIncluded." }
+    ],
+    "answers": ["b"],
+    "explanation": "En una base de datos orientada a objetos, los campos que se declaren como final, static, transient o lleven la etiqueta @Transient no se guardarán, ya que no se consideran parte de la persistencia."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué característica es la correcta en una base de datos orientada a objetos?",
+    "options": [
+      { "id": "a", "text": "Su acceso es lento." },
+      {
+        "id": "b",
+        "text": "Usan los mismos tipos de datos que el lenguaje de programación."
+      },
+      { "id": "c", "text": "Se basan en relaciones." },
+      { "id": "d", "text": "Trabaja con tablas." }
+    ],
+    "answers": ["b"],
+    "explanation": "Una base de datos orientada a objetos utiliza los mismos tipos de datos del lenguaje de programación (por ejemplo, objetos Java), lo que permite un manejo más directo y eficiente de los datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué condición tiene que cumplir una clase para que se pueda guardar en una base de datos orientada a objetos?",
+    "options": [
+      { "id": "a", "text": "Tiene que tener un constructor sin argumentos." },
+      { "id": "b", "text": "Los campos de la clase deben ser públicos." },
+      {
+        "id": "c",
+        "text": "No es necesario tener los métodos get y set por cada campo."
+      },
+      { "id": "d", "text": "La clase no se debe serializar." }
+    ],
+    "answers": ["a"],
+    "explanation": "Para que una clase sea persistente en una base de datos orientada a objetos, debe tener un constructor sin argumentos, ya que es necesario para crear instancias de la clase cuando se recuperan de la base de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué hace el método .persist(Object) de EntityManager?",
+    "options": [
+      { "id": "a", "text": "Mantiene el objeto en memoria." },
+      { "id": "b", "text": "Aplica persistencia al objeto con serialización." },
+      { "id": "c", "text": "Permite iniciar una transacción con el objeto." },
+      {
+        "id": "d",
+        "text": "Guardar el objeto pasado como parámetro en la base de datos."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": ".persist(Object) guarda el objeto pasado como parámetro en la base de datos, lo que permite que el objeto se convierta en persistente en el contexto de la base de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Qué hace el siguiente método `entityManager.find(Persona.class, 1)`?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Busca en la base de datos un elemento Persona que tiene como clave primaria el valor 1."
+      },
+      { "id": "b", "text": "Busca en la base de datos una persona." },
+      {
+        "id": "c",
+        "text": "Busca en la base de datos una persona y la sustituye por el valor 1."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["a"],
+    "explanation": "El método `find` se usa para buscar una entidad en la base de datos utilizando la clave primaria, en este caso el valor 1 para la clase `Persona`."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "¿Se puede usar JPQL para?",
+    "options": [
+      { "id": "a", "text": "Definir objetos en base de datos." },
+      { "id": "b", "text": "Inserción de datos." },
+      { "id": "c", "text": "Consultas, actualización y borrado de datos." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["c"],
+    "explanation": "JPQL (Java Persistence Query Language) se utiliza para realizar consultas, actualizaciones y borrados de datos dentro del contexto de JPA."
+  },
+  {
+    "subject": "Programación",
+    "unit": {
+      "order": 13,
+      "title": "Mantenimiento de la persistencia de datos"
+    },
+    "question": "Una base de datos orientada a objetos...",
+    "options": [
+      {
+        "id": "a",
+        "text": "La información la representa en forma de objetos."
+      },
+      { "id": "b", "text": "Aplica el paradigma orientado a objetos." },
+      { "id": "c", "text": "Se caracteriza por ser NoSQL." },
+      { "id": "d", "text": "Todas las opciones son correctas." }
+    ],
+    "answers": ["d"],
+    "explanation": "Una base de datos orientada a objetos usa objetos para representar la información, aplica el paradigma orientado a objetos y, a menudo, se clasifica como una base de datos NoSQL, lo que permite una mayor flexibilidad."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "DELETE de SQL:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Borrar filas."
+      },
+      {
+        "id": "b",
+        "text": "Borrar registros."
+      },
+      {
+        "id": "c",
+        "text": "Borrar columnas."
+      },
+      {
+        "id": "d",
+        "text": "Las dos primeras son correctas."
+      }
+    ],
+    "answers": ["d"],
+    "explanation": "El comando DELETE se utiliza para borrar filas o registros de una tabla en SQL."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Existen claves primarias o PK dentro de una tabla que identifican inequívocamente:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un campo."
+      },
+      {
+        "id": "b",
+        "text": "Una columna."
+      },
+      {
+        "id": "c",
+        "text": "Un registro."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores es correcta."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Las claves primarias (PK) son utilizadas para identificar de manera única un registro en una tabla."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Lenguaje de programación para la definición de estructuras de datos, empleado en los sistemas gestores de bases de datos.:",
+    "options": [
+      {
+        "id": "a",
+        "text": "DDL."
+      },
+      {
+        "id": "b",
+        "text": "DML."
+      },
+      {
+        "id": "c",
+        "text": "DCL."
+      },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son incorrectas."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "DDL (Data Definition Language) se utiliza para definir estructuras de bases de datos, como tablas y relaciones."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Los drivers son librerías en ficheros .jar:",
+    "options": [
+      {
+        "id": "a",
+        "text": ".jar."
+      },
+      {
+        "id": "b",
+        "text": ".xml."
+      },
+      {
+        "id": "c",
+        "text": ".iso."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores es correcta"
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Los drivers de bases de datos son librerías Java empaquetadas en archivos .jar que permiten la comunicación con las bases de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "MariaDB es:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Una librería."
+      },
+      {
+        "id": "b",
+        "text": "Un gestor de base de datos relacionales."
+      },
+      {
+        "id": "c",
+        "text": "Un objeto de SQL."
+      },
+      {
+        "id": "d",
+        "text": "Un tipo de base de datos orientada a objetos."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "MariaDB es un sistema gestor de bases de datos relacionales (RDBMS) compatible con MySQL."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "MariaDB permite introducir comandos SQL mediante:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Client Command."
+      },
+      {
+        "id": "b",
+        "text": "Command MySQL."
+      },
+      {
+        "id": "c",
+        "text": "MySQL Client."
+      },
+      {
+        "id": "d",
+        "text": "Ninguna de las anteriores."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "MariaDB permite introducir comandos SQL mediante la herramienta MySQL Client."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Para establecer cualquier conexión a una base de datos desde Java, es necesario:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Emplear un driver específico."
+      },
+      {
+        "id": "b",
+        "text": "Emplear el objeto statement."
+      },
+      {
+        "id": "c",
+        "text": "Emplear una librería con ficheros .iso."
+      },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son incorrectas."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Para conectar una aplicación Java con una base de datos, se debe utilizar un driver específico para la base de datos en cuestión."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Podemos ejecutar sentencias SQL en las bases de datos mediante el empleo de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "El objeto statement."
+      },
+      {
+        "id": "b",
+        "text": "El objeto abstract."
+      },
+      {
+        "id": "c",
+        "text": "El objeto execute."
+      },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son incorrectas."
+      }
+    ],
+    "answers": ["a"],
+    "explanation": "Para ejecutar sentencias SQL en Java, se emplea el objeto Statement, que permite ejecutar consultas y actualizaciones en la base de datos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "Tras emplear setAutoCommit(false) deberemos emplear:",
+    "options": [
+      {
+        "id": "a",
+        "text": "commit()."
+      },
+      {
+        "id": "b",
+        "text": "rollback()."
+      },
+      {
+        "id": "c",
+        "text": "Las dos anteriores son correctas."
+      },
+      {
+        "id": "d",
+        "text": "Todas las anteriores son incorrectas."
+      }
+    ],
+    "answers": ["c"],
+    "explanation": "Al usar setAutoCommit(false), se desactiva el autocompletado de transacciones, y se debe usar commit() para guardar los cambios o rollback() para deshacerlos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 14, "title": "Gestión de DB relacionales" },
+    "question": "UPDATE de SQL permite:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Introducir nuevas filas."
+      },
+      {
+        "id": "b",
+        "text": "Actualizar filas."
+      },
+      {
+        "id": "c",
+        "text": "Introducir columnas."
+      },
+      {
+        "id": "d",
+        "text": "Actualizar columnas."
+      }
+    ],
+    "answers": ["b"],
+    "explanation": "El comando UPDATE en SQL se utiliza para actualizar las filas existentes de una tabla, no para insertar o modificar columnas."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "AWT:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es una librería anterior que ha permitido la creación de otras como Swing."
+      },
+      {
+        "id": "b",
+        "text": "AWT y Swing se encuentran al mismo nivel, sin influenciarse la una a la otra."
+      },
+      { "id": "c", "text": "AWT es una evolución de Swing." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta" }
+    ],
+    "answers": ["a"],
+    "explanation": "AWT (Abstract Window Toolkit) es una librería anterior en Java que facilitó la creación de interfaces gráficas, y fue la base para la creación de Swing."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Coloca cada componente horizontalmente de izquierda a derecha. Si sobrepasa la fila comienza en la siguiente:",
+    "options": [
+      { "id": "a", "text": "BorderLayout." },
+      { "id": "b", "text": "CardLayout." },
+      { "id": "c", "text": "FlowLayout." },
+      { "id": "d", "text": "GridLayout." }
+    ],
+    "answers": ["c"],
+    "explanation": "FlowLayout organiza los componentes de manera secuencial, en filas, de izquierda a derecha. Si el espacio no es suficiente, pasa al siguiente renglón."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Deberemos instalar WindowBuilder si:",
+    "options": [
+      {
+        "id": "a",
+        "text": "NetBeans no cuenta con un módulo para la herramienta gráfica."
+      },
+      {
+        "id": "b",
+        "text": "Eclipse no cuenta con un módulo para la herramienta gráfica."
+      },
+      {
+        "id": "c",
+        "text": "MySQL no cuenta con un módulo para la herramienta gráfica."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "WindowBuilder es una herramienta gráfica que se debe instalar en Eclipse para crear interfaces gráficas con Java, ya que Eclipse no lo incluye por defecto."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Elemento que capta un evento producido, por ejemplo, pulsando un botón, e inicia la acción consecuente:",
+    "options": [
+      { "id": "a", "text": "Driver." },
+      { "id": "b", "text": "Listener." },
+      { "id": "c", "text": "Writer." },
+      { "id": "d", "text": "Todas las anteriores son incorrectas." }
+    ],
+    "answers": ["b"],
+    "explanation": "Un 'Listener' es un objeto que espera y responde a eventos, como pulsar un botón. Se utiliza para manejar interacciones de usuario."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "GridBagLayout:",
+    "options": [
+      { "id": "a", "text": "No existe." },
+      { "id": "b", "text": "Es de AWT." },
+      { "id": "c", "text": "Es de Swing." },
+      { "id": "d", "text": "Aparece en ambos." }
+    ],
+    "answers": ["c"],
+    "explanation": "GridBagLayout es un administrador de diseño en Swing que permite un control más detallado sobre la disposición de los componentes."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Los componentes con una letra J delante del nombre:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Necesitan la instalación de ambas librerías AWT y Swing."
+      },
+      { "id": "b", "text": "Requieren ser incorporados mediante código." },
+      {
+        "id": "c",
+        "text": "Son componentes de prueba, se verán en la IDE, pero no en la interfaz real."
+      },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "Los componentes con la letra 'J' (como JButton, JTextField, etc.) son parte de Swing y no requieren ambas librerías AWT y Swing para ser usados."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Los eventos de Swing se diferencian en los de AWT en que:",
+    "options": [
+      { "id": "a", "text": "Deben incluir una J inicial." },
+      { "id": "b", "text": "No requieren listener." },
+      { "id": "c", "text": "Requieren que se diseñen en la pestaña Design." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["d"],
+    "explanation": "Los eventos de Swing siguen el mismo principio que los de AWT, es decir, requieren un 'listener' para detectar y manejar los eventos."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "MotifLookAndFeel es un:",
+    "options": [
+      { "id": "a", "text": "Layout." },
+      { "id": "b", "text": "Componente." },
+      { "id": "c", "text": "Estilo para controles." },
+      { "id": "d", "text": "Ninguna de las anteriores es correcta." }
+    ],
+    "answers": ["c"],
+    "explanation": "MotifLookAndFeel es una apariencia o estilo para los componentes gráficos, usada para definir su apariencia visual en la interfaz."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "No es un tipo de control de menús:",
+    "options": [
+      { "id": "a", "text": "MenuBar." },
+      { "id": "b", "text": "ShortMenuCut." },
+      { "id": "c", "text": "MenuItem." },
+      { "id": "d", "text": "PopupMenu." }
+    ],
+    "answers": ["b"],
+    "explanation": "ShortMenuCut no es un tipo de control de menú. Los controles típicos son MenuBar, MenuItem y PopupMenu."
+  },
+  {
+    "subject": "Programación",
+    "unit": { "order": 15, "title": "Creación de interfaces gráficas" },
+    "question": "Una interfaz gráfica permite emplear:",
+    "options": [
+      { "id": "a", "text": "Listener." },
+      { "id": "b", "text": "Drag and drop." },
+      { "id": "c", "text": "JTree." },
+      { "id": "d", "text": "Ninguna de las anteriores." }
+    ],
+    "answers": ["b"],
+    "explanation": "Drag and drop es una funcionalidad que permite a los usuarios interactuar arrastrando objetos dentro de la interfaz, lo que mejora la experiencia de usuario."
   }
 ]

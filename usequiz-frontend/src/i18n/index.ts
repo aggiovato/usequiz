@@ -9,7 +9,7 @@ import ItalyFlag from "../components/icons/ItalyFlag";
 import CataloniaFlag from "../components/icons/CataloniaFlag";
 
 i18next.use(initReactI18next).use(LanguageDetector).use(Backend).init({
-  debug: true,
+  debug: false,
   fallbackLng: "en",
 });
 

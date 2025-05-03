@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE alphabet SYSTEM "example.dtd">
+
+<alphabet>
+  <letter letter="A" svg="a.svg" />
+  <letter letter="B" svg="b.svg" />
+  <letter letter="C" svg="c.svg" />
+  <letter letter="D" svg="d.svg" />
+  <letter letter="E" svg="e.svg" />
+  <letter letter="F" svg="f.svg" />
+  <letter letter="G" svg="g.svg" />
+  <letter letter="H" svg="h.svg" />
+  <letter letter="I" svg="i.svg" />
+  <letter letter="J" svg="j.svg" />
+  <letter letter="K" svg="k.svg" />
+  <letter letter="L" svg="l.svg" />
+  <letter letter="M" svg="m.svg" />
+  <letter letter="N" svg="n.svg" />
+  <letter letter="Ñ" svg="ñ.svg" />
+  <letter letter="O" svg="o.svg" />
+  <letter letter="P" svg="p.svg" />
+  <letter letter="Q" svg="q.svg" />
+  <letter letter="R" svg="r.svg" />
+  <letter letter="S" svg="s.svg" />
+  <letter letter="T" svg="t.svg" />
+  <letter letter="U" svg="u.svg" />
+  <letter letter="V" svg="v.svg" />
+  <letter letter="W" svg="w.svg" />
+  <letter letter="X" svg="x.svg" />
+  <letter letter="Y" svg="y.svg" />
+  <letter letter="Z" svg="z.svg" />
+</alphabet>

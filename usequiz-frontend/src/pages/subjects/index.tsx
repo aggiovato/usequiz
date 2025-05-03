@@ -9,12 +9,6 @@ const Subjects = () => {
 
   return (
     <div className="page-container p-8">
-      {/*  {isRefreshing && (
-        <p className="text-sm text-gray-400 mb-4 animate-pulse">
-          🔄 Refrescando datos…
-        </p>
-      )} */}
-
       {subjects.map((subject: SubjectType) => (
         <SubjectCard
           key={subject.subject}

@@ -56,7 +56,6 @@
       "questions": "Preguntas"
     }
   },
-  "footer": {},
 
   "subjects": {
     "units_one": "<0>{{count}}</0> unidad",
@@ -184,5 +183,15 @@
     "list-nav": {
       "questions-list": "Lista de preguntas"
     }
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "navigation.home": "Inicio",
+    "navigation.subjects": "Asignaturas",
+    "navigation.about": "Sobre...",
+    "contact": "Contacto",
+    "email": "aggiovato@gmail.com",
+    "github": "GitHub",
+    "made_with_love": "Hecho por"
   }
 }
