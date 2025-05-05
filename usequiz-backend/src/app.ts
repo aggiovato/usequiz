@@ -1,8 +1,9 @@
 import express from "express";
 import path from "path";
 import cors from "cors";
-import questionRoutes from "./routes/questionRoutes";
+import questionRoutes from "./routes/questionRouter";
 import subjectRoutes from "./routes/subjectRouter";
+import tagRoutes from "./routes/tagRouter";
 import alphabetRoutes from "./routes/alphabetRouter";
 import { notFound } from "./middlewares/notFound";
 
@@ -21,6 +22,7 @@ app.get("/api", (req, res) => {
 
 app.use("/api/questions", questionRoutes);
 app.use("/api/subjects", subjectRoutes);
+app.use("/api/tags", tagRoutes);
 app.use("/api/alphabet", alphabetRoutes);
 
 app.use(notFound);

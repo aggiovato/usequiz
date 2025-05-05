@@ -13,7 +13,9 @@ const optionSchema = new Schema(
     id: { type: String, required: true },
     text: { type: String, required: true },
   },
-  { _id: false }
+  {
+    _id: false,
+  }
 );
 
 const questionSchema = new Schema(
@@ -45,4 +47,5 @@ const questionSchema = new Schema(
   }
 );
 
-export default mongoose.model("Question", questionSchema);
+export default mongoose.models.Question ||
+  mongoose.model("Question", questionSchema);
